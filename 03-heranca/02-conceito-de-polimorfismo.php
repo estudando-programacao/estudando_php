@@ -8,6 +8,7 @@
     <?php
     require('./class/Polimorfismo.php');
     
+    var_dump($)
     ?>
 </body> 
 
