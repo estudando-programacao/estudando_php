@@ -6,12 +6,12 @@ class PolimorfismoDeposito2 extends Polimorfismo {
 
     function __construct($Produto, $Valor) {
         parent:: __construct($Produto, $Valor);
-        $this->Desconto = 100;
+        $this->Desconto2 = 50;
         $this->Metodo = "Débito automático";
     }
 
     public function setDesconto2($Desconto2) {
-        this->Desconto2 = $Desconto2;
+        $this->Desconto2 = $Desconto2;
     }
 
     public function Pagar2() {
