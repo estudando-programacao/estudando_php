@@ -15,7 +15,7 @@ class Polimorfismo {
     public function Pagar() {
         echo "Voce pagou <b>{$this->Real($this->Valor)}</b> pelo produto <b>{$this->Produto}</b><br>";
         echo "<small style='color:crimson'>Pagamento efetuado via {$this->Metodo}.</small><br>";
-    } 
+    }
     
     public function Real($Valor) {
         return "R$ " . number_format($Valor, '2', '.', ',');

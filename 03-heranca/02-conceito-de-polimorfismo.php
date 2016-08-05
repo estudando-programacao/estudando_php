@@ -19,9 +19,12 @@
     echo "<hr>";
 
     $cartao = new PolimorfismoCartao("Pro PHP", 50365);
-    var_dump($cartao);
+    
     $cartao->Pagar();
+    var_dump($cartao);
+    
     $cartao->Pagar(5);
+    var_dump($cartao);
 
     // $deposito2 = new PolimorfismoDeposito2("Laravel 5", 500);
     // $deposito2->Pagar();
