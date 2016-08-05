@@ -9,6 +9,15 @@ class PolimorfismoDeposito2 extends Polimorfismo {
         $this->Desconto = 100;
         $this->Metodo = "Débito automático";
     }
+
+    public function setDesconto2($Desconto2) {
+        this->Desconto2 = $Desconto2;
+    }
+
+    public function Pagar2() {
+        $this->Valor = ($this->Valor / 100) * 100 - $this->Desconto2;
+        parent::Pagar();
+    }
 }
 
 ?>

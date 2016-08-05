@@ -20,6 +20,9 @@
 
     var_dump($deposito);
     echo "<hr>";
+
+    var_dump($deposito2);
+    echo "<hr>";
     
     ?>
 </body> 
