@@ -8,8 +8,9 @@
     <?php
     require('./inc/Config.inc.php');
     
-    $pessoa = new Heranca("thierry rene", $Idade);
-    
+    // $pessoa = new Heranca("thierry rene", $Idade);
+    $pessoa = new Heranca("thierry rene", 20);
+
     $pessoa->Formar('Pro PHP');
     $pessoa->Formar('JavaScript');
     $pessoa->Formar('React');
@@ -22,7 +23,7 @@
     
     $pessoa->VerPessoa();
     
-    var_dump($pessa);
+    var_dump($pessoa);
 
     ?>
 </body> 
