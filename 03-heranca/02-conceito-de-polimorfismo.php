@@ -6,19 +6,20 @@
 </head>
 <body>
     <?php
-    require('./class/Polimorfismo.php');
+    require('./class/Polimorfismo.class.php');
 
     $boleto = new Polimorfismo("Pro PHP", 50365);
     $boleto->Pagar();
-    echo "<hr>";
- 
+    echo "<hr>";    
+
+    $deposito = new PolimorfismoDeposito("Pro PHP", 50365);
+
     var_dump($boleto);
     echo "<hr>";
 
-    $deposito = new PolimorfismoDeposito("React.JS", 1000);
-    
     var_dump($deposito);
-
+    echo "<hr>";
+    
     ?>
 </body> 
 

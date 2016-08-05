@@ -1,4 +1,5 @@
 <?php
+
     class PolimorfismoDeposito extends Polimorfismo {
 
         public $Desconto;
