@@ -6,7 +6,7 @@
 </head>
 <body>
     <?php
-    require('./inc/Config.inc.php');
+    require('./class/Polimorfismo.php');
 
     $boleto = new Polimorfismo("Pro PHP", 50365);
     $boleto->Pagar();
