@@ -10,19 +10,16 @@
 
     $boleto = new Polimorfismo("Pro PHP", 50365);
     $boleto->Pagar();
-
     var_dump($boleto);
     echo "<hr>";
 
     $deposito = new PolimorfismoDeposito("Pro PHP", 50365);
     $deposito->Pagar();    
-
     var_dump($deposito);
     echo "<hr>";
 
     $deposito2 = new PolimorfismoDeposito2("Laravel 5", 500);
     $deposito2->Pagar();
-
     var_dump($deposito2);
     echo "<hr>";
     
