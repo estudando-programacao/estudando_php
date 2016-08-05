@@ -24,6 +24,8 @@
     $pessoa->VerPessoa();
     
     var_dump($pessoa);
+<<<<<<< HEAD
+=======
     
     echo "<hr>";
     
@@ -36,6 +38,7 @@
     $pessoaME->Envelhecer();
     $pessoaME->Envelhecer();    
     $pessoaME->Envelhecer();
+>>>>>>> 83003470305caf499db3cdbf0caa48991fb6fbf3
 
     $pessoaME->VerEmpresa();
 
