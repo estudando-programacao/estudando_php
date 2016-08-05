@@ -1,6 +1,6 @@
 <?php
 
-    class Polimorfismo {
+class Polimorfismo {
     
     public $Produto;
     public $Valor;
@@ -12,14 +12,15 @@
         $this->Metodo = "Boleto";
     }
 
-    public function Paga() {
-        
+    public function Pagar() {
+        echo "Voce pagou <b>{$this->Real($this->Valor)}</b> pelo produto <b>{$this->Produto}</b><br>";
+        echo "<small style='color:crimson'>Pagamento efetuado via {$this->Metodo}.</small><br>";
+    } 
+    
+    public function Real($Valor) {
+        return "R$ " . number_format($Valor, '2', '.', ',');
     }
     
-    public function FunctionName($value='')
-    {
-        return "R$ " . numer_format($Valor, '2', '.');
-    }
-    }
+}
 
 ?>
