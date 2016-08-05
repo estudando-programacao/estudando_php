@@ -22,7 +22,7 @@
     
     $pessoa->VerPessoa();
     
-    var_dump($pessoa);
+    var_dump($pessa);
 
     ?>
 </body> 
