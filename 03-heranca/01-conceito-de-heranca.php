@@ -24,7 +24,23 @@
     $pessoa->VerPessoa();
     
     var_dump($pessoa);
+    
+    echo "<hr>";
+    
+    $pessoaME = new HerancaJuridica("Thierry Rene", 26, "WT LAB");
+    $pessoaME->Formar('Pro PHP');
+    $pessoaME->Formar('JavaScript');
+    $pessoaME->Formar('React');
+    $pessoaME->Formar('HTML');
+    
+    $pessoaME->Envelhecer();
+    $pessoaME->Envelhecer();
 
+    $pessoaME->Contratar("Marcos");
+    $pessoaME->Contratar("Jake");
+    $pessoaME->Contratar("Ramon");
+    
+    var_dump($pessoaME);
     ?>
 </body> 
 
