@@ -7,8 +7,8 @@ class Heranca {
     public $Formacao;
     
     function __construct($Nome, $Idade) {
-        $this->Nome = $Nome;
-        $this->Idade = $Idade;
+        $this->Nome = (string) $Nome;
+        $this->Idade = (int) $Idade;
         $this->Formacao = array();
     }
     
@@ -22,7 +22,7 @@ class Heranca {
     
     public function VerPessoa() {
         $Formacao = implode(", ", $this->Formacao);
-        echo "{$this->Nome} tem {$this->Idade} anos de idade e é formado em: {$Formacao}.<hr>}";
+        echo "{$this->Nome} tem {$this->Idade} anos de idade e é formado em: {$Formacao}.<hr>";
     }
 
 }

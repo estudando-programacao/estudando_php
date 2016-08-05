@@ -13,13 +13,14 @@ class HerancaJuridica extends Heranca {
         $this->Empresa = $Empresa;
     }
 
+    // metodo para tratar o parametro funcionario
     public function Contratar($Pessoa) {
         echo "A empresa {$this->Empresa} de {$this->Nome} contratou {$Pessoa}<hr>";
         $this->Funcionarios += 1;
     }
     
     public function VerEmpresa() {
-        echo "{} foi fundada por {}<br><small style='color:crimson'>";
+        echo "{$this->Empresa} foi fundada por {$this->Nome} e tem {$this->Funcionarios} funcionários!<br><small style='color:cornflowerblue'>";
             parent::VerPessoa();
         echo "</small>";
     }

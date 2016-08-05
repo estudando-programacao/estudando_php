@@ -34,11 +34,15 @@
     $pessoaME->Formar('HTML');
     
     $pessoaME->Envelhecer();
+    $pessoaME->Envelhecer();    
     $pessoaME->Envelhecer();
 
     $pessoaME->Contratar("Marcos");
-    $pessoaME->Contratar("Jake");
+    $pessoaME->Contratar("Jake");    
     $pessoaME->Contratar("Ramon");
+
+    $pessoaME->VerEmpresa();
+
     
     var_dump($pessoaME);
     ?>
