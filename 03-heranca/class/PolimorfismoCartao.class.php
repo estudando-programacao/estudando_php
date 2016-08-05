@@ -17,24 +17,22 @@
             $this->setNumParcelas($Parcelas);
             $this->setEncargos();
 
-            $this->Valor = $this->Valor / $this->Encargos;
-            $this->Parcela = $this->Valor / $this->NumParcelas;
+            $this->Valor = $this->Valor + $this->Encargos;
+            $this->Parcelas = $this->Valor / $this->NumParcelas;
         
-            echo "Voce pagou {$this->$Valor} por um {$this->$Produto}<br>";
-            
-            echo "<small>Pagamento efetuado via {$this->$Metodo} em {$this->NumParcelas}x iguais de {$this->Real($this->Parcelas)}</small><hr>";
+            echo "Voce pagou {$this->Real($this->Valor)} por um {$this->Produto}<br>";
+            echo "<small>Pagamento efetuado via {$this->Metodo} em {$this->NumParcelas}x iguais de {$this->Real($this->Parcelas)}</small><hr>";
         }
         
         public function setJuros($Juros) {
             $this->Juros = $Juros;
         }
 
-        public function setEncargos($SetEncargos) {
-            $this->Encargos = ($this->Valor * ($this->Juros / 100)) * $this->setNumParcelas;
+        public function setEncargos() {
+            $this->Encargos = ($this->Valor * ($this->Juros / 100)) * $this->NumParcelas;
         }
 
         public function setNumParcelas($NumParcelas) {
-            $this->NumParcelas = ((int) $NumParcelas >= 1 ? $NumParcelas : 1);
+            $this->NumParcelas =  (int) $NumParcelas >= 1 ? $NumParcelas : 1;
         }
     }
-?>
