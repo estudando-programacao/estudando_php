@@ -18,10 +18,15 @@
     var_dump($deposito);
     echo "<hr>";
 
-    $deposito2 = new PolimorfismoDeposito2("Laravel 5", 500);
-    $deposito2->Pagar();
-    var_dump($deposito2);
-    echo "<hr>";
+    $cartao = new PolimorfismoCartao("Pro PHP", 50365);
+    var_dump($cartao);
+    $cartao->Pagar();
+    $cartao->Pagar(5);
+
+    // $deposito2 = new PolimorfismoDeposito2("Laravel 5", 500);
+    // $deposito2->Pagar();
+    // var_dump($deposito2);
+    // echo "<hr>";
     
     ?>
 </body> 
