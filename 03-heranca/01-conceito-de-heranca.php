@@ -27,7 +27,7 @@
     
     echo "<hr>";
     
-    $pessoaME = new HerancaJuridica("Thierry Rene", 26, "WT LAB");
+    $pessoaME = new HerancaJuridica("Thierry Rene", 20, "WT LAB");
     $pessoaME->Formar('Pro PHP');
     $pessoaME->Formar('JavaScript');
     $pessoaME->Formar('React');
@@ -36,6 +36,8 @@
     $pessoaME->Envelhecer();
     $pessoaME->Envelhecer();    
     $pessoaME->Envelhecer();
+
+    $pessoaME->VerEmpresa();
 
     $pessoaME->Contratar("Marcos");
     $pessoaME->Contratar("Jake");    
