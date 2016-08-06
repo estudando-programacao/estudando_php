@@ -8,21 +8,21 @@
     <?php
     require('./inc/Config.inc.php');
 
-    $boleto = new Polimorfismo("Pro PHP", 50365);
+    $boleto = new Polimorfismo("Pro PHP", 40565);
     $boleto->Pagar();
     var_dump($boleto);
     echo "<hr>";
 
-    $deposito = new PolimorfismoDeposito("Pro PHP", 50365);
-    $deposito->Pagar();    
+    $deposito = new PolimorfismoDeposito("Pro PHP", 40565);
+    $deposito->Pagar();
     var_dump($deposito);
     echo "<hr>";
 
-    $cartao = new PolimorfismoCartao("Pro PHP", 50365);
-    
+    $cartao = new PolimorfismoCartao("Pro PHP", 40565);
+
     $cartao->Pagar();
     var_dump($cartao);
-    
+
     $cartao->Pagar(5);
     var_dump($cartao);
 
@@ -30,8 +30,8 @@
     // $deposito2->Pagar();
     // var_dump($deposito2);
     // echo "<hr>";
-    
+
     ?>
-</body> 
+</body>
 
 </html>
