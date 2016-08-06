@@ -26,11 +26,6 @@
     $cartao->Pagar(5);
     var_dump($cartao);
 
-    // $deposito2 = new PolimorfismoDeposito2("Laravel 5", 500);
-    // $deposito2->Pagar();
-    // var_dump($deposito2);
-    // echo "<hr>";
-
     ?>
 </body>
 
