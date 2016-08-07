@@ -7,7 +7,7 @@ abstract class Abstracao {
     
     public function __construct($Cliente, $Saldo) {
         $this->Cliente = $Cliente;
-        $this->Saldo = $Saldo;
+        $this->Saldo = $this->Real($Saldo);
     }
     
     public function Depositar($Valor) {
@@ -33,7 +33,7 @@ abstract class Abstracao {
     }
     
     public function Extrato() {
-        echo "<hr><hr>Olá {$this->Cliente}. Seu saldo em {$this->Conta} é de {$this->Saldo}.";
+        echo "<hr><hr>Olá {$this->Cliente}.<br> Seu saldo em {$this->Conta} é de {$this->Saldo}.<hr>";
     }
     
     public function Real($Valor) {

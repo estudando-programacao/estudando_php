@@ -37,3 +37,38 @@
 [07-Aug-2016 16:57:26 UTC] PHP Stack trace:
 [07-Aug-2016 16:57:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
 [07-Aug-2016 16:57:26 UTC] PHP   2. AbstracaoCC->__CONSTRUCT() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:23
+[07-Aug-2016 18:00:37 UTC] PHP Fatal error:  Class AbstracaoCC contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Abstracao::VerSaldo) in /home/ubuntu/workspace/03-heranca/class/AbstracaoCC.class.php on line 3
+[07-Aug-2016 18:00:37 UTC] PHP Stack trace:
+[07-Aug-2016 18:00:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
+[07-Aug-2016 18:00:37 UTC] PHP   2. __autoload() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:23
+[07-Aug-2016 18:00:37 UTC] PHP   3. require_once() /home/ubuntu/workspace/03-heranca/inc/Config.inc.php:8
+[07-Aug-2016 18:01:31 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/ubuntu/workspace/03-heranca/class/AbstracaoCP.class.php on line 13
+[07-Aug-2016 18:01:31 UTC] PHP Stack trace:
+[07-Aug-2016 18:01:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
+[07-Aug-2016 18:01:31 UTC] PHP   2. __autoload() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:26
+[07-Aug-2016 18:07:19 UTC] PHP Fatal error:  Call to a member function VerSaldo() on a non-object in /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php on line 29
+[07-Aug-2016 18:07:19 UTC] PHP Stack trace:
+[07-Aug-2016 18:07:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
+[07-Aug-2016 18:07:46 UTC] PHP Fatal error:  Call to a member function VerSaldo() on a non-object in /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php on line 30
+[07-Aug-2016 18:07:46 UTC] PHP Stack trace:
+[07-Aug-2016 18:07:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
+[07-Aug-2016 18:38:11 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php on line 30
+[07-Aug-2016 18:43:07 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/03-heranca/class/Abstracao.class.php on line 40
+[07-Aug-2016 18:43:07 UTC] PHP Stack trace:
+[07-Aug-2016 18:43:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
+[07-Aug-2016 18:43:07 UTC] PHP   2. AbstracaoCC->VerSaldo() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:26
+[07-Aug-2016 18:43:07 UTC] PHP   3. Abstracao->Extrato() /home/ubuntu/workspace/03-heranca/class/AbstracaoCC.class.php:30
+[07-Aug-2016 18:43:07 UTC] PHP   4. Abstracao->Real() /home/ubuntu/workspace/03-heranca/class/Abstracao.class.php:36
+[07-Aug-2016 18:43:07 UTC] PHP   5. number_format() /home/ubuntu/workspace/03-heranca/class/Abstracao.class.php:40
+[07-Aug-2016 18:43:07 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/03-heranca/class/Abstracao.class.php on line 40
+[07-Aug-2016 18:43:07 UTC] PHP Stack trace:
+[07-Aug-2016 18:43:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
+[07-Aug-2016 18:43:07 UTC] PHP   2. AbstracaoCC->VerSaldo() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:38
+[07-Aug-2016 18:43:07 UTC] PHP   3. Abstracao->Extrato() /home/ubuntu/workspace/03-heranca/class/AbstracaoCC.class.php:30
+[07-Aug-2016 18:43:07 UTC] PHP   4. Abstracao->Real() /home/ubuntu/workspace/03-heranca/class/Abstracao.class.php:36
+[07-Aug-2016 18:43:07 UTC] PHP   5. number_format() /home/ubuntu/workspace/03-heranca/class/Abstracao.class.php:40
+[07-Aug-2016 18:48:35 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/03-heranca/class/Abstracao.class.php on line 36
+[07-Aug-2016 18:48:35 UTC] PHP Stack trace:
+[07-Aug-2016 18:48:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
+[07-Aug-2016 18:48:35 UTC] PHP   2. AbstracaoCC->VerSaldo() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:26
+[07-Aug-2016 18:48:35 UTC] PHP   3. Abstracao->Extrato() /home/ubuntu/workspace/03-heranca/class/AbstracaoCC.class.php:30
