@@ -121,3 +121,11 @@
 [07-Aug-2016 22:02:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/05-resolucao-de-escopo.php:0
 [07-Aug-2016 22:02:30 UTC] PHP   2. ResolucaoDeEscopoDigital::Vender() /home/ubuntu/workspace/03-heranca/05-resolucao-de-escopo.php:17
 [07-Aug-2016 22:02:30 UTC] PHP   3. ResolucaoDeEscopo::Vender() /home/ubuntu/workspace/03-heranca/class/ResolucaoDeEscopoDigital.class.php:13
+[07-Aug-2016 23:31:01 UTC] PHP Parse error:  syntax error, unexpected 'label' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/03-heranca/class/ResolucaoDeEscopo.class.php on line 23
+[07-Aug-2016 23:31:01 UTC] PHP Stack trace:
+[07-Aug-2016 23:31:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/05-resolucao-de-escopo.php:0
+[07-Aug-2016 23:31:01 UTC] PHP   2. __autoload() /home/ubuntu/workspace/03-heranca/05-resolucao-de-escopo.php:12
+[07-Aug-2016 23:31:08 UTC] PHP Parse error:  syntax error, unexpected 'label' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/03-heranca/class/ResolucaoDeEscopo.class.php on line 23
+[07-Aug-2016 23:31:08 UTC] PHP Stack trace:
+[07-Aug-2016 23:31:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/05-resolucao-de-escopo.php:0
+[07-Aug-2016 23:31:08 UTC] PHP   2. __autoload() /home/ubuntu/workspace/03-heranca/05-resolucao-de-escopo.php:12

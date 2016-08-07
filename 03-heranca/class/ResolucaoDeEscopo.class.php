@@ -15,12 +15,12 @@ class ResolucaoDeEscopo {
         // self:: -> referencia ao proprio atributo estático
         self::$Vendas += 1;
         self::$Lucros = $this->Valor * self::$Vendas;
-        echo "{$this->Produto} vendido por R$ {$this->Valor}.<br>";
+        echo "<span class='label label-success'>{$this->Produto} vendido por R$ {$this->Valor}</span><br>";
     }
     
     public static function Relatorio() {
         echo "<hr>";
-        echo "Este produto vendeu " . self::$Vendas . " unidade(s).<br><b> Total de R$" . self::$Lucros .".</b>";
+            echo "<span class='label label-danger'>Este produto vendeu " . self::$Vendas . " unidade(s)</span><br><span class='label label-warning'>Total de R$" . self::$Lucros ."</span>";
         echo "<hr>";
     }
     
