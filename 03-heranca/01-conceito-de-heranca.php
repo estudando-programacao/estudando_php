@@ -8,8 +8,8 @@
     <?php
     require('./inc/Config.inc.php');
     
-    // $pessoa = new Heranca("thierry rene", $Idade);
-    $pessoa = new Heranca("thierry rene", 20);
+    $pessoa = new Heranca("thierry rene", $Idade);
+    // $pessoa = new Heranca("thierry rene", 20);
 
     $pessoa->Formar('Pro PHP');
     $pessoa->Formar('JavaScript');
@@ -24,8 +24,6 @@
     $pessoa->VerPessoa();
     
     var_dump($pessoa);
-<<<<<<< HEAD
-=======
     
     echo "<hr>";
     
@@ -38,7 +36,7 @@
     $pessoaME->Envelhecer();
     $pessoaME->Envelhecer();    
     $pessoaME->Envelhecer();
->>>>>>> 83003470305caf499db3cdbf0caa48991fb6fbf3
+
 
     $pessoaME->VerEmpresa();
 
