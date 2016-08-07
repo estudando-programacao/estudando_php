@@ -20,7 +20,7 @@ class ResolucaoDeEscopo {
     
     public static function Relatorio() {
         echo "<hr>";
-        echo "Este produto vendeu" . self::$Vendas . "unidade(s). Total R$" . self::$Lucros;
+        echo "Este produto vendeu " . self::$Vendas . " unidade(s). Total R$" . self::$Lucros;
         echo "<hr>";
     }
     

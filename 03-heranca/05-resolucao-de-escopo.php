@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css" type="text/css" />
 <body class="container">
     <?php
-
         require('./inc/Config.inc.php');
         
         $produto = new ResolucaoDeEscopo("Livro de PHP", 60.00);
+        $produto->Vender();
+        $produto->Vender();
+        $produto->Vender();
+        $produto->Vender();
+        ResolucaoDeEscopo::Relatorio();
         
-        var_dump($produto);
-        
+        var_dump($produto, $produto2);
     ?>
 </body>
 
