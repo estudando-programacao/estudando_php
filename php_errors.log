@@ -1,0 +1,39 @@
+[07-Aug-2016 16:31:51 UTC] PHP Fatal error:  Call to undefined method Abstracao::Real() in /home/ubuntu/workspace/03-heranca/class/Abstracao.class.php on line 15
+[07-Aug-2016 16:31:51 UTC] PHP Stack trace:
+[07-Aug-2016 16:31:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
+[07-Aug-2016 16:31:51 UTC] PHP   2. Abstracao->Depositar() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:12
+[07-Aug-2016 16:32:28 UTC] PHP Warning:  number_format() expects parameter 2 to be long, string given in /home/ubuntu/workspace/03-heranca/class/Abstracao.class.php on line 40
+[07-Aug-2016 16:32:28 UTC] PHP Stack trace:
+[07-Aug-2016 16:32:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
+[07-Aug-2016 16:32:28 UTC] PHP   2. Abstracao->Depositar() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:12
+[07-Aug-2016 16:32:28 UTC] PHP   3. Abstracao->Real() /home/ubuntu/workspace/03-heranca/class/Abstracao.class.php:15
+[07-Aug-2016 16:32:28 UTC] PHP   4. number_format() /home/ubuntu/workspace/03-heranca/class/Abstracao.class.php:40
+[07-Aug-2016 16:32:45 UTC] PHP Warning:  number_format() expects parameter 2 to be long, string given in /home/ubuntu/workspace/03-heranca/class/Abstracao.class.php on line 40
+[07-Aug-2016 16:32:45 UTC] PHP Stack trace:
+[07-Aug-2016 16:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
+[07-Aug-2016 16:32:45 UTC] PHP   2. Abstracao->Depositar() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:12
+[07-Aug-2016 16:32:45 UTC] PHP   3. Abstracao->Real() /home/ubuntu/workspace/03-heranca/class/Abstracao.class.php:15
+[07-Aug-2016 16:32:45 UTC] PHP   4. number_format() /home/ubuntu/workspace/03-heranca/class/Abstracao.class.php:40
+[07-Aug-2016 16:43:27 UTC] PHP Fatal error:  Cannot instantiate abstract class Abstracao in /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php on line 11
+[07-Aug-2016 16:43:27 UTC] PHP Stack trace:
+[07-Aug-2016 16:43:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
+[07-Aug-2016 16:51:52 UTC] PHP Parse error:  syntax error, unexpected 'parent' (T_STRING), expecting function (T_FUNCTION) in /home/ubuntu/workspace/03-heranca/class/AbstracaoCC.class.php on line 4
+[07-Aug-2016 16:51:52 UTC] PHP Stack trace:
+[07-Aug-2016 16:51:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
+[07-Aug-2016 16:51:52 UTC] PHP   2. __autoload() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:23
+[07-Aug-2016 16:52:37 UTC] PHP Parse error:  syntax error, unexpected 'parent' (T_STRING), expecting function (T_FUNCTION) in /home/ubuntu/workspace/03-heranca/class/AbstracaoCC.class.php on line 4
+[07-Aug-2016 16:52:37 UTC] PHP Stack trace:
+[07-Aug-2016 16:52:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
+[07-Aug-2016 16:52:37 UTC] PHP   2. __autoload() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:23
+[07-Aug-2016 16:52:39 UTC] PHP Parse error:  syntax error, unexpected 'parent' (T_STRING), expecting function (T_FUNCTION) in /home/ubuntu/workspace/03-heranca/class/AbstracaoCC.class.php on line 4
+[07-Aug-2016 16:52:39 UTC] PHP Stack trace:
+[07-Aug-2016 16:52:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
+[07-Aug-2016 16:52:39 UTC] PHP   2. __autoload() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:23
+[07-Aug-2016 16:52:41 UTC] PHP Parse error:  syntax error, unexpected 'parent' (T_STRING), expecting function (T_FUNCTION) in /home/ubuntu/workspace/03-heranca/class/AbstracaoCC.class.php on line 4
+[07-Aug-2016 16:52:41 UTC] PHP Stack trace:
+[07-Aug-2016 16:52:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
+[07-Aug-2016 16:52:41 UTC] PHP   2. __autoload() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:23
+[07-Aug-2016 16:57:26 UTC] PHP Warning:  Missing argument 3 for AbstracaoCC::__CONSTRUCT(), called in /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php on line 23 and defined in /home/ubuntu/workspace/03-heranca/class/AbstracaoCC.class.php on line 7
+[07-Aug-2016 16:57:26 UTC] PHP Stack trace:
+[07-Aug-2016 16:57:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:0
+[07-Aug-2016 16:57:26 UTC] PHP   2. AbstracaoCC->__CONSTRUCT() /home/ubuntu/workspace/03-heranca/03-abstracao-e-super-classe.php:23
