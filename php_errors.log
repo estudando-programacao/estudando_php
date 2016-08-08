@@ -185,3 +185,28 @@
 [08-Aug-2016 14:15:22 UTC] PHP Fatal error:  Call to a member function Novo() on a non-object in /home/ubuntu/workspace/04-arquitetura-e-conceito/01-objeto-dinamico.php on line 22
 [08-Aug-2016 14:15:22 UTC] PHP Stack trace:
 [08-Aug-2016 14:15:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/01-objeto-dinamico.php:0
+[08-Aug-2016 15:07:43 UTC] PHP Fatal error:  Class 'AssociacaoCleinte' not found in /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php on line 13
+[08-Aug-2016 15:07:43 UTC] PHP Stack trace:
+[08-Aug-2016 15:07:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php:0
+[08-Aug-2016 15:33:51 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php on line 15
+[08-Aug-2016 15:34:40 UTC] PHP Fatal error:  Call to undefined method AssociacaoCliente::Nome() in /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php on line 15
+[08-Aug-2016 15:34:40 UTC] PHP Stack trace:
+[08-Aug-2016 15:34:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php:0
+[08-Aug-2016 15:39:02 UTC] PHP Fatal error:  Call to undefined method AssociacaoCliente::Nome() in /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php on line 15
+[08-Aug-2016 15:39:02 UTC] PHP Stack trace:
+[08-Aug-2016 15:39:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php:0
+[08-Aug-2016 15:39:21 UTC] PHP Fatal error:  Call to undefined method AssociacaoCliente::getLogins() in /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php on line 15
+[08-Aug-2016 15:39:21 UTC] PHP Stack trace:
+[08-Aug-2016 15:39:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php:0
+[08-Aug-2016 15:39:29 UTC] PHP Fatal error:  Call to undefined method AssociacaoCliente::getLogin() in /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php on line 15
+[08-Aug-2016 15:39:29 UTC] PHP Stack trace:
+[08-Aug-2016 15:39:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php:0
+[08-Aug-2016 15:40:20 UTC] PHP Fatal error:  Call to undefined method AssociacaoCliente::getLogin() in /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php on line 15
+[08-Aug-2016 15:40:20 UTC] PHP Stack trace:
+[08-Aug-2016 15:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php:0
+[08-Aug-2016 15:44:13 UTC] PHP Fatal error:  Call to undefined method AssociacaoCliente::getLogin() in /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php on line 15
+[08-Aug-2016 15:44:13 UTC] PHP Stack trace:
+[08-Aug-2016 15:44:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php:0
+[08-Aug-2016 15:44:44 UTC] PHP Fatal error:  Call to a member function getCliente() on a non-object in /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php on line 15
+[08-Aug-2016 15:44:44 UTC] PHP Stack trace:
+[08-Aug-2016 15:44:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php:0
