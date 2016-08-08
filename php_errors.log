@@ -129,3 +129,9 @@
 [07-Aug-2016 23:31:08 UTC] PHP Stack trace:
 [07-Aug-2016 23:31:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/03-heranca/05-resolucao-de-escopo.php:0
 [07-Aug-2016 23:31:08 UTC] PHP   2. __autoload() /home/ubuntu/workspace/03-heranca/05-resolucao-de-escopo.php:12
+[07-Aug-2016 23:46:26 UTC] PHP Catchable fatal error:  Object of class AcessoPublico could not be converted to string in /home/ubuntu/workspace/04-encapsulamento/01-acesso-publico.php on line 19
+[07-Aug-2016 23:46:26 UTC] PHP Stack trace:
+[07-Aug-2016 23:46:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-encapsulamento/01-acesso-publico.php:0
+[07-Aug-2016 23:46:54 UTC] PHP Catchable fatal error:  Object of class AcessoPublico could not be converted to string in /home/ubuntu/workspace/04-encapsulamento/01-acesso-publico.php on line 19
+[07-Aug-2016 23:46:54 UTC] PHP Stack trace:
+[07-Aug-2016 23:46:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-encapsulamento/01-acesso-publico.php:0
