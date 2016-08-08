@@ -168,3 +168,17 @@
 [08-Aug-2016 02:14:18 UTC] PHP Fatal error:  Call to protected method AcessoProtegido::setNome() from context '' in /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php on line 25
 [08-Aug-2016 02:14:19 UTC] PHP Stack trace:
 [08-Aug-2016 02:14:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php:0
+[08-Aug-2016 13:44:10 UTC] PHP Parse error:  syntax error, unexpected '$', expecting function (T_FUNCTION) in /home/ubuntu/workspace/04-arquitetura-e-conceito/class/ObjetoDinamico.class.php on line 4
+[08-Aug-2016 13:44:10 UTC] PHP Stack trace:
+[08-Aug-2016 13:44:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/01-objeto-dinamico.php:0
+[08-Aug-2016 13:44:10 UTC] PHP   2. __autoload() /home/ubuntu/workspace/04-arquitetura-e-conceito/01-objeto-dinamico.php:13
+[08-Aug-2016 13:44:11 UTC] PHP Parse error:  syntax error, unexpected '$', expecting function (T_FUNCTION) in /home/ubuntu/workspace/04-arquitetura-e-conceito/class/ObjetoDinamico.class.php on line 4
+[08-Aug-2016 13:44:11 UTC] PHP Stack trace:
+[08-Aug-2016 13:44:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/01-objeto-dinamico.php:0
+[08-Aug-2016 13:44:11 UTC] PHP   2. __autoload() /home/ubuntu/workspace/04-arquitetura-e-conceito/01-objeto-dinamico.php:13
+[08-Aug-2016 13:53:58 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /home/ubuntu/workspace/04-arquitetura-e-conceito/01-objeto-dinamico.php on line 17
+[08-Aug-2016 13:54:00 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /home/ubuntu/workspace/04-arquitetura-e-conceito/01-objeto-dinamico.php on line 17
+[08-Aug-2016 13:54:06 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /home/ubuntu/workspace/04-arquitetura-e-conceito/01-objeto-dinamico.php on line 17
+[08-Aug-2016 13:57:20 UTC] PHP Parse error:  syntax error, unexpected '$thierry' (T_VARIABLE) in /home/ubuntu/workspace/04-arquitetura-e-conceito/01-objeto-dinamico.php on line 15
+[08-Aug-2016 13:57:40 UTC] PHP Parse error:  syntax error, unexpected '$thierry' (T_VARIABLE) in /home/ubuntu/workspace/04-arquitetura-e-conceito/01-objeto-dinamico.php on line 15
+[08-Aug-2016 13:58:43 UTC] PHP Parse error:  syntax error, unexpected '$thierry' (T_VARIABLE) in /home/ubuntu/workspace/04-arquitetura-e-conceito/01-objeto-dinamico.php on line 15

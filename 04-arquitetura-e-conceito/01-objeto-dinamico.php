@@ -10,7 +10,11 @@
     <?php
         require('./inc/Config.inc.php');
         
+        $cliente = new ObjetoDinamico;
         
+        $thierry = new stdClass();
+        
+        var_dump($cliente, $thierry);
     ?>
 </body>
 
