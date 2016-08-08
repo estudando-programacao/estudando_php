@@ -10,8 +10,18 @@ class AssociacaoCliente {
         $this->Nome = $Nome;
         $this->Email = $Email;
     }
+     
+    // metodo para interagir com parametro Cliente
+    public function getNome() {
+        return $this->Nome;
+    }
     
-    // metodo para interagir com parametro cliente
+    // metodo para interagir com Email
+    public function getEmail() {
+        return $this->Email;
+    }
+    
+    // metodo para interagir com Cliente
     public function getCliente() {
         return $this->Cliente;
     }

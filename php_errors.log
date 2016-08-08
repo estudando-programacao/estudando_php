@@ -210,3 +210,7 @@
 [08-Aug-2016 15:44:44 UTC] PHP Fatal error:  Call to a member function getCliente() on a non-object in /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php on line 15
 [08-Aug-2016 15:44:44 UTC] PHP Stack trace:
 [08-Aug-2016 15:44:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php:0
+[08-Aug-2016 16:53:25 UTC] PHP Fatal error:  Cannot redeclare AssociacaoCliente::getCliente() in /home/ubuntu/workspace/04-arquitetura-e-conceito/class/AssociacaoCliente.class.php on line 23
+[08-Aug-2016 16:53:25 UTC] PHP Stack trace:
+[08-Aug-2016 16:53:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php:0
+[08-Aug-2016 16:53:25 UTC] PHP   2. __autoload() /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php:14
