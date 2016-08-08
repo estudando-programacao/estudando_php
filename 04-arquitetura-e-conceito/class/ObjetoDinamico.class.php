@@ -6,7 +6,8 @@ class ObjetoDinamico {
     
     public function Novo($Cliente) {
         // validação de objetos. se o parametro passado for um objeto, os valores são atribuídos.
-        // essa validação obriga a utilizar utilização de objetos.
+        // note que essa validação é utilizada para testarmos o objeto dinamico
+        // essa validação obriga a utilização de objetos.
         if(is_object($Cliente)):
             $this->Nome = $Cliente->Nome;
             $this->Email = $Email->Email;
