@@ -135,3 +135,36 @@
 [07-Aug-2016 23:46:54 UTC] PHP Catchable fatal error:  Object of class AcessoPublico could not be converted to string in /home/ubuntu/workspace/04-encapsulamento/01-acesso-publico.php on line 19
 [07-Aug-2016 23:46:54 UTC] PHP Stack trace:
 [07-Aug-2016 23:46:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-encapsulamento/01-acesso-publico.php:0
+[08-Aug-2016 01:04:26 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php on line 16
+[08-Aug-2016 01:04:26 UTC] PHP Stack trace:
+[08-Aug-2016 01:04:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php:0
+[08-Aug-2016 01:04:43 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php on line 16
+[08-Aug-2016 01:04:43 UTC] PHP Stack trace:
+[08-Aug-2016 01:04:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php:0
+[08-Aug-2016 01:07:24 UTC] PHP Fatal error:  Cannot access protected property AcessoProtegido::$Email in /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php on line 15
+[08-Aug-2016 01:07:24 UTC] PHP Stack trace:
+[08-Aug-2016 01:07:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php:0
+[08-Aug-2016 01:07:41 UTC] PHP Fatal error:  Cannot access protected property AcessoProtegido::$Email in /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php on line 15
+[08-Aug-2016 01:07:41 UTC] PHP Stack trace:
+[08-Aug-2016 01:07:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php:0
+[08-Aug-2016 01:08:43 UTC] PHP Fatal error:  Cannot access protected property AcessoProtegido::$Email in /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php on line 15
+[08-Aug-2016 01:08:43 UTC] PHP Stack trace:
+[08-Aug-2016 01:08:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php:0
+[08-Aug-2016 01:09:57 UTC] PHP Fatal error:  Call to undefined function setNome() in /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php on line 18
+[08-Aug-2016 01:09:57 UTC] PHP Stack trace:
+[08-Aug-2016 01:09:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php:0
+[08-Aug-2016 01:10:23 UTC] PHP Fatal error:  Call to protected method AcessoProtegido::setNome() from context '' in /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php on line 18
+[08-Aug-2016 01:10:23 UTC] PHP Stack trace:
+[08-Aug-2016 01:10:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php:0
+[08-Aug-2016 01:22:11 UTC] PHP Fatal error:  Call to protected method AcessoProtegido::setNome() from context '' in /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php on line 18
+[08-Aug-2016 01:22:11 UTC] PHP Stack trace:
+[08-Aug-2016 01:22:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php:0
+[08-Aug-2016 01:22:33 UTC] PHP Fatal error:  Call to protected method AcessoProtegido::setNome() from context '' in /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php on line 18
+[08-Aug-2016 01:22:33 UTC] PHP Stack trace:
+[08-Aug-2016 01:22:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php:0
+[08-Aug-2016 02:14:12 UTC] PHP Fatal error:  Call to protected method AcessoProtegido::setNome() from context '' in /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php on line 25
+[08-Aug-2016 02:14:12 UTC] PHP Stack trace:
+[08-Aug-2016 02:14:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php:0
+[08-Aug-2016 02:14:18 UTC] PHP Fatal error:  Call to protected method AcessoProtegido::setNome() from context '' in /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php on line 25
+[08-Aug-2016 02:14:19 UTC] PHP Stack trace:
+[08-Aug-2016 02:14:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-encapsulamento/02-acesso-protegido.php:0

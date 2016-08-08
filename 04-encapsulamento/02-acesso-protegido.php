@@ -10,15 +10,22 @@
     <?php
         require('./inc/Config.inc.php');
         
-        $user = new AcessoPublico ("thierry rene", "thierry@teste.com");
-        $userDois = new AcessoPublico("marcos siqueira", "zerozero@hotmail.com");
+        $maria = new AcessoProtegido("thierry rene", "asdasd@msn.com");
+        $pablo = new AcessoProtegidoFilha("pablo", "pablo@email.com");
         
-        // exemplo de acesso propriedade publica
-        $user->setEmail("thierryrene@msn.com");
-        $userDois->setEmail("asdasd@teste.com");
-        var_dump($user);
-        echo "<hr>";
-        var_dump($userDois);
+        $maria->Nome = "maria santos";
+        // teste de atribuição de valor em parametro protegido. teste deve retornar erro.
+        // $maria->Email = "mariasantos@server.com";
+        $maria->setEmail("maria@msn.com");
+        // teste de utilização de método protegido. teste deve retornar erro, já que o método protegido deve apenas ser acessado por uma classe filha.
+        // $maria->setNome("mariazona");
+        // debug $maria
+        var_dump($maria);
+        
+        // teste em metodo protegido com objeto da classe filha. deve retornar erro, já
+        //$pablo->setNome("Rosana");
+        $pablo->AddCpf("thierryrene", "12312312332");
+        var_dump($pablo);
         
     ?>
 </body>
