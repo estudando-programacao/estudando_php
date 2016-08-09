@@ -218,3 +218,16 @@
 [09-Aug-2016 15:57:46 UTC] PHP Stack trace:
 [09-Aug-2016 15:57:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/03-modelo-de-agregacao.php:0
 [09-Aug-2016 15:57:46 UTC] PHP   2. AgregacaoCarrinho->Add() /home/ubuntu/workspace/04-arquitetura-e-conceito/03-modelo-de-agregacao.php:30
+[09-Aug-2016 16:30:03 UTC] PHP Fatal error:  Class 'ComposicaoEndereco' not found in /home/ubuntu/workspace/04-arquitetura-e-conceito/class/ComposicaoUsuario.class.php on line 14
+[09-Aug-2016 16:30:03 UTC] PHP Stack trace:
+[09-Aug-2016 16:30:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/04-modelo-de-composicao.php:0
+[09-Aug-2016 16:30:03 UTC] PHP   2. ComposicaoUsuario->CadastrarEndereco() /home/ubuntu/workspace/04-arquitetura-e-conceito/04-modelo-de-composicao.php:13
+[09-Aug-2016 17:22:57 UTC] PHP Fatal error:  Call to undefined method ComposicaoUsuario::Nome() in /home/ubuntu/workspace/04-arquitetura-e-conceito/04-modelo-de-composicao.php on line 16
+[09-Aug-2016 17:22:57 UTC] PHP Stack trace:
+[09-Aug-2016 17:22:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/04-modelo-de-composicao.php:0
+[09-Aug-2016 17:23:47 UTC] PHP Fatal error:  Call to undefined method ComposicaoUsuario::Nome() in /home/ubuntu/workspace/04-arquitetura-e-conceito/04-modelo-de-composicao.php on line 16
+[09-Aug-2016 17:23:47 UTC] PHP Stack trace:
+[09-Aug-2016 17:23:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/04-modelo-de-composicao.php:0
+[09-Aug-2016 17:24:57 UTC] PHP Fatal error:  Call to undefined method ComposicaoUsuario::Nome() in /home/ubuntu/workspace/04-arquitetura-e-conceito/04-modelo-de-composicao.php on line 17
+[09-Aug-2016 17:24:57 UTC] PHP Stack trace:
+[09-Aug-2016 17:24:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/04-modelo-de-composicao.php:0
