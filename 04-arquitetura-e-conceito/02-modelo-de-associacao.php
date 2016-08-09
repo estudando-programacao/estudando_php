@@ -9,7 +9,6 @@
     <?php
         require('./inc/Config.inc.php');
         
-        // note que o primeiro objeto agrega atributos publicos.
         $thierry = new AssociacaoCliente("thierry", "teste@teste.com");
         // interamos o objeto thierry ao objeto login
         $login = new AssociacaoLogin($thierry);

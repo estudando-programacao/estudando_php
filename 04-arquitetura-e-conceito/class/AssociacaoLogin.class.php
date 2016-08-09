@@ -6,7 +6,7 @@ class AssociacaoLogin {
     private $Cliente;
     private $Login;
     
-    // validacao para verificar se 
+    // validacao para verificar se o objeto Cliente é de fato um objeto. Validação necessária, já que a estrutura de associação determina a utilização do objeto.
     function __construct($Cliente) {
         if(is_object($Cliente)): 
             $this->Cliente = $Cliente;

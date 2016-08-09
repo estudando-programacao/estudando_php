@@ -2,8 +2,8 @@
  
 class AssociacaoCliente { 
     private $Cliente;
-    public $Nome;
-    public $Email;
+    private $Nome;
+    private $Email;
     
     function __construct($Nome, $Email) {
         $this->Cliente = md5($Nome);

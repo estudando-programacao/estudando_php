@@ -214,3 +214,7 @@
 [08-Aug-2016 16:53:25 UTC] PHP Stack trace:
 [08-Aug-2016 16:53:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php:0
 [08-Aug-2016 16:53:25 UTC] PHP   2. __autoload() /home/ubuntu/workspace/04-arquitetura-e-conceito/02-modelo-de-associacao.php:14
+[09-Aug-2016 15:57:46 UTC] PHP Catchable fatal error:  Argument 1 passed to AgregacaoCarrinho::Add() must be an instance of AgregacaoProduto, string given, called in /home/ubuntu/workspace/04-arquitetura-e-conceito/03-modelo-de-agregacao.php on line 30 and defined in /home/ubuntu/workspace/04-arquitetura-e-conceito/class/AgregacaoCarrinho.class.php on line 14
+[09-Aug-2016 15:57:46 UTC] PHP Stack trace:
+[09-Aug-2016 15:57:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/03-modelo-de-agregacao.php:0
+[09-Aug-2016 15:57:46 UTC] PHP   2. AgregacaoCarrinho->Add() /home/ubuntu/workspace/04-arquitetura-e-conceito/03-modelo-de-agregacao.php:30
