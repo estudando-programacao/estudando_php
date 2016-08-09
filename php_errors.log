@@ -231,3 +231,5 @@
 [09-Aug-2016 17:24:57 UTC] PHP Fatal error:  Call to undefined method ComposicaoUsuario::Nome() in /home/ubuntu/workspace/04-arquitetura-e-conceito/04-modelo-de-composicao.php on line 17
 [09-Aug-2016 17:24:57 UTC] PHP Stack trace:
 [09-Aug-2016 17:24:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/04-arquitetura-e-conceito/04-modelo-de-composicao.php:0
+[09-Aug-2016 17:39:35 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/05-tratamento-de-erros/01-tipos-de-validacao.php on line 12
+[09-Aug-2016 17:40:11 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '(' in /home/ubuntu/workspace/05-tratamento-de-erros/01-tipos-de-validacao.php on line 18

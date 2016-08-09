@@ -5,6 +5,7 @@ class ComposicaoUsuario {
     public $Email;
     private $Endereco;
     
+    // obrigamos a criação do objeto dessa maneira
     function __construct($Nome, $Email) {
         $this->Nome = $Nome;
         $this->Email = $Email;
