@@ -279,3 +279,6 @@
 [09-Aug-2016 18:09:58 UTC] PHP Stack trace:
 [09-Aug-2016 18:09:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/01-tipos-de-validacao.php:0
 [09-Aug-2016 18:09:58 UTC] PHP   2. filter_var() /home/ubuntu/workspace/05-tratamento-de-erros/01-tipos-de-validacao.php:42
+[10-Aug-2016 13:09:46 UTC] PHP Fatal error:  Call to undefined function var_dum() in /home/ubuntu/workspace/05-tratamento-de-erros/01-tipos-de-validacao.php on line 78
+[10-Aug-2016 13:09:46 UTC] PHP Stack trace:
+[10-Aug-2016 13:09:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/01-tipos-de-validacao.php:0

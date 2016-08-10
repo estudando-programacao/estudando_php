@@ -5,8 +5,13 @@
     <title>treinando php</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css"/>
 </head>
-<body class="container" style="margin-top:100px;">
-
+<body class="container">
+        <!--<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>-->
+        
+        <script type="text/javascript">
+            // $('h3').addClass('label label-default');
+        </script>
+        
         <h3>tratamento por existência</h3>
         
         <?php
@@ -24,9 +29,11 @@
         
         echo "<br>";
         
-        // validação para verificar se a string está em branco
+        // validação dupla
+        // primeiro verifica se string está vazia
         if(!empty($string)):
             echo "A string existe e tem valor";
+        // agora verifica se a string é de fato uma string. 
         elseif (isset($string)):
             echo "A string existe mas não tem valor definido";
         endif;
@@ -45,11 +52,49 @@
             echo "Email informado é inválido";
         // note que aqui a aplicação toma um die se o email for igual ao informado na condição
         elseif($decisao == "teste@teste.com"):
+            // para a execução do código. 
             die("Email inválido.<br>A aplicação parou.");
         else:
             echo "Email válido";
         endif;
         ?>
+        
+        <hr>
+        
+        <h3>retorno de flags</h3>
+        
+        <?php
+        // funcao para avaliar se idade foi preenchida e é um int
+        function Idade($Idade = null) {
+            // se $Idade estiver vazio
+            if(!$Idade):
+                return false;
+            // se $Idade não for INT
+            elseif(!is_int($Idade)):
+                return false;
+            endif;
+            // se as condições forem positivas, o retorno a seguir é apresentado
+            return "você nasceu em:" . (date('Y') - $Idade);
+        }
+        
+        // definimos valores nos parametros para teste
+        $Idade = "teste";
+        // $Idade = 10;
+        
+        // agora é verificado, através da funcao anterior, se a idade está nula e se é um INT, e então exibimos as condições abaixo.
+        if(Idade($Idade)):
+            // se positivo, apresentar ano de nascimento
+            echo Idade($Idade);
+        else:
+            // se não, apresentar falha
+            echo "Erro, informe um INT idade";
+        endif;
+        ?>
+        
+        <hr>
+        
+        <h3>validação por comparação</h3>
+        
         
 </body>  
 </html>
