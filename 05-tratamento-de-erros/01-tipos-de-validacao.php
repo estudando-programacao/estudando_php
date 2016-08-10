@@ -6,13 +6,12 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css"/>
 </head>
 <body class="container">
-        <!--<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>-->
-        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script type="text/javascript">
-            // $('h3').addClass('label label-default');
+            $('p').addClass('lead');
         </script>
         
-        <h3>tratamento por existência</h3>
+        <p class="lead">tratamento por existência</p>
         
         <?php
         // teste de validação por existência, verifica se item existe e se valor corresponde ao tipo validado
@@ -41,7 +40,7 @@
         
         <hr>
         
-        <h3>tomada de decisão</h3>
+        <p class="lead">tomada de decisão</p>
         
         <?php
         // este tipo de decisão pode ser muito útil quando você sabe os erros que o sistema deve aprender com base em ações do usuário.
@@ -61,7 +60,7 @@
         
         <hr>
         
-        <h3>retorno de flags</h3>
+        <p class="lead">retorno de flags</p>
         
         <?php
         // funcao para avaliar se idade foi preenchida e é um int
@@ -93,9 +92,38 @@
         
         <hr>
         
-        <h3>validação por comparação</h3>
+        <p class="lead">validação por comparação</p>
+        
+        <?php
+        
+        $um = 10;
+        $dois = '2';
+        
+        // validação para verificar se os valores dos parametros são iguais, comparando os dois
+        if($um == $dois):
+            // se sim, echo abaixo
+            echo "Um tem o mesmo valor que Dois";
+        elseif($um != $dois):
+            // se não, echo abaixo
+            echo "Um e dois tem valor diferentes.";
+        endif;
         
         
+        echo "<hr>";
+        
+        $um = 10;
+        $dois = '2';
+        
+        // aqui verificamos se $um é identico (===) a $dois
+        if($um === $dois):
+            // se sim
+            echo "Um e dois tem o mesmo valor e são do mesmo tipo";
+        // se não, conforme comparação de diferença (!==)
+        elseif($um !== $dois):
+            echo "Um e dois tem valor ou tipo diferente";
+        endif;
+        
+        ?>
 </body>  
 </html>
 

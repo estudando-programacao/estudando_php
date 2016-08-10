@@ -282,3 +282,54 @@
 [10-Aug-2016 13:09:46 UTC] PHP Fatal error:  Call to undefined function var_dum() in /home/ubuntu/workspace/05-tratamento-de-erros/01-tipos-de-validacao.php on line 78
 [10-Aug-2016 13:09:46 UTC] PHP Stack trace:
 [10-Aug-2016 13:09:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/01-tipos-de-validacao.php:0
+[10-Aug-2016 13:32:42 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ':' in /home/ubuntu/workspace/05-tratamento-de-erros/01-tipos-de-validacao.php on line 105
+[10-Aug-2016 13:33:21 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting ',' or ';' in /home/ubuntu/workspace/05-tratamento-de-erros/01-tipos-de-validacao.php on line 107
+[10-Aug-2016 14:37:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ':' in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 28
+[10-Aug-2016 14:39:25 UTC] PHP Notice:  Erro no CPF in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 20
+[10-Aug-2016 14:39:25 UTC] PHP Stack trace:
+[10-Aug-2016 14:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 14:39:25 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:20
+[10-Aug-2016 14:39:47 UTC] PHP Notice:  Erro no CPF in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 20
+[10-Aug-2016 14:39:47 UTC] PHP Stack trace:
+[10-Aug-2016 14:39:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 14:39:47 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:20
+[10-Aug-2016 14:39:55 UTC] PHP Notice:  Erro no CPF in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 20
+[10-Aug-2016 14:39:55 UTC] PHP Stack trace:
+[10-Aug-2016 14:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 14:39:55 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:20
+[10-Aug-2016 14:42:00 UTC] PHP Notice:  Erro no CPF in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 23
+[10-Aug-2016 14:42:00 UTC] PHP Stack trace:
+[10-Aug-2016 14:42:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 14:42:00 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:23
+[10-Aug-2016 14:42:11 UTC] PHP Notice:  Erro no CPF in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 22
+[10-Aug-2016 14:42:11 UTC] PHP Stack trace:
+[10-Aug-2016 14:42:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 14:42:11 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:22
+[10-Aug-2016 14:42:32 UTC] PHP Notice:  Erro no CPF in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 22
+[10-Aug-2016 14:42:32 UTC] PHP Stack trace:
+[10-Aug-2016 14:42:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 14:42:32 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:22
+[10-Aug-2016 14:43:17 UTC] PHP Notice:  Erro no CPF in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 22
+[10-Aug-2016 14:43:17 UTC] PHP Stack trace:
+[10-Aug-2016 14:43:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 14:43:17 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:22
+[10-Aug-2016 14:44:17 UTC] PHP Notice:  Erro no CPF in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 23
+[10-Aug-2016 14:44:17 UTC] PHP Stack trace:
+[10-Aug-2016 14:44:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 14:44:17 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:23
+[10-Aug-2016 14:48:18 UTC] PHP Deprecated:  Formato não é mais utilizado in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 26
+[10-Aug-2016 14:48:18 UTC] PHP Stack trace:
+[10-Aug-2016 14:48:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 14:48:18 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:26
+[10-Aug-2016 14:53:03 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 37
+[10-Aug-2016 14:53:03 UTC] PHP Stack trace:
+[10-Aug-2016 14:53:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 14:53:03 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:37
+[10-Aug-2016 14:53:16 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 37
+[10-Aug-2016 14:53:16 UTC] PHP Stack trace:
+[10-Aug-2016 14:53:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 14:53:16 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:37
+[10-Aug-2016 14:53:21 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 37
+[10-Aug-2016 14:53:21 UTC] PHP Stack trace:
+[10-Aug-2016 14:53:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 14:53:21 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:37
