@@ -23,7 +23,6 @@
         // igualando os valores das variáveis é apresentada falha "cpf em uso"
         $cpf = $uso;
         
-        
         if(!$cpf):
             // primeira trigger de erro, apenas paresenta mensagem de erro, conforme atributo, e qual o tipo do erro.
             // e_user_notice apenas apresenta uma mensagem de erro.
@@ -43,6 +42,44 @@
         endif;
         
         echo "<br>:)";
+        
+        // a partir daqui, criamos um handler para erros, e registramos o mesmo para ser utilizado como padrão, por isso a mensagem de erro após o <hr> é diferente da primeira.
+        echo "<hr>";
+        
+        // função para dar override no handler para retorno de emails
+        function Erro($Erro, $Mensagem, $Arquivo, $Linha) {
+            // aqui é feita a validação ternaria
+            $erro = ($Erro == E_USER_ERROR ? 'text-danger' : ($Erro == E_USER_WARNING ? 'text-warning' : 'text-primary'));
+            // abaixo, apresentamos a informação de erro, com base na cor aplicada no style do elemento p   
+            echo "<p class='{$erro}'>Erro na linha #{$Linha}: {$Mensagem}<br>";
+            echo "<small>{$Arquivo}</small></p>";   
+            if($Erro == E_USER_ERROR):
+                die();
+            endif;    
+        }
+        
+        // abaixo determinamos que o php deve utilizar o handler criado (function Erro) para apresentar erros
+        set_error_handler("Erro");
+        
+        if(!$cpf):
+            // primeira trigger de erro, apenas paresenta mensagem de erro, conforme atributo, e qual o tipo do erro.
+            // e_user_notice apenas apresenta uma mensagem de erro.
+            trigger_error("Erro no CPF", E_USER_NOTICE);
+        // se existir valor no $cpf, então as demais verificações serão executadas
+        elseif($cpf == '500'):
+            // trigger para informar que o recurso a ser utilizado não está mais operando
+            trigger_error("Formato não é mais utilizado", E_USER_DEPRECATED);
+        elseif($cpf == $uso):
+            // este apresenta um alerta caso o cpf seja igual ao informado
+            trigger_error("CPF em uso", E_USER_WARNING);
+        // aqui validamos o cpf, com padrão de números e 11 posições.
+        elseif(!preg_match('/^[0-9]*$/i', $cpf) && srtlen($cpf) != 11):
+            trigger_error("CPF inválido", E_USER_NOTICE);
+        else:
+            echo "CPF válido.";
+        endif;
+        
+        // echo "<br>:)";
         
         ?>
         

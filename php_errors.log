@@ -333,3 +333,86 @@
 [10-Aug-2016 14:53:21 UTC] PHP Stack trace:
 [10-Aug-2016 14:53:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
 [10-Aug-2016 14:53:21 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:37
+[10-Aug-2016 15:27:55 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 37
+[10-Aug-2016 15:27:55 UTC] PHP Stack trace:
+[10-Aug-2016 15:27:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 15:27:55 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:37
+[10-Aug-2016 16:40:19 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 36
+[10-Aug-2016 16:40:19 UTC] PHP Stack trace:
+[10-Aug-2016 16:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 16:40:19 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:36
+[10-Aug-2016 16:40:55 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 36
+[10-Aug-2016 16:40:55 UTC] PHP Stack trace:
+[10-Aug-2016 16:40:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 16:40:55 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:36
+[10-Aug-2016 16:41:03 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 36
+[10-Aug-2016 16:41:03 UTC] PHP Stack trace:
+[10-Aug-2016 16:41:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 16:41:03 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:36
+[10-Aug-2016 16:41:28 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 36
+[10-Aug-2016 16:41:28 UTC] PHP Stack trace:
+[10-Aug-2016 16:41:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 16:41:28 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:36
+[10-Aug-2016 16:41:32 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 36
+[10-Aug-2016 16:41:32 UTC] PHP Stack trace:
+[10-Aug-2016 16:41:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 16:41:32 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:36
+[10-Aug-2016 16:41:38 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 36
+[10-Aug-2016 16:41:38 UTC] PHP Stack trace:
+[10-Aug-2016 16:41:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 16:41:38 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:36
+[10-Aug-2016 16:43:43 UTC] PHP Deprecated:  Formato não é mais utilizado in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 33
+[10-Aug-2016 16:43:43 UTC] PHP Stack trace:
+[10-Aug-2016 16:43:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 16:43:43 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:33
+[10-Aug-2016 16:50:23 UTC] PHP Deprecated:  Formato não é mais utilizado in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 33
+[10-Aug-2016 16:50:23 UTC] PHP Stack trace:
+[10-Aug-2016 16:50:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 16:50:23 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:33
+[10-Aug-2016 16:55:40 UTC] PHP Deprecated:  Formato não é mais utilizado in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 33
+[10-Aug-2016 16:55:40 UTC] PHP Stack trace:
+[10-Aug-2016 16:55:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 16:55:40 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:33
+[10-Aug-2016 16:56:02 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 36
+[10-Aug-2016 16:56:02 UTC] PHP Stack trace:
+[10-Aug-2016 16:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 16:56:02 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:36
+[10-Aug-2016 16:56:13 UTC] PHP Notice:  Erro no CPF in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 29
+[10-Aug-2016 16:56:13 UTC] PHP Stack trace:
+[10-Aug-2016 16:56:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 16:56:13 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:29
+[10-Aug-2016 16:56:33 UTC] PHP Fatal error:  Call to undefined function srtlen() in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 40
+[10-Aug-2016 16:56:33 UTC] PHP Stack trace:
+[10-Aug-2016 16:56:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 16:57:02 UTC] PHP Fatal error:  Call to undefined function srtlen() in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 40
+[10-Aug-2016 16:57:02 UTC] PHP Stack trace:
+[10-Aug-2016 16:57:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 16:57:13 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 36
+[10-Aug-2016 16:57:13 UTC] PHP Stack trace:
+[10-Aug-2016 16:57:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 16:57:13 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:36
+[10-Aug-2016 16:58:08 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 36
+[10-Aug-2016 16:58:08 UTC] PHP Stack trace:
+[10-Aug-2016 16:58:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 16:58:08 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:36
+[10-Aug-2016 17:03:00 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php on line 36
+[10-Aug-2016 17:03:00 UTC] PHP Stack trace:
+[10-Aug-2016 17:03:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:0
+[10-Aug-2016 17:03:00 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/05-tratamento-de-erros/02-disparando-erros.php:36
+[11-Aug-2016 15:02:56 UTC] PHP Fatal error:  Class 'AssociacaoUsuario' not found in /home/ubuntu/workspace/05-tratamento-de-erros/04-personalizando-erros.php on line 22
+[11-Aug-2016 15:02:56 UTC] PHP Stack trace:
+[11-Aug-2016 15:02:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/04-personalizando-erros.php:0
+[11-Aug-2016 15:03:13 UTC] PHP Fatal error:  Class 'Associacao' not found in /home/ubuntu/workspace/05-tratamento-de-erros/04-personalizando-erros.php on line 22
+[11-Aug-2016 15:03:13 UTC] PHP Stack trace:
+[11-Aug-2016 15:03:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/04-personalizando-erros.php:0
+[11-Aug-2016 15:50:28 UTC] PHP Fatal error:  Call to undefined function WSErro() in /home/ubuntu/workspace/05-tratamento-de-erros/04-personalizando-erros.php on line 26
+[11-Aug-2016 15:50:28 UTC] PHP Stack trace:
+[11-Aug-2016 15:50:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/04-personalizando-erros.php:0
+[11-Aug-2016 15:55:33 UTC] PHP Fatal error:  Call to undefined function PHPError() in /home/ubuntu/workspace/05-tratamento-de-erros/04-personalizando-erros.php on line 27
+[11-Aug-2016 15:55:33 UTC] PHP Stack trace:
+[11-Aug-2016 15:55:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/04-personalizando-erros.php:0
+[11-Aug-2016 16:01:56 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/ubuntu/workspace/05-tratamento-de-erros/04-personalizando-erros.php on line 33
+[11-Aug-2016 16:02:01 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/ubuntu/workspace/05-tratamento-de-erros/04-personalizando-erros.php on line 33
+[11-Aug-2016 16:03:02 UTC] PHP Fatal error:  Call to undefined function WSErro() in /home/ubuntu/workspace/05-tratamento-de-erros/04-personalizando-erros.php on line 35
+[11-Aug-2016 16:03:02 UTC] PHP Stack trace:
+[11-Aug-2016 16:03:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/05-tratamento-de-erros/04-personalizando-erros.php:0
