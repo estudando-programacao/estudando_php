@@ -1,20 +1,45 @@
 <?php
 
     // CONFIGURACOES DO SITE ####################
+    
+    // CONFIGURACOES DO BANCO DE DADOS ##########
+    
+    define('HOST', 'localhost');
+    define('USER', 'root');
+    define('PASS', '');
+    define('DBSA', 'wsphp');
+    
     // AUTOLOAD DE CLASSES ######################
-    function __autoload($Class) { 
+    
+    // function __autoload($Class) { 
         
-        $dirName = 'class';
+    //     $dirName = 'class';
         
-        if (file_exists("{$dirName}/{$Class}.class.php")):
-            require_once("{$dirName}/{$Class}.class.php");
-            // echo "O arquivo Config.inc.class existe.<hr>";            
-        else:
-            echo "Erro ao incluir.";
+    //     if (file_exists("{$dirName}/{$Class}.class.php")):
+    //         require_once("{$dirName}/{$Class}.class.php");
+    //         // echo "O arquivo Config.inc.class existe.<hr>";            
+    //     else:
+    //         echo "Erro ao incluir.";
+    //     endif;
+    // }
+    
+    function __autoload($Class) {
+        $cDir = ['Conn'];
+        $iDir = null;
+        
+        foreach($cDir as $dirName):
+            if($iDir && file_exists(__DIR__ . "\\{$dirName}\\{$Class}.class.php") && !is_dir(__DIR__ . "\\{$dirName}\\{$Class}.class.php")):
+                include_once(__DIR__ . "\\{$dirName}\\{$Class}.class.php");
+                $iDir = true;
+            endif;
+        endforeach;
+        
+        if(!$iDir):
+            trigger_error("Não foi possível incluir {$Class}.class.php", E_USER_ERROR);
+            die;
         endif;
     }
     
-    // CONFIGURACOES DO SITE ####################
     // CSS constants :: Mensagens de Erro #######
     
     // aqui estamos definindo que as constantes de erro devem assumir os estilos (segunda aspas) definidos no arquivo .css
