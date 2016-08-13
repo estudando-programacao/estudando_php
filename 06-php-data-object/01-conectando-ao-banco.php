@@ -20,7 +20,7 @@
     
     $conn = new Conn;
     
-    // var_dump($conn);
+    var_dump($conn);
     ?>
     
 </body>  
