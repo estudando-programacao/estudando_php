@@ -419,3 +419,120 @@
 [12-Aug-2016 20:19:38 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php on line 33
 [12-Aug-2016 20:19:38 UTC] PHP Stack trace:
 [12-Aug-2016 20:19:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[14-Aug-2016 23:35:31 UTC] PHP Fatal error:  Class 'Conn' not found in /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php on line 21
+[14-Aug-2016 23:35:31 UTC] PHP Stack trace:
+[14-Aug-2016 23:35:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[14-Aug-2016 23:46:19 UTC] PHP Fatal error:  Não foi possível incluir Conn.class.php in /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php on line 38
+[14-Aug-2016 23:46:19 UTC] PHP Stack trace:
+[14-Aug-2016 23:46:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[14-Aug-2016 23:46:19 UTC] PHP   2. __autoload() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:21
+[14-Aug-2016 23:46:19 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php:38
+[14-Aug-2016 23:47:33 UTC] PHP Fatal error:  Não foi possível incluir Conn.class.php in /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php on line 38
+[14-Aug-2016 23:47:33 UTC] PHP Stack trace:
+[14-Aug-2016 23:47:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[14-Aug-2016 23:47:33 UTC] PHP   2. __autoload() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:21
+[14-Aug-2016 23:47:33 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php:38
+[14-Aug-2016 23:50:28 UTC] PHP Fatal error:  Não foi possível incluir Conn.class.php in /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php on line 38
+[14-Aug-2016 23:50:28 UTC] PHP Stack trace:
+[14-Aug-2016 23:50:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[14-Aug-2016 23:50:28 UTC] PHP   2. __autoload() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:21
+[14-Aug-2016 23:50:28 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php:38
+[14-Aug-2016 23:55:36 UTC] PHP Fatal error:  Class 'Conn' not found in /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php on line 21
+[14-Aug-2016 23:55:36 UTC] PHP Stack trace:
+[14-Aug-2016 23:55:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 01:15:01 UTC] PHP Fatal error:  Class 'Conn' not found in /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php on line 21
+[15-Aug-2016 01:15:01 UTC] PHP Stack trace:
+[15-Aug-2016 01:15:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 01:20:46 UTC] PHP Fatal error:  Class 'Conn' not found in /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php on line 21
+[15-Aug-2016 01:20:46 UTC] PHP Stack trace:
+[15-Aug-2016 01:20:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 01:21:37 UTC] PHP Fatal error:  Class 'Conn' not found in /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php on line 21
+[15-Aug-2016 01:21:37 UTC] PHP Stack trace:
+[15-Aug-2016 01:21:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 01:22:14 UTC] PHP Fatal error:  Class 'Conn' not found in /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php on line 21
+[15-Aug-2016 01:22:14 UTC] PHP Stack trace:
+[15-Aug-2016 01:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 01:23:29 UTC] PHP Fatal error:  Class 'Conn' not found in /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php on line 18
+[15-Aug-2016 01:23:29 UTC] PHP Stack trace:
+[15-Aug-2016 01:23:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 02:29:14 UTC] PHP Fatal error:  Class 'Conn' not found in /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php on line 18
+[15-Aug-2016 02:29:14 UTC] PHP Stack trace:
+[15-Aug-2016 02:29:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 02:30:27 UTC] PHP Fatal error:  Class 'Conn' not found in /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php on line 18
+[15-Aug-2016 02:30:27 UTC] PHP Stack trace:
+[15-Aug-2016 02:30:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 02:34:38 UTC] PHP Fatal error:  Class 'Conexao' not found in /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php on line 18
+[15-Aug-2016 02:34:38 UTC] PHP Stack trace:
+[15-Aug-2016 02:34:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 02:39:37 UTC] PHP Fatal error:  Class 'Conexao' not found in /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php on line 18
+[15-Aug-2016 02:39:37 UTC] PHP Stack trace:
+[15-Aug-2016 02:39:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 02:41:00 UTC] PHP Fatal error:  Class 'Conexao' not found in /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php on line 18
+[15-Aug-2016 02:41:00 UTC] PHP Stack trace:
+[15-Aug-2016 02:41:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 02:43:49 UTC] PHP Warning:  require_once(./Config.inc.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php on line 16
+[15-Aug-2016 02:43:49 UTC] PHP Stack trace:
+[15-Aug-2016 02:43:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 02:43:49 UTC] PHP Fatal error:  require_once(): Failed opening required './Config.inc.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php on line 16
+[15-Aug-2016 02:43:49 UTC] PHP Stack trace:
+[15-Aug-2016 02:43:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 02:47:01 UTC] PHP Fatal error:  Não foi possível incluir Conn.class.php in /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php on line 38
+[15-Aug-2016 02:47:01 UTC] PHP Stack trace:
+[15-Aug-2016 02:47:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 02:47:01 UTC] PHP   2. __autoload() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:18
+[15-Aug-2016 02:47:01 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php:38
+[15-Aug-2016 02:50:38 UTC] PHP Fatal error:  Não foi possível incluir Conn.class.php in /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php on line 38
+[15-Aug-2016 02:50:38 UTC] PHP Stack trace:
+[15-Aug-2016 02:50:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 02:50:38 UTC] PHP   2. __autoload() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:18
+[15-Aug-2016 02:50:38 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php:38
+[15-Aug-2016 03:02:02 UTC] PHP Fatal error:  Não foi possível incluir Conn.class.php in /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php on line 38
+[15-Aug-2016 03:02:02 UTC] PHP Stack trace:
+[15-Aug-2016 03:02:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 03:02:02 UTC] PHP   2. __autoload() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:18
+[15-Aug-2016 03:02:02 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php:38
+[15-Aug-2016 11:30:36 UTC] PHP Fatal error:  Não foi possível incluir Conn.class.php in /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php on line 38
+[15-Aug-2016 11:30:36 UTC] PHP Stack trace:
+[15-Aug-2016 11:30:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 11:30:36 UTC] PHP   2. __autoload() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:18
+[15-Aug-2016 11:30:36 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php:38
+[15-Aug-2016 11:39:30 UTC] PHP Fatal error:  Não foi possível incluir Conn.class.php in /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php on line 38
+[15-Aug-2016 11:39:30 UTC] PHP Stack trace:
+[15-Aug-2016 11:39:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 11:39:30 UTC] PHP   2. __autoload() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:18
+[15-Aug-2016 11:39:30 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php:38
+[15-Aug-2016 11:43:01 UTC] PHP Fatal error:  Não foi possível incluir Conn.class.php in /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php on line 38
+[15-Aug-2016 11:43:01 UTC] PHP Stack trace:
+[15-Aug-2016 11:43:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 11:43:01 UTC] PHP   2. __autoload() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:18
+[15-Aug-2016 11:43:01 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php:38
+[15-Aug-2016 11:43:37 UTC] PHP Fatal error:  Não foi possível incluir Conn.class.php in /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php on line 38
+[15-Aug-2016 11:43:37 UTC] PHP Stack trace:
+[15-Aug-2016 11:43:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 11:43:37 UTC] PHP   2. __autoload() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:18
+[15-Aug-2016 11:43:37 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php:38
+[15-Aug-2016 11:44:05 UTC] PHP Fatal error:  Não foi possível incluir Conn.class.php in /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php on line 38
+[15-Aug-2016 11:44:05 UTC] PHP Stack trace:
+[15-Aug-2016 11:44:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 11:44:05 UTC] PHP   2. __autoload() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:18
+[15-Aug-2016 11:44:05 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php:38
+[15-Aug-2016 11:44:18 UTC] PHP Fatal error:  Não foi possível incluir Conn2.class.php in /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php on line 38
+[15-Aug-2016 11:44:18 UTC] PHP Stack trace:
+[15-Aug-2016 11:44:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 11:44:18 UTC] PHP   2. __autoload() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:19
+[15-Aug-2016 11:44:18 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php:38
+[15-Aug-2016 11:45:49 UTC] PHP Fatal error:  Não foi possível incluir Conn.class.php in /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php on line 38
+[15-Aug-2016 11:45:49 UTC] PHP Stack trace:
+[15-Aug-2016 11:45:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 11:45:49 UTC] PHP   2. __autoload() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:18
+[15-Aug-2016 11:45:49 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php:38
+[15-Aug-2016 11:46:18 UTC] PHP Fatal error:  Não foi possível incluir Conn.class.php in /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php on line 38
+[15-Aug-2016 11:46:18 UTC] PHP Stack trace:
+[15-Aug-2016 11:46:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 11:46:18 UTC] PHP   2. __autoload() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:18
+[15-Aug-2016 11:46:18 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php:38
+[15-Aug-2016 11:46:31 UTC] PHP Fatal error:  Não foi possível incluir Conn.class.php in /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php on line 38
+[15-Aug-2016 11:46:31 UTC] PHP Stack trace:
+[15-Aug-2016 11:46:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
+[15-Aug-2016 11:46:31 UTC] PHP   2. __autoload() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:18
+[15-Aug-2016 11:46:31 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php:38

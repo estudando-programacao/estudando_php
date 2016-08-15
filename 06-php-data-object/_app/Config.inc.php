@@ -13,18 +13,18 @@
     
     // function __autoload($Class) { 
         
-    //     $dirName = 'class';
+    //     $dirName = 'Conn';
         
     //     if (file_exists("{$dirName}/{$Class}.class.php")):
     //         require_once("{$dirName}/{$Class}.class.php");
-    //         // echo "O arquivo Config.inc.class existe.<hr>";            
+    //         echo "O arquivo Config.inc.class existe.<hr>";
     //     else:
     //         echo "Erro ao incluir.";
     //     endif;
     // }
     
     function __autoload($Class) {
-        $cDir = ['Conn'];
+        $cDir = array('Conn');
         $iDir = null;
         
         foreach($cDir as $dirName):
@@ -48,19 +48,19 @@
     define('WS_ALERT', 'alert alert-warning');
     define('WS_ERROR', 'alert alert-danger');
     
-    // WSErro :: exibe erros lançados :: front
-    function WSError($ErrMsg, $ErrNo, $ErrDie = null) {
-        $CssClass = ($ErrNo == E_USER_NOTICE ? WS_INFOR : 
-                    ($ErrNo == E_USER_WARNING ? WS_ALERT : 
-                    ($ErrNo == E_USER_ERROR ? WS_ERROR : $ErrNo)
-        ));
+    // // WSErro :: exibe erros lançados :: front
+    // function WSError($ErrMsg, $ErrNo, $ErrDie = null) {
+    //     $CssClass = ($ErrNo == E_USER_NOTICE ? WS_INFOR : 
+    //                 ($ErrNo == E_USER_WARNING ? WS_ALERT : 
+    //                 ($ErrNo == E_USER_ERROR ? WS_ERROR : $ErrNo)
+    //     ));
         
-        echo "<p class='{$CssClass}'>{$ErrMsg}<span classs='ajax_close'>";
+    //     echo "<p class='{$CssClass}'>{$ErrMsg}<span classs='ajax_close'>";
         
-        if($ErrDie):
-            die();
-        endif;
-    }
+    //     if($ErrDie):
+    //         die();
+    //     endif;
+    // }
     
     // PHPErro :: personaliza gatilho do PHP
     function PHPErro($ErrNo, $ErrMsg, $ErrFile, $ErrLine) {
@@ -79,6 +79,6 @@
         
     }
     
-    set_error_handler('PHPErro');
+    // set_error_handler('PHPErro');
     
 ?>
