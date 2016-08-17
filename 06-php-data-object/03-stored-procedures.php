@@ -23,12 +23,14 @@
       // STORED PROCEDURE para trazer resultados com agent_name igual a Chrome
       $Exe->bindValue(":name", "Chrome");
       $Exe->execute();
-      // fetchAll retorna todos os valores resultantes da query, de acordo com o indice
+      // fetchAll retorna e armazena na variável $Chrome
       $Chrome = $Exe->fetchAll(PDO::FETCH_ASSOC);
 
       // debug se $Chrome conter algo
       if($Chrome):
         var_dump($Chrome);
+        echo "<hr>";
+        echo "{$Chrome[0]['agent_name']} tem {$Chrome[0]['agent_views']} visita(s).<hr>";
       endif;
 
       echo "<hr>";
@@ -43,6 +45,8 @@
       // debug se $Safari conter algo
       if($Safari):
         var_dump($Safari);
+        echo "<hr>";
+        echo "{$Safari['agent_name']} tem {$Safari['agent_views']} visita(s).";
       endif;
 
     } catch (PDOException $e) {
