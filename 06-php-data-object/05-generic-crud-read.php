@@ -18,9 +18,10 @@
     // a partir da instância gerada, definimos os parametros
     // note que utilizamos os :links para interligar os dados
     // note o valor que foi declarado para o parametro $ParseString (name=firefox&views=10)
-    $read->ExeRead('ws_siteviews_agent', 'WHERE agent_name = :name AND agent_views >= :views', "name=Safari&views=2");
+    $read->ExeRead('ws_siteviews_agent', 'WHERE agent_name = :name AND agent_views >= :views', "name=Chrome&views=2");
 
     // debug
+    echo "<hr>";
     var_dump($read);
     ?>
 </body>

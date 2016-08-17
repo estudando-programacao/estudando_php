@@ -21,7 +21,7 @@ class Read extends Conn {
     // após a validação, atribuimos a variável o seguinte valor ao parametro Select
     $this->Select = "SELECT * FROM {$Tabela} {$Termos}";
     // executamos o método Execut
-    $this->execute();
+    $this->Execute();
   }
 
   public function getResult() {
