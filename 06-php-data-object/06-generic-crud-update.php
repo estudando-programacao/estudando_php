@@ -14,10 +14,10 @@
     <?php
     require('./_app/Config.inc.php');
     
-    $Dados = ['agent_name' => 'Safari', 'agent_views' => '10'];
+    $Dados = ['agent_name' => 'Safari', 'agent_views' >= '10'];
     
     $update = new Update;
-    $update->ExeUpdate('ws_siteviews_agent', $Dados, "WHERE agent_id = :id", "id=10");
+    $update->ExeUpdate('ws_siteviews_agent', $Dados, "WHERE agent_id >= :id", "id=5");
     
     if ($update->getResult()):
         echo "{$update->getRowCount()} resultado(s) alterados.";
