@@ -15,7 +15,20 @@
 
         $check = new Check;
         
+        $Email = 'td_matos@msn.com';
+        
+        if(Check::Email($Email)):
+            echo 'Email válido!<hr>';
+        else:
+            echo 'Email inválido.<hr>';
+        endif;        
+        
         var_dump($check);
+        echo '<hr>';
+        
+        $Name = "Testando uma frase com vários acentos, para não apresentar problemas.";
+        echo Check::Name($Name) . '<hr>';
+        
         ?>
     </body>
 </html>
