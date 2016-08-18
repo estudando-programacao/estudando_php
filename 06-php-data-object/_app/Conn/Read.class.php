@@ -33,6 +33,7 @@ class Read extends Conn {
       return $this->Read->rowCount();
   }
   
+  // método para efetuar uma leitura completa da query com ParseString
   public function FullRead($Query, $ParseString = null) {
     if(!empty($ParseString)):
       parse_str($ParseString, $this->Places);
@@ -83,8 +84,11 @@ class Read extends Conn {
   private function Execute() {
     $this->Connect();
     try {
+      // pegamos a query
       $this->getSyntax();
+      // preparamos a execução
       $this->Read->execute();
+      // armazenamos na variável Result o retorno do fetchAll
       $this->Result  = $this->Read->fetchAll();
     } catch (PDOException $e) {
       $this->Result = null;

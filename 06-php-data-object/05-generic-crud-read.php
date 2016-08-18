@@ -15,14 +15,26 @@
 
     // criamos objeto a partir da classe Read
     $read = new Read;
+    
     // a partir da instância gerada, definimos os parametros
     // note que utilizamos os :links para interligar os dados
     // note o valor que foi declarado para o parametro $ParseString (name=firefox&views=10)
-    $read->ExeRead('ws_siteviews_agent', 'WHERE agent_name = :name AND agent_views >= :views LIMIT :limit', "name=Chrome&views=8&limit=2");
+    $read->ExeRead('ws_siteviews_agent', 'WHERE agent_name = :name AND agent_views >= :views LIMIT :limit', "name=Chrome&views=1&limit=3");
     $read->setPlaces("name=Firefox&views=10&limit=5");
-    // debug
-    echo "<hr>";
+    $read->setPlaces("name=Safari&views=1&limit=10");
+    
+    // debug    
     var_dump($read);
+    echo "<hr>";
+    
+    // debug com validação
+    if ($read->getRowCount()>= 1):      
+        echo '<hr>';
+        var_dump($read->getResult());        
+    endif;
+    
+    $read->FullRead("SELECT * FROM ws_siteviews_agent LIMIT :limit", "limite=3");
+    
     ?>
 </body>
 </html>
