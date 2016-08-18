@@ -66,7 +66,7 @@ class Create extends Conn {
 
   // suporte para executar a query
   private function Execute() {
-    $this->Connect();[[]]
+    $this->Connect();
     try {
       $this->Create->execute($this->Dados);
       $this->Result = $this->Conn->lastInsertID();

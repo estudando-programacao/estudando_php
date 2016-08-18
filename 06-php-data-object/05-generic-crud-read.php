@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>treinando php</title>
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css"/>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css"/>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.12.4.js"></script>
     <script type="text/javascript">
     </script>
 </head>
@@ -18,8 +18,8 @@
     // a partir da instância gerada, definimos os parametros
     // note que utilizamos os :links para interligar os dados
     // note o valor que foi declarado para o parametro $ParseString (name=firefox&views=10)
-    $read->ExeRead('ws_siteviews_agent', 'WHERE agent_name = :name AND agent_views >= :views', "name=Chrome&views=2");
-
+    $read->ExeRead('ws_siteviews_agent', 'WHERE agent_name = :name AND agent_views >= :views LIMIT :limit', "name=Chrome&views=8&limit=2");
+    $read->setPlaces("name=Firefox&views=10&limit=5");
     // debug
     echo "<hr>";
     var_dump($read);

@@ -8,9 +8,9 @@ class Read extends Conn {
 
   /** @var PDOStatement */
   private $Read;
+  
   /** @var PDO */
   private $Conn;
-
 
   public function ExeRead($Tabela, $Termos = null, $ParseString = null) {
     // verificamos se existe a variável ParseString
@@ -30,12 +30,21 @@ class Read extends Conn {
 
   // retorna uma string com o resultado da query
   public function getRowCount() {
-    return $this->Read->rowCount();
+      return $this->Read->rowCount();
   }
-
-  // public function FullRead($Query, $ParseString = null) {
-  //   $this->;
-  // }
+  
+  public function FullRead($Query, $ParseString = null) {
+    if(!empty($ParseString)):
+      parse_str($ParseString, $this->Places);
+    endif;
+    $this->Execute();
+  }
+  
+  // método (stored procedure) para alterarmos a query de maneira simples (apenas alterando o parse string)
+  public function setPlaces($ParseString) {
+    parse_str($ParseString, $this->Places);
+    $this->Execute();
+  }
 
   /**
   * ****************************************
@@ -56,11 +65,11 @@ class Read extends Conn {
     // verificamos se o atributo Places tem valores
     if($this->Places):
       // para cada indice criado, fazer um bind
-      // note que o parametro Places detém os valores do ParseString, que remetem aos :links
+      // note que o parametro Places detém os valores do ParseString, que remetem aos :links e seus valores
       foreach($this->Places as $Vinculo => $Valor):
         // verificamos se o :link é igual a uma das condições abaixo
         if($Vinculo == 'limit' || $Vinculo == 'offset'):
-          // se sim, tratamos o mesmo com INT
+          // se sim, tratamos valor como INT
           $Valor = (int) $Valor;
         endif;
         // após a verificação, executamos o bind, para de fato gerar a query.
@@ -76,13 +85,12 @@ class Read extends Conn {
     try {
       $this->getSyntax();
       $this->Read->execute();
-      $this->Result = $this->Read->fetchAll();
+      $this->Result  = $this->Read->fetchAll();
     } catch (PDOException $e) {
       $this->Result = null;
       WSError("Erro ao cadastrar: {$e->getMessage()}", $e->getCode());
     }
   }
-
+  
 }
-
 ?>
