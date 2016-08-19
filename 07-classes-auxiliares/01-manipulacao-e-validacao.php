@@ -8,7 +8,7 @@
         <script type="text/javascript">
         </script>
     </head>
-    <body class="container" style="margin-top: 80px;">
+    <body class="container" style="margin-top: 80px; margin-bottom: 80px;">
         <p class="text-center">PDO - Classes auxiliares</p>
         <?php
         require('./_app/Config.inc.php');
@@ -29,6 +29,15 @@
         $Name = "Testando uma frase com vários acentos, para não apresentar problemas.";
         echo Check::Name($Name) . '<hr>';
         
+        $Data = '24/10/1989 13:12:32';
+        $Data = '25/10/1945';
+        echo Check::Data($Data) . '<hr>';
+        
+        $String = "Se hoje é o dia das crianças... Ontem eu disse: o dia da criança é o dia da mãe, dos pais, das professoras, mas também é o dia dos animais, sempre que você olha uma criança, há sempre uma figura oculta, que é um cachorro atrás. O que é algo muito importante!";
+        echo Check::Words($String, 20, '<br><small>Continue lendo...</small>');
+                
         ?>
+        
     </body>
+    
 </html>
