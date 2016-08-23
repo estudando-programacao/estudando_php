@@ -23,7 +23,7 @@
             echo 'Email inválido.<hr>';
         endif;        
         
-        var_dump($check);
+//        var_dump($check);
         echo '<hr>';
         
         $Name = "Testando uma frase com vários acentos, para não apresentar problemas.";
@@ -35,7 +35,14 @@
         
         $String = "Se hoje é o dia das crianças... Ontem eu disse: o dia da criança é o dia da mãe, dos pais, das professoras, mas também é o dia dos animais, sempre que você olha uma criança, há sempre uma figura oculta, que é um cachorro atrás. O que é algo muito importante!";
         echo Check::Words($String, 20, '<br><small>Continue lendo...</small>');
-                
+        
+        echo '<hr><span class="label label-warning">' . Check::CatByName('artigos') . '</span><hr>';
+        echo '<hr><span class="label label-warning">' . Check::CatByName('esportes') . '</span><hr>';
+        echo '<hr><span class="label label-warning">' . Check::CatByName('noticias') . '</span><hr>';
+//        echo '<hr><span class="label label-warning">' . Check::CatByName('internet') . '</span><hr>';
+        
+        echo Check::UserOnline();
+        
         ?>
         
     </body>
