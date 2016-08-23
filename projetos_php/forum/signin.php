@@ -1,62 +1,57 @@
 <?php
+
 //signin.php
 include 'connect.php';
 include 'header.php';
 
 
-echo '<div class-"container">';
+echo '<div class="container">';
+
 echo '<h3>Logar no Fórum</h3>';
 
 //first, check if the user is already signed in. If that is the case, there is no need to display this page
 // verificamos se a sessão já foi iniciada com o usuário em questão
-if(isset($_SESSION['signed_in']) && $_SESSION['signed_in'] == true)
-{
+if (isset($_SESSION['signed_in']) && $_SESSION['signed_in'] == true) {
     echo 'Você já está logado. Você pode <a href="signout.php">deslogar</a> se desejar.';
-}
-else
-{
-    if($_SERVER['REQUEST_METHOD'] != 'POST') {
+} else {
+    if ($_SERVER['REQUEST_METHOD'] != 'POST') {
         echo '
         <form method="post" action="" class="form-group">
-            Username: <input type="text" name="user_name" />
-            Password: <input type="password" name="user_pass">
-            <input type="submit" value="Sign in" />
+            <div class="form-group">
+                <label for="user_name">Usuário</label>
+                <input type="text" name="user_name" class="form-control" placeholder="entre com um usuário" />
+            </div>
+            <div class="form-group">
+                <label for="user_pass">Senha</label>
+                <input type="password" name="user_pass" class="form-control" id="user_pass" placeholder="entre com uma senha">
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Logar" class="btn btn-default">
+            </div>
         </form>';
-    }
-    else
-    {
-        /* so, the form has been posted, we'll process the data in three steps:
-            1.  Check the data
-            2.  Let the user refill the wrong fields (if necessary)
-            3.  Varify if the data is correct and return the correct response
-        */
-        $errors = array(); /* declare the array for later use */
-         
-        if(!isset($_POST['user_name']))
-        {
-            $errors[] = 'The username field must not be empty.';
+    } else {
+
+        // declaramos uma array para armazenar os erros e utiliza-los posteriormente
+        $errors = array();
+
+        if (!isset($_POST['user_name'])) {
+            // verificamos SE o valor inputado no campo user_name contém caracteres alfanuméricos, se não, é apresentado erro
+            $errors[] = 'O campo do nome de usuário não pode estar em branco.';
         }
-         
-        if(!isset($_POST['user_pass']))
-        {
-            $errors[] = 'The password field must not be empty.';
+
+        if (!isset($_POST['user_pass'])) {
+            $errors[] = 'O campo da senha não pode estar em branco.';
         }
-         
-        if(!empty($errors)) /*check for an empty array, if there are errors, they're in this array (note the ! operator)*/
-        {
-            echo 'Uh-oh.. a couple of fields are not filled in correctly..';
+
+        // se a array $errors agregar erros, entramos no laço foreach
+        if (!empty($errors)) {
+            echo 'Os campos a seguir não foram digitados corretamnte:';
             echo '<ul>';
-            foreach($errors as $key => $value) /* walk through the array so all the errors get displayed */
-            {
-                echo '<li>' . $value . '</li>'; /* this generates a nice error list */
+            foreach ($errors as $key => $value) {
+                echo '<li>' . $value . '</li>';
             }
             echo '</ul>';
-        }
-        else
-        {
-            //the form has been posted without errors, so save it
-            //notice the use of mysql_real_escape_string, keep everything safe!
-            //also notice the sha1 function which hashes the password
+        } else {
             $sql = "SELECT 
                         user_id,
                         user_name,
@@ -67,37 +62,24 @@ else
                         user_name = '" . mysql_real_escape_string($_POST['user_name']) . "'
                     AND
                         user_pass = '" . sha1($_POST['user_pass']) . "'";
-                         
+
+            // executamos a query a partir da variável $result, que vai executar a query na variável $sql através 
             $result = mysql_query($sql);
-            if(!$result)
-            {
-                //something went wrong, display the error
-                echo 'Something went wrong while signing in. Please try again later.';
-                //echo mysql_error(); //debugging purposes, uncomment when needed
-            }
-            else
-            {
-                //the query was successfully executed, there are 2 possibilities
-                //1. the query returned data, the user can be signed in
-                //2. the query returned an empty result set, the credentials were wrong
-                if(mysql_num_rows($result) == 0)
-                {
-                    echo 'You have supplied a wrong user/password combination. Please try again.';
-                }
-                else
-                {
-                    //set the $_SESSION['signed_in'] variable to TRUE
+
+            if (!$result) {
+                echo '<div class="alert alert-danger">Ocorreu um erro, tente novamente.</div>';
+                echo mysql_error();
+            } else {                
+                if (mysql_num_rows($result) == 0) {
+                    echo '<div class="alert alert-danger">Seus dados para login estão incorretos, favor tentar novamente.</div';
+                } else {
                     $_SESSION['signed_in'] = true;
-                     
-                    //we also put the user_id and user_name values in the $_SESSION, so we can use it at various pages
-                    while($row = mysql_fetch_assoc($result))
-                    {
-                        $_SESSION['user_id']    = $row['user_id'];
-                        $_SESSION['user_name']  = $row['user_name'];
+                    while ($row = mysql_fetch_assoc($result)) {
+                        $_SESSION['user_id'] = $row['user_id'];
+                        $_SESSION['user_name'] = $row['user_name'];
                         $_SESSION['user_level'] = $row['user_level'];
                     }
-                     
-                    echo 'Welcome, ' . $_SESSION['user_name'] . '. <a href="index.php">Proceed to the forum overview</a>.';
+                    echo '<div class="alert alert-success">Bem vindo, <strong>' . $_SESSION['user_name'] . '. </strong><br><a href="index.php">Prosseguir para o fórum</a></div>';
                 }
             }
         }
@@ -105,6 +87,6 @@ else
 }
 
 echo '</div>';
- 
+
 include 'footer.php';
 ?>
