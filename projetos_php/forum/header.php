@@ -36,7 +36,7 @@
                         <li><a class="item" href="create_cat.php">Criar Categoria</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="item" href="index.php">Entrar</a></li>
+                        <li><a class="item" href="signin.php">Entrar</a></li>
                         <li><a class="item" href="signup.php">Registrar</a></li>
                     </ul>
                 </div>
