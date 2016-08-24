@@ -100,6 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
         } else {
             // se não, apresentamos a mensagem de que o registro foi feito com sucesso
             echo '<div class="container alert alert-success">Registro efetuado com sucesso. Agora você pode <a href="signin.php">entrar</a> no sistema e começar a postar! :)</div>';
+            header('Refresh: 3; URL=signin.php');
         }
     }
 }

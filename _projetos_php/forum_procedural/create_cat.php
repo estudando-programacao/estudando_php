@@ -21,7 +21,8 @@ echo '<h2>Criar Categoria</h2>';
 //
 
 if ($_SESSION['user_level'] == 1) {
-    echo '
+    if ($_SERVER['REQUEST_METHOD'] != 'POST') {
+        echo '
             <form method="post" action="" class="form-group">
                 <div class="form-group">
                     <label for="cat_name">Nome da categoria</label>
@@ -32,23 +33,27 @@ if ($_SESSION['user_level'] == 1) {
                     <textarea  name="cat_description" class="form-control" id="cat_description"></textarea>
                 </div>
                 <div class="form-group">
-                    <input type="submit" value="Adicionar categoria" class="btn btn-default">
+                    <input type="submit" value="Adicionar categoria" class="btn btn-default" >
                 </div>
             </form>
         ';
+    } else {
+        $sql = "INSERT INTO categories(cat_name, cat_description) VALUES('" . mysql_real_escape_string(($_POST['cat_name'])) . "','" . mysql_real_escape_string(($_POST['cat_description'])) . "')";
+        $result = mysql_query($sql);
+        if (!$result) {
+            echo '<div class="alert alert-danger">Ocorreu um erro, tente novamente.</div>';
+        } else {
+            echo '<div class="alert alert-success">Nova categoria adicionada com sucesso.</div>';
+            header('Refresh: 3; URL=./');
+        }
+    }
 } else {
     echo '<div class="alert alert-warning">Você não tem privilégios para criar categorias.</div>';
 }
 
-if ($_SERVER['REQUEST_METHOD'] = 'POST') {
-    $sql = "INSERT INTO categories(cat_name, cat_description) VALUES('" . mysql_real_escape_string(isset($_POST['cat_name'])) . "','" . mysql_real_escape_string(isset($_POST['cat_description'])) . "')";
-    $result = mysql_query($sql);
-    if (!$result) {
-        echo '<div class="alert alert-danger">Ocorreu um erro, tente novamente.</div>';
-    } else {
-        echo '<div class="alert alert-success">Nova categoria adicionada com sucesso.</div>';
-    }
-}
+
+
+
 
 
 echo '</div>';
