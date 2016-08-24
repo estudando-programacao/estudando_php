@@ -9,8 +9,8 @@ echo '<div class="container">';
 echo '<h2>Criar Tópico</h2>';
 
 if ($_SESSION['signed_in'] == false) {
-    echo '<div class="alert alert-danger">Você precisa estar <a href="signin.php">logado</a> para criar um tópico.<hr>Redirecionamento automático em 3 segundos.</div>';
-    header('Refresh: 3; URL=signin.php');
+    echo '<div class="alert alert-warning">Você precisa estar <a href="signin.php">logado</a> para criar um tópico.<hr>Redirecionamento automático em 5 segundos.</div>';
+    header('Refresh: 5; URL=signin.php');
 } else {
     if ($_SERVER['REQUEST_METHOD'] != 'POST') {
         $sql = "SELECT
@@ -71,10 +71,9 @@ if ($_SESSION['signed_in'] == false) {
                                " . mysql_real_escape_string($_POST['topic_cat']) . ",
                                " . $_SESSION['user_id'] . "
                    )";
-
-            $result = mysql_query($sql);
+            $result = mysql_query($sql);            
             if (!$result) {
-                echo '<div class="aler alert-danger">Erro ao inserir informações. Tente novamente</div>' . mysql_error();
+                echo '<div class="alert alert-danger">Erro ao inserir informações. Tente novamente</div>' . mysql_error();
                 $sql = "ROLLBACK;";
                 $result = mysql_query($sql);
             } else {
@@ -94,13 +93,13 @@ if ($_SESSION['signed_in'] == false) {
                 $result = mysql_query($sql);
 
                 if (!$result) {
-                    echo 'An error occured while inserting your post. Please try again later.' . mysql_error();
+                    echo 'Ocorreu um erro. Tente novamente mais tarde.' . mysql_error();
                     $sql = "ROLLBACK;";
                     $result = mysql_query($sql);
                 } else {
                     $sql = "COMMIT;";
                     $result = mysql_query($sql);
-                    echo 'You have successfully created <a href="topic.php?id=' . $topicid . '">your new topic</a>.';
+                    echo '<div class="alert alert-success">O <a href="topic.php?id=' . $topicid . '">tópico</a> foi criado com sucesso.';
                 }
             }
         }

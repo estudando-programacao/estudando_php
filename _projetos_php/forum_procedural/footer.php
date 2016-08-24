@@ -5,7 +5,7 @@
 <div class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fórum</a>            
+            <a class="navbar-brand" href="#">Forum</a>            
         </div>
         <p class="navbar-text navbar-right">Criado por 
             <strong><a href="//thierryrenewebdev.com" class="navbar-link">thiery rene matos</a></strong>

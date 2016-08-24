@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Forum - testando conhecimentos em PHP</title>
         <!-- Bootstrap -->
-        <!--<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">-->
-        <!--<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/readable/bootstrap.min.css" rel="stylesheet">-->
         <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
+        <!--<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/readable/bootstrap.min.css" rel="stylesheet">-->
+        <!--<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css" rel="stylesheet">-->
         <link href="css/style.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,7 +28,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="./">Fórum</a>
+                    <a class="navbar-brand" href="./">Forum</a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse-1">                    
                     <ul class="nav navbar-nav navbar-left">
@@ -36,8 +36,8 @@
                         <li><a class="item" href="create_cat.php">Criar Categoria</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="item" href="signin.php">Entrar</a></li>
-                        <li><a class="item" href="signup.php">Registrar</a></li>
+                        <li><a class="item" href="signin.php" class="btn btn-xs btn-primary">Entrar</a></li>
+                        <li><a class="item" href="signup.php" class="btn btn-xs btn-primary">Registrar</a></li>
                     </ul>
                 </div>
             </div>
@@ -57,13 +57,5 @@
             ?>
         </div>
 
-<?php
-//        $error = false;
-//        if ($error = false) {
-//            echo '<div class="container alert alert-success">conteúdo incluido com sucesso.</div>';
-//        } else {
-//            echo '<div class="container alert alert-danger">erro.<br><small>não foi possível incluir o conteúdo.</small></div>';
-//        }
-?>
 
 

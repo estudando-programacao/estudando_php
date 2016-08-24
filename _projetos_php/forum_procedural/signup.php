@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
             <input type="email" name="user_email" class="form-control" id="user_email" placeholder="entre com um e-mail">            
         </div>
         <div class="form-group">
-            <input type="submit" value="Adicionar Categoria" class="btn btn-default">
+            <input type="submit" value="Adicionar Usuário" class="btn btn-default">
         </div>
      </form>
     ';
