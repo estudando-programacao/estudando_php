@@ -2,7 +2,9 @@
 
 include 'connect.php';
 include 'header.php';
- 
+
+echo '<div class="container">';
+
 $sql = "SELECT
             cat_id,
             cat_name,
@@ -39,6 +41,8 @@ else
         }
     }
 }
+
+echo '</div>';
  
 include 'footer.php';
 

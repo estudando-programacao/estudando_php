@@ -77,7 +77,7 @@ if (isset($_SESSION['signed_in']) && $_SESSION['signed_in'] == true) {
                         $_SESSION['user_name'] = $row['user_name'];
                         $_SESSION['user_level'] = $row['user_level'];
                     }
-                    echo '<div class="alert alert-success">Bem vindo, <strong>' . $_SESSION['user_name'] . '. </strong><br><a href="index.php">Prosseguir para o fórum</a> (redirecionamento automático em 5 segundos)</div>';
+                    echo '<div class="alert alert-success">Bem vindo, <strong>' . $_SESSION['user_name'] . '. </strong><hr><a href="index.php">Prosseguir para o fórum</a> (redirecionamento automático em 5 segundos)</div>';
                     header('Refresh: 5; URL=./');
                 }
             }

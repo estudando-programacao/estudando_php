@@ -18,7 +18,7 @@
         <![endif]-->
     </head>
     <body>        
-    
+
         <nav class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
@@ -44,26 +44,26 @@
         </nav>
 
         <div class="container alert alert-info" role="alert">
-            <?php            
-            
-            session_start();
-            
-                if (isset($_SESSION['signed_in']) && $_SESSION['signed_in'] == true) {
-                    echo '<p>Olá ' . $_SESSION['user_name'] . '. <hr><a href="signout.php" class="btn btn-danger btn-xs">Não é você? Logout</a></small></p>';
-                } else {
-                    echo '<a href="signin.php">Logue no sistema</a> ou <a href="signup.php">crie uma conta</a>.';
-                }
-                
+            <?php
+            if (session_status() == PHP_SESSION_NONE) {
+                session_start();
+            }
+
+            if (isset($_SESSION['signed_in']) && $_SESSION['signed_in'] == true) {
+                echo '<p>Olá <kbd>' . $_SESSION['user_name'] . '</kbd>. <hr><a href="signout.php" class="btn btn-danger btn-xs">Não é você? Logout</a></small></p>';
+            } else {
+                echo '<a href="signin.php" class="btn btn-xs btn-success">Logue no sistema</a> ou <a href="signup.php" class="btn btn-xs btn-success">crie uma conta</a>';
+            }
             ?>
         </div>
-      
-        <?php
+
+<?php
 //        $error = false;
 //        if ($error = false) {
 //            echo '<div class="container alert alert-success">conteúdo incluido com sucesso.</div>';
 //        } else {
 //            echo '<div class="container alert alert-danger">erro.<br><small>não foi possível incluir o conteúdo.</small></div>';
 //        }
-        ?>
+?>
 
 

@@ -9,7 +9,8 @@ echo '<div class="container">';
 echo '<h2>Criar Tópico</h2>';
 
 if ($_SESSION['signed_in'] == false) {
-    echo 'Desculpe, você precisa estar <a href="/forum/signin.php">logado</a> para criar um tópico.';
+    echo '<div class="alert alert-danger">Você precisa estar <a href="signin.php">logado</a> para criar um tópico.<hr>Redirecionamento automático em 3 segundos.</div>';
+    header('Refresh: 3; URL=signin.php');
 } else {
     if ($_SERVER['REQUEST_METHOD'] != 'POST') {
         $sql = "SELECT
