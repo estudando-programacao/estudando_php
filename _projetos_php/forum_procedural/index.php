@@ -32,7 +32,7 @@ else
         while($row = mysql_fetch_assoc($result)) {               
             echo '<tr>';
                 echo '<td>';
-                    echo '<h3><a href="category.php?id">' . $row['cat_name'] . '</a></h3>' . $row['cat_description'];
+                    echo '<h3><a href="category.php?id=' . $row['cat_id'] . '">' . $row['cat_name'] . '</a></h3>' . $row['cat_description'];
                 echo '</td>';
                 echo '<td>';
                             echo '<a href="topic.php?id=">Topic subject</a> at 10-10';

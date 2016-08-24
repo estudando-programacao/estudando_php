@@ -50,7 +50,7 @@
             }
 
             if (isset($_SESSION['signed_in']) && $_SESSION['signed_in'] == true) {
-                echo '<p>Olá <kbd>' . $_SESSION['user_name'] . '</kbd>. <hr><a href="signout.php" class="btn btn-danger btn-xs">Não é você? Logout</a></small></p>';
+                echo '<p>Olá <b>' . $_SESSION['user_name'] . '</b>. <hr><a href="signout.php" class="btn btn-danger btn-xs">Não é você? Logout</a></small></p>';
             } else {
                 echo '<a href="signin.php" class="btn btn-xs btn-success">Logue no sistema</a> ou <a href="signup.php" class="btn btn-xs btn-success">crie uma conta</a>';
             }
