@@ -44,7 +44,15 @@
         </nav>
 
         <div class="container alert alert-info" role="alert">
-            <h3>Olá Usuário!<br><small>Não é você? Logout.</small></h3>
+            <?php            
+
+                if($_SESSION['signed_in']) {
+                    echo '<h3>Olá' . $_SESSION['user_name'] . '. <small>Não é você? <a href="signout.php">Sair.</a></small></h3>';
+                } else {
+                    echo '<a href="signin.php">Logue no sistema</a> ou <a href="signup.php">crie uma conta</a>.';
+                }      
+                
+            ?>
         </div>
 
         <!--<div class="container" id="content"></div>-->        

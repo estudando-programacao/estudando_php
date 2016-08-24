@@ -1,6 +1,5 @@
 <?php
 
-//signin.php
 include 'connect.php';
 include 'header.php';
 
@@ -9,7 +8,6 @@ echo '<div class="container">';
 
 echo '<h3>Logar no Fórum</h3>';
 
-//first, check if the user is already signed in. If that is the case, there is no need to display this page
 // verificamos se a sessão já foi iniciada com o usuário em questão
 if (isset($_SESSION['signed_in']) && $_SESSION['signed_in'] == true) {
     echo 'Você já está logado. Você pode <a href="signout.php">deslogar</a> se desejar.';
