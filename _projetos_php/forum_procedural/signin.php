@@ -10,7 +10,7 @@ echo '<h3>Logar no Fórum</h3>';
 
 // verificamos se a sessão já foi iniciada com o usuário em questão
 if (isset($_SESSION['signed_in']) && $_SESSION['signed_in'] == true) {
-    echo 'Você já está logado. Você pode <a href="signout.php">deslogar</a> se desejar.';
+    echo 'Você já está logado. Você pode <a href="signout.php" class="btn btn-danger btn-xs">deslogar</a> se desejar.';
 } else {
     if ($_SERVER['REQUEST_METHOD'] != 'POST') {
         echo '
@@ -67,7 +67,7 @@ if (isset($_SESSION['signed_in']) && $_SESSION['signed_in'] == true) {
             if (!$result) {
                 echo '<div class="alert alert-danger">Ocorreu um erro, tente novamente.</div>';
                 echo mysql_error();
-            } else {                
+            } else {
                 if (mysql_num_rows($result) == 0) {
                     echo '<div class="alert alert-danger">Seus dados para login estão incorretos, favor tentar novamente.</div';
                 } else {

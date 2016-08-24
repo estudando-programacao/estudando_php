@@ -18,7 +18,7 @@
         <![endif]-->
     </head>
     <body>        
-
+    
         <nav class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
@@ -48,23 +48,22 @@
             
             session_start();
             
-                if($_SESSION['signed_in']) {
-                    echo '<h3>Olá ' . $_SESSION['user_name'] . '. <br><small>Não é você? <a href="signout.php">Sair.</a></small></h3>';
+                if (isset($_SESSION['signed_in']) && $_SESSION['signed_in'] == true) {
+                    echo '<p>Olá ' . $_SESSION['user_name'] . '. <hr><a href="signout.php" class="btn btn-danger btn-xs">Não é você? Logout</a></small></p>';
                 } else {
                     echo '<a href="signin.php">Logue no sistema</a> ou <a href="signup.php">crie uma conta</a>.';
-                }      
+                }
                 
             ?>
         </div>
-
-        <!--<div class="container" id="content"></div>-->        
+      
         <?php
-        $error = false;
-        if ($error = false) {
-            echo '<div class="container alert alert-success">conteúdo incluido com sucesso.</div>';
-        } else {
-            echo '<div class="container alert alert-danger">erro.<br><small>não foi possível incluir o conteúdo.</small></div>';
-        }
+//        $error = false;
+//        if ($error = false) {
+//            echo '<div class="container alert alert-success">conteúdo incluido com sucesso.</div>';
+//        } else {
+//            echo '<div class="container alert alert-danger">erro.<br><small>não foi possível incluir o conteúdo.</small></div>';
+//        }
         ?>
 
 
