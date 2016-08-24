@@ -47,7 +47,8 @@ if (!$result) {
                       <tr>
                         <th>Tópico</th>
                         <th>Criado em</th>
-                      </tr>';
+                      </tr>
+                      ';
 
                 while ($row = mysql_fetch_assoc($result)) {
                     echo '<tr>';
@@ -67,4 +68,5 @@ if (!$result) {
 echo '</div>';
 
 include 'footer.php';
+
 ?>
