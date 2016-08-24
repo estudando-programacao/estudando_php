@@ -45,9 +45,11 @@
 
         <div class="container alert alert-info" role="alert">
             <?php            
-
+            
+            session_start();
+            
                 if($_SESSION['signed_in']) {
-                    echo '<h3>Olá' . $_SESSION['user_name'] . '. <small>Não é você? <a href="signout.php">Sair.</a></small></h3>';
+                    echo '<h3>Olá ' . $_SESSION['user_name'] . '. <br><small>Não é você? <a href="signout.php">Sair.</a></small></h3>';
                 } else {
                     echo '<a href="signin.php">Logue no sistema</a> ou <a href="signup.php">crie uma conta</a>.';
                 }      

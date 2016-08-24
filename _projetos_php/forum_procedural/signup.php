@@ -99,7 +99,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
             echo mysql_error();
         } else {
             // se não, apresentamos a mensagem de que o registro foi feito com sucesso
-            echo 'Registro efetuado com sucesso. Agora você pode <a href="signin.php">entrar</a> no sistema e começar a postar! :)';
+            echo '<div class="container alert alert-success">Registro efetuado com sucesso. Agora você pode <a href="signin.php">entrar</a> no sistema e começar a postar! :)</div>';
         }
     }
 }
