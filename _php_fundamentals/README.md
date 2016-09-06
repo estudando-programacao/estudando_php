@@ -315,7 +315,46 @@ echo $ultimoValor;
 
 // este apresenta a array sem o ultimo valor que foi removido.
 print_r($array);
+```
 
+void unset (mixed $var [,mixed $... ]) - remove o valor de uma variável. com ele podemos remover o valor de determinada chave na array.
+
+```
+$array ('string1', 'string2'. 'string3');
+unset($array[1], $array[0]);
+// se a chave for uma string, basta apontar a string em questão
+unset($array['string1']);
+```
+
+bool sort (array &$array [,int $sort_flags = SORT_REGULAR ]) - randomiza os valores de uma array. 
+
+```
+$array ('string1', 'string2'. 'string3');
+sort($array);
+```
+
+Ao randomizar uma array associativa, os valores das chaves são substituidos pelo indice. Podemos preservar os valores do índices, podemos usar o método asort.
+
+bool asort (array &$array [,int $sort_flags = SORT_REGULAR ])
+
+```
+$array ('string1', 'string2'. 'string3');
+asort($array);
+```
+
+bool ksort (array &$array [,int $sort_flags = SORT_REGULAR ]) - determina a ordem de uma array através do indice.
+
+```
+$array ('string1', 'string2'. 'string3');
+ksort($array);
+```
+
+int count(mixed $array_or_countable [,int $mode = COUNT_NORMAL]) - retorna o número de valores de uma array ou objeto.
+
+```
+$array ('string1', 'string2'. 'string3');
+count($authors);
+```
 
 
 
