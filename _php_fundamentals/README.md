@@ -24,6 +24,9 @@ echo defined('CHECK_CONSTANT');
 ```
 
 ### Funções
+
+Um bloco de código que executa determinada ação. Uma função pode ter parametrôs.
+
 ```
 // --------------------------------
 // criando função
@@ -32,6 +35,7 @@ function createName($parameter, $anotherParameter) {
 	echo 'teste';
 }
 ```
+Após criar uma função, podemos executa-la da seguinte maneira.
 
 ```
 // --------------------------------
@@ -39,7 +43,7 @@ function createName($parameter, $anotherParameter) {
 // --------------------------------
 createName();
 ```
-
+Definindo parametros para uma função. Podemos definir diversos parametro apenas seperando as variáveis por virgula.
 ```
 // --------------------------------
 // definindo paramentros
@@ -50,14 +54,14 @@ function bookBy($authorName, $year) {
 echo $authorName;
 }
 ```
-
+Definindo valores para os parametros de uma função.
 ```
 // --------------------------------
 // definindo valor para o parametros
 // --------------------------------
 bookBy('rafael do gueto', 1910);
 ```
-
+Outra maneira de definir o valor, primeiro atribuindo o valor a variável e depois chamando a função a função com base nos parametros.
 ```
 // --------------------------------
 // definindo valor 2
@@ -66,7 +70,7 @@ $authorName = 'rafael do gueto';
 $year = 1910;
 bookBy($authorName, $year);
 ```
-
+Definindo valores padrões para os parametros
 ```
 // --------------------------------
 // todos os parametros padrões devem estar no fim da função, todos os parametros requisitados devem estar no início.
@@ -78,10 +82,10 @@ echo $authorName;
 }
 bookBy($authorName, $year);
 ```
-
+Retornando valores com uma função. A intenção é que uma função sempre retorne um valor.
 ```
 // --------------------------------
-// retornando valor com funções
+// retornando valores com funções
 // --------------------------------
 function bookBy($authorName, $year = 1910) {
 	echo $year;
@@ -94,7 +98,7 @@ Function getAuthon() {
 $authorName = getAuthor();
 bookBy($authorName, $year);
 ```
-
+Podemos também atribuir uma função a uma variável, e utilizar a variável como se fosse uma função.
 ```
 // --------------------------------
 // funções com variáveis / atribuindo uma função a uma variável
@@ -224,6 +228,7 @@ echo $quote;
 ```
 
 ### Arrays
+
 
 
 
