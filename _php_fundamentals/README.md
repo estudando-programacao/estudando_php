@@ -240,12 +240,84 @@ array(10, 10, 10);
 array['string', 'string'];
 ```
 
-Declarando uma array em uma variável.
+Array indexada - declarando uma array em uma variável.
 
 ```
 $arrayOne = array(10, 10, 10);
 $arrayTwo = array['string', 'string'];
+$arrayThree = array[10, 1.5, 'string', 'string plus string', 10];
 ```
+
+Podemos printar uma array com o print_r. O print_r retorna a array de forma legível, com as chaves. cada chave representa um valor.
+
+```
+$array = array(10, 10, 10);
+print_r($array);
+```
+
+Array associativa - toda vez que alteramos/definimos uma chave do array, transformamos uma array indexada em array associativa. o "=>" referencia a chave ao valor.
+
+```
+$arrayAssociativa = array(
+	'quark' => 'charles dickens',
+	10 => 'jane austen',
+	'key' => 'value',
+	// note que declaramos um valor sem uma chave. neste caso o php vai definir a chave automaticamente a partir da ultima chave gerada.
+	'machado de assis'
+);
+```
+
+Podemos utilizar algum valor em especifico do array, apontando a chave.
+
+```
+// printando valor da chave 0
+echo $array[0];
+// printando valor da chave 1
+echo $array[1];
+// printando valor de uma array associativa
+echo $arrayAssociativa['quark'];
+```
+
+bool array_key_exists (mixed $key, array $array) - Podemos veriricar se uma chave existe com a seguinte função.
+
+```
+// array_key_exists utiliza dois parametros, o primeiro é chave e o segundo é a array. no exemplo abaixo checamos se existe valor na chave zero da $array, que nos deve retornar o valor 0-nao ou 1-sim (checagem boleana).
+echo array_key_exists(0, $array);
+```
+
+bool in_array (mixed $needle, array $haystack [,bool $strict = FALSE]) - para checar se um valor existe na array. o terceiro parametro pode ser utilizado para checar se o tipo de dados é o mesmo.
+
+```
+// se o valor existir na array e for do mesmo tipo do valor solicitado, retornamos 1, se não, 0.
+echo in_array('machado de assim', $array, true);
+```
+
+int array_push (array &$array, mixed $value1 [,mixed $... ]) - adiciona um ou mais valores ao fim de uma array. o array_push funciona apenas com arrays indexadas, retorna erro se utilizado com array associativa.
+
+```
+// adicionando valores no array de forma tradicional
+$array ('string1', 'string2'. 'string3');
+array_push($array, 'string4');
+// forma abreviada
+$array[] = 'string5';
+// definindo a chave que vai ter o valor alterado
+$array['key'] = 'string6';
+```
+
+mixed array_pop (array &$array) - remove o ultimo item de uma array.
+
+```
+$array ('string1', 'string2'. 'string3');
+$ultimoValor = array_pop($array);
+
+// este retorna o ultimo valor removido do array.
+echo $ultimoValor;
+
+// este apresenta a array sem o ultimo valor que foi removido.
+print_r($array);
+
+
+
 
 
 
