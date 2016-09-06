@@ -354,11 +354,60 @@ int count(mixed $array_or_countable [,int $mode = COUNT_NORMAL]) - retorna o nú
 ```
 $array ('string1', 'string2'. 'string3');
 count($authors);
+count($authors, COUNT_RECURSIVE);
 ```
 
+foreach loop - com o loop for each podemos executar alguma ação com base em cada índice.
 
+```
+$authors = array(
+	'key1' => 'string1',
+	'key2' => 'string2',
+	'key3' => 'string3',
+	'key4' => 'string4',
+);
+foreach ($authors as $key => $val) {
+	echo $val. '('.$key.')\n';
+}
+```
 
+Multi dimensional array - arrays dentro de arrays. podemos declarar uma array dentro de uma chave
 
+```
+$author = array(
+	'masculino' => array (
+		'machado de assis' => array (
+			'braz cubas',
+			'dom casmurro'
+		),
+		'carlos drummond' => array (
+			'poesia1',
+			'poesia2'
+		)
+	),
+	'feminino' => array (
+		'clarice lispector' => array (
+			'livro1',
+			'livro2'
+		),
+		'ivete semgalo' => array (
+			'teste1',
+			'teste2'
+		)
+	)
+);
+```
+
+Para escolher o valor a ser retornado, podemos utilizar o método a seguir.
+
+```
+// retorna todos os valores da array masculino
+print_r($authors['masculino']);
+// retorna todos os valores da array feminino
+print_r($authors['feminino']);
+// para retornar o valor de algum item dentro destes, basta especificar as chaves
+print_r($authors[masculino][machado de assis]);
+```
 
 
 
