@@ -298,8 +298,10 @@ int array_push (array &$array, mixed $value1 [,mixed $... ]) - adiciona um ou ma
 // adicionando valores no array de forma tradicional
 $array ('string1', 'string2'. 'string3');
 array_push($array, 'string4');
+
 // forma abreviada
 $array[] = 'string5';
+
 // definindo a chave que vai ter o valor alterado
 $array['key'] = 'string6';
 ```
@@ -322,6 +324,7 @@ void unset (mixed $var [,mixed $... ]) - remove o valor de uma variável. com el
 ```
 $array ('string1', 'string2'. 'string3');
 unset($array[1], $array[0]);
+
 // se a chave for uma string, basta apontar a string em questão
 unset($array['string1']);
 ```
@@ -403,8 +406,10 @@ Para escolher o valor a ser retornado, podemos utilizar o método a seguir.
 ```
 // retorna todos os valores da array masculino
 print_r($authors['masculino']);
+
 // retorna todos os valores da array feminino
 print_r($authors['feminino']);
+
 // para retornar o valor de algum item dentro destes, basta especificar as chaves
 print_r($authors[masculino][machado de assis]);
 ```
