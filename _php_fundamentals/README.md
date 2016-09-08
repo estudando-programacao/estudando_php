@@ -411,11 +411,68 @@ print_r($authors['masculino']);
 print_r($authors['feminino']);
 
 // para retornar o valor de algum item dentro destes, basta especificar as chaves
-print_r($authors[masculino][machado de assis]);
+print_r($authors[masculino][machado de assis][1]);
 ```
 
+Classes
 
+Classes ajudam na reutilização do código atual, na manutenção e no encapsulamento.
 
+Criando uma class
+
+```
+class Pessoa {
+	
+}
+```
+
+Criando um objeto da class.
+
+```
+$pessoaProfessor = new Pessoa();
+```
+
+Definindo propriedades para a class.
+
+```
+class Pessoa {
+	public $firsName = 'thierry rene';
+	public $lastName = 'matos';
+	public $yearBorn = 1989;
+}
+```
+
+Acessando a propriedade de um objeto.
+
+```
+// o sinal -> é um object operator, ou operador de objetos. utilizamos para acessar as propriedades de um objeto. 
+$pessoaProfessor->firstName;
+// definido valor
+$pessoaProfessor->firstName = 'thierry rene matos';
+```
+
+Definindo constantes em uma class.
+
+```
+class Pessoa {
+	const AVG_LIFE_SPAN = 79;
+	
+	public $firsName = 'thierry rene';
+	public $lastName = 'matos';
+	public $yearBorn = 1989;
+}
+```
+
+Acessando os dados de uma constante.
+
+```
+// utilizamos o scope resolution operator :: para acessar os dados de uma constante
+echo $pessoaProfessor::AVG_LIFE_SPAN;
+// também podemos acessar diretamente da class
+echo Person::AVG_LIFE_SPAN;
+```
+
+Criando métodos na class.
 
 
 
