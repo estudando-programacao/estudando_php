@@ -577,4 +577,35 @@ class Pessoa {
 	public function setFirstName($tempName) {
 		$this->firstName = $tempName;
 	};
-}
+};
+```
+
+Definindo parametros obrigatórios para um novo objeto através de um contrutor.
+
+```
+class Pessoa {
+	public $firstName;
+	public $lastName;
+	public $yearBorn;
+	
+	// note que definimos parametros dentro da função, que são linkados aos valores do objeto, quando este é criado / podemos definir aqui no construtor uma string vazia, para evitar erro ao criar o objeto sem valores.
+	function __construct($firstName = '', $lastName = '', $yearBorn = '') {
+		$this->firstName = $firstName;
+		$this->lastName = $lastName;
+		$this->yearBorn = $yearBorn;
+	};
+	
+	public function getFirstName() {
+		return $this->firstName;
+	};
+	
+	public function setFirstName($firstName) {
+		$this->firstName = $firstName;
+	};
+};
+
+// ao criar um objeto, somos obrigados a declarar os valores de cada parametro, se não é apresentado erro.
+$pessoaBombeiro = new Pessoa('thierry', 'rene', 26);
+// note que utilizamos o metodo atraves do objeto
+echo $pessoaBombeiro->getFirstName();
+```
