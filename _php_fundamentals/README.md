@@ -414,7 +414,7 @@ print_r($authors['feminino']);
 print_r($authors[masculino][machado de assis][1]);
 ```
 
-Classes
+### Classes
 
 Classes ajudam na reutilização do código atual, na manutenção e no encapsulamento.
 
@@ -474,7 +474,107 @@ echo Person::AVG_LIFE_SPAN;
 
 Criando métodos na class.
 
+métodos são funções que executam ações dentro de uma class.
 
+```
+class Pessoa {
+	const AVG_LIFE_SPAN = 79;
+	
+	public $firsName = 'thierry rene';
+	public $lastName = 'matos';
+	public $yearBorn = 1989;
+	
+	// metodo get
+	public function getFirstName() {
+		
+	};
+	
+	// metodo set
+	public function setFirstName($tempName) {
+		
+	}
+}
+```
 
+Peseudo variável $this
 
+O $this é uma referencia direta ao atual objeto/class. Neste caso, ao utilizar o $this, podemos alterar as propriedades da classe.
 
+```
+class Pessoa {
+	const AVG_LIFE_SPAN = 79;
+	
+	public $firstName = 'thierry rene';
+	public $lastName = 'matos';
+	public $yearBorn = 1989;
+	
+	// metodo get
+	public function getFirstName() {
+		// utilizamos o $this para retornar o valor da propriedade $firstName
+		return $this->firstName;
+	};
+	
+	// metodo set
+	public function setFirstName($tempName) {
+		// utilizamos o $this para referenciar o metodo set
+		$this->firstName = $tempName;
+	}
+}
+```
+
+Acessandos os metodos através de um objeto. Note que neste exemplo não utilizamos o $this, pois não estamos trabalhando dentro da class/objeto, então devemos referenciar o objeto criado.
+
+```
+class Pessoa {
+	const AVG_LIFE_SPAN = 79;
+	
+	public $firstName = 'thierry rene';
+	public $lastName = 'matos';
+	public $yearBorn = 1989;
+	
+	// metodo get
+	public function getFirstName() {
+		// utilizamos o $this para retornar o valor da propriedade $firstName
+		return $this->firstName;
+	};
+	
+	// metodo set
+	public function setFirstName($tempName) {
+		// utilizamos o $this para referenciar o metodo set
+		$this->firstName = $tempName;
+	}
+}
+
+// criamos o objeto
+$pessoaProfessor = new Pessoa();
+
+// utilizamos o metodo set através do objeto criado
+$pessoaProfessor->setFirstName('thierry rene');
+
+// utilizamos o metodo get atraves do objeto criado
+$pessoaProfessor->getFirstName();
+```
+
+Contrutores - utilizamos os construtores para definir os valores padrões de um objeto. Todo objeto criado a partir de uma class com construtor, já recebe valores padrões.
+
+```
+class Pessoa {
+	public $firstName;
+	public $lastName;
+	public $yearBorn;
+	
+	// note que os valores padrões da função agora são declarados no construtor, para que cada objeto, ao ser criado, possa utiliza-los.
+	function __construct() {
+		$this->firstName = 'thierry rene';
+		$this->lastName = 'matos';
+		$this->yearBorn = 1989;
+	};
+	
+	public function getFirstName() {
+		return $this->firstName;
+	};
+	
+	public function setFirstName($tempName) {
+		$this->firstName = $tempName;
+	};
+}
