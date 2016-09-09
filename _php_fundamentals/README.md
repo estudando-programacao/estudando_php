@@ -611,9 +611,7 @@ $pessoaBombeiro = new Pessoa('thierry', 'rene', 26);
 echo $pessoaBombeiro->getFirstName();
 ```
 
-Herença - pense no conceito, se um pai tem diversas qualidades, seu filho deve herda-las.
-
-O conceito de herença na programação determina que podemos extender as funcionalidades de uma class (pai) para outra class (filha).
+Herença - pense no conceito, se um pai tem diversas qualidades, seu filho deve herda-las. O conceito de herença na programação determina que podemos extender as funcionalidades de uma class (pai) para outra class (filha).
 
 ```
 // class pai (Pessoa)
@@ -657,8 +655,51 @@ Class Policial extends Pessoa {
 // criamos um objeto a partir da nossa classe filha Policial
 // agora esse objeto tem acesso a todos os métodos da class Pessoa, conforme os exemplos abaixo, onde definimos o objeto declarando os dados do construtor presente na class Pessoa.
 $newPubFun = new Policial('marcos', 'saldanha', 55);
-echo $newPubFun->get
+echo $newPubFun->getFullName();
 ```
+
+Propriedade Protegida - define que as propriedades e métodos só podem ser acessadas pela classe que as criou e pelas classes filhas que a herdarem. Para acessar estes dados, precisamos criar métodos getter e setters dentro da class, não podemos acessa-los diretamente através da variável.
+
+```
+Class Policial extends Pessoa {
+	protected $steveName = 'steve';
+	
+	public function getSteveName() {
+		return $this->steveName.PHP_EOL; 
+	}
+}
+
+// se tentarmos alterar o valor do $steveName fora da class, conforme o exemplo abaixo, é apresentado erro, pois dados protegidos só podem ser manipulados dentro da propria class.
+$newPubFun = new Policial();
+$newPubFun->steveName('thierry');
+```
+
+Propriedade privada - a propriedade privada torna exclusivo da class o uso da propriedade, ou seja, não pode ser utilizada por classes filha muito menos fora da class.
+
+```
+class Policial extends Pessoa {
+	private $steveName = 'steve';
+	private $steveFullName = 'steve da silva';
+	public function getFullName() {
+		return $this->steveName.PHP_EOL;
+	}
+	public function getCompleteName() {
+		// chamamos a função getFullName, que retorna o nome completo através da propriedade $steveFullName e depois o valor do $steveName
+		return $this->getFullName.' a.k.a '.$this->steveName();
+	}
+}
+$newPubFun = new Policial();
+
+// para retornar utilizar os valores fora da class, utilizamos os métodos criados, ou criamos algum método para interagir com os dados.
+// forma correta de retornar dados
+$newPubFun->getFullName();
+
+// forma incorreta de requisitar dados de uma propriedade privada.
+// LEMBRAR SEMPRE QUE UMA PROPRIEDADE PRIVADA PODE APENAS SER UTILIZADA DENTRO DA CLASS QUE A CRIOU.
+$newPubFun->steveFullName('thierry rene matos');
+```
+
+
 
 
 
