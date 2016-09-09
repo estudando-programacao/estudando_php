@@ -606,6 +606,60 @@ class Pessoa {
 
 // ao criar um objeto, somos obrigados a declarar os valores de cada parametro, se não é apresentado erro.
 $pessoaBombeiro = new Pessoa('thierry', 'rene', 26);
+
 // note que utilizamos o metodo atraves do objeto
 echo $pessoaBombeiro->getFirstName();
 ```
+
+Herença - pense no conceito, se um pai tem diversas qualidades, seu filho deve herda-las.
+
+O conceito de herença na programação determina que podemos extender as funcionalidades de uma class (pai) para outra class (filha).
+
+```
+// class pai (Pessoa)
+class Pessoa {
+	public $firstName;
+	public $lastName;
+	public $yearBorn;
+	
+	function __construct($firstName = '', $lastName = '', $yearBorn = '') {
+		echo 'Construtor Pessoa'.PHP_EOL;
+		$this->firstName = $firstName;
+		$this->lastName = $lastName;
+		$this->yearBorn = $yearBorn;
+	};
+	
+	public function getFirstName() {
+	
+		// a constante PHP_OEL é uma forma de quebrar linha compátivel com qualquer SO.
+		return $this->firstName.PHP_EOL;
+	};
+	public function setFirstName($firstName) {
+		$this->firstName = $firstName;
+	};
+	public function getFullName() {
+		echo 'Pessoa->getFullName()'.PHP_EOL;
+		return $this->firstName. ' ' .$this->lastName.PHP_EOL; 
+	}
+	
+};
+
+// class filha (Policial)
+// criamos uma nova class para extender as funcionalidades da class pessoa
+Class Policial extends Pessoa {
+	public $steveName = 'steve';
+	
+	public function getSteveName() {
+		return $this->steveName.PHP_EOL; 
+	}
+}
+
+// criamos um objeto a partir da nossa classe filha Policial
+// agora esse objeto tem acesso a todos os métodos da class Pessoa, conforme os exemplos abaixo, onde definimos o objeto declarando os dados do construtor presente na class Pessoa.
+$newPubFun = new Policial('marcos', 'saldanha', 55);
+echo $newPubFun->get
+```
+
+
+
+
