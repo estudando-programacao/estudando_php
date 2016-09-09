@@ -658,7 +658,7 @@ $newPubFun = new Policial('marcos', 'saldanha', 55);
 echo $newPubFun->getFullName();
 ```
 
-Propriedade Protegida - define que as propriedades e métodos só podem ser acessadas pela classe que as criou e pelas classes filhas que a herdarem. Para acessar estes dados, precisamos criar métodos getter e setters dentro da class, não podemos acessa-los diretamente através da variável.
+Propriedade e métodos Protegidos - define que as Propriedades e Métodos só podem ser acessadas pela classe que as criou e pelas classes filhas que a herdarem. Para acessar estes dados, precisamos criar métodos getter e setters dentro da class, não podemos acessa-los diretamente através da variável.
 
 ```
 Class Policial extends Pessoa {
@@ -674,7 +674,7 @@ $newPubFun = new Policial();
 $newPubFun->steveName('thierry');
 ```
 
-Propriedade privada - a propriedade privada torna exclusivo da class o uso da propriedade, ou seja, não pode ser utilizada por classes filha muito menos fora da class.
+Propriedades e Métodos Privados - a propriedade privada torna exclusivo da class o uso da propriedade, ou seja, não pode ser utilizada por classes filha muito menos fora da class.
 
 ```
 class Policial extends Pessoa {
@@ -692,15 +692,77 @@ $newPubFun = new Policial();
 
 // para retornar utilizar os valores fora da class, utilizamos os métodos criados, ou criamos algum método para interagir com os dados.
 // forma correta de retornar dados
-$newPubFun->getFullName();
+$newPubFun->getFullName().PHP_EOL;
 
 // forma incorreta de requisitar dados de uma propriedade privada.
 // LEMBRAR SEMPRE QUE UMA PROPRIEDADE PRIVADA PODE APENAS SER UTILIZADA DENTRO DA CLASS QUE A CRIOU.
 $newPubFun->steveFullName('thierry rene matos');
 ```
 
+Propriedades e Métodos Estáticos - declarar propriedades e métodos como estático faz com que possamos utilizar os métodos e propriedades sem declarar um objeto (o que poupa espaço na memória). Propriedades estáticas não podem aser acessadas com o operador de objetos -> . Para acessar uma propriedade estática da própria class, utilizamos o operador de resolução de escopo self:: . Para acessar a propriedade de uma classe pai, utilizamos o operador parent:: .
 
+```
+<?php
 
+// criamos a class pai Foo
+class Foo
+{
+    public static $my_static = 'foo';
 
+    public function staticValue() {
+    
+    	// note que acessamos a propriedade com o operador self::
+        // note que declaramos a propriedade com $
+        return self::$my_static;
+    }
+}
 
+// criamos a class filha Bar
+class Bar extends Foo
+{
+    public function fooStatic() {
+    
+    	// para acessar a propriedade de uma class pai, como no exemplo abaixo, utilizamos o operador de resolução de escopo ::parent .
+    	// note que declaramos a propriedade com $
+        return parent::$my_static;
+    }
+}
+
+// acessando propriedade estática
+// printamos o valor da propriedade $my_static. note que printamos o valor com o operador de resolução de escopo :: . 
+print Foo::$my_static . "\n";
+
+// novo objeto foo
+$foo = new Foo();
+
+// acessand métodos estáticos
+print $foo->staticValue() . "\n";
+
+?>
+```
+
+Inclusão de arquivos (include) - utilizamos o include para incluir arquivos dentro de um script php. Por exemplo, ao invés de criamos a class e o script no mesmo arquivo, podemos apenas criar a class, e então incluir a mesma no arquivo que desejamos utiliza-la.
+
+```
+// vamos supor que a class Pessoa esteja em um arquivo separado na mesma pasta (Pessoa.php).
+include 'Pessoa.php';
+// abaixo garantimos que o arquivo é incluido apenas uma vez no script. útil para arquivos que contenham classes e funcões.
+include_once 'Pessoa.php';
+
+// após a inclusão do arquivo, podemos criar um objeto, se possível, a partir da class, e utilizar seus métodos.
+$novaPessoa = new Pessoa();
+echo $novaPessoa->printarNome();
+```
+
+Requisição de arquivos (require) - primeramente, a principal diferença para o include é que o include continua a execução do script caso a inclusão do arquivo venha a falhar. O require apresenta um erro fatal e finaliza o script.
+
+```
+// note a similariade com o include
+require 'Pessoa.php';
+// também temos o require_once
+require_once 'Pessoa.php';
+
+// após a requisição do arquivo, podemos criar um objeto, se possível, a partir da class, e utilizar seus métodos.
+$novaPessoa = new Pessoa();
+echo $novaPessoa->printarNome();
 
