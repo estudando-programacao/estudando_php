@@ -765,4 +765,18 @@ require_once 'Pessoa.php';
 // após a requisição do arquivo, podemos criar um objeto, se possível, a partir da class, e utilizar seus métodos.
 $novaPessoa = new Pessoa();
 echo $novaPessoa->printarNome();
+```
+
+Operadores e controle de estrutura
+
+Operadores matemáticos - exemplo simples dos operadores matemáticos do php.
+
+```
+echo 8 + 3;
+echo 8 - 3;
+echo 8 / 3;
+echo 8 * 3;
+echo 8 % 3; // retorna o resto
+echo 8 ** 3; // oito elevado ao cubo
+```
 
