@@ -876,5 +876,22 @@ echo 1 <=> 2;
 
 Operadores lógicos - operadores que utilizam a lógica para retornar valores.
 
+```
+$varA = true;
+$varB = false;
 
+// operador && ou and (e)
+// importante: a unica maneira de um operador lógico retornar valor true, em uma comparação com E, é se os dois valores são iguais a true.
+var_dump($varA and $varB);
+var_dump($varA && $varB);
 
+// operador or ou || (ou)
+// importante: apenas necessita de um valor true para retornar true. Para retornar false, os dois valores precisam ser false.
+var_dump($varA || $varB);
+var_dump($varA or $varB);
+
+// operador not !
+// no exemplo abaixo, a variável deve retornar false, pois no inicio ela foi definida como true.
+// pega o valor de retorno de uma condição e apresenta o oposto.
+var_dump(!$varA);
+```
