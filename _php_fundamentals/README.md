@@ -783,6 +783,7 @@ echo 8 ** 3; // oito elevado ao cubo
 Operadores para incrementar (ou não) valores - existem operadores que adicionam ou subtraem valores de uma valor.
 
 ```
+// definimos um valor para a variável
 $varX = 10;
 
 // adiciona um a qualquer que seja o valor da variável.
@@ -799,3 +800,81 @@ $var--;
 
 echo $varx;
 ```
+
+Operador de atribuição - operadores utilizados para atribui valores.
+
+```
+// variável com valor
+$varX = 10
+
+// incrementando, ou não, três ao valor total da $varX.
+$varX += 3;
+$var -= 3;
+
+// multiplicando ao cubo
+$varX **= 3;
+
+echo $varX;
+```
+
+Operadores de string - operadores utilizados para agregar valores em strings.
+
+```
+// temos uma string com um valor
+$varString = 'uma frase!';
+
+// aqui concatenamos os valores
+$varString = 'Essa é ' . $varString;
+
+// forma simples de concatenar um valor em string
+// dessa maneira, se o valor for definido para a mesma string basta utilizar o operador .= para incrementar valor a string.
+$varString = "textos";
+$varString .= " e mais texto.";
+
+// printamos o valor.
+echo $varString;
+```
+
+Operadores de comparação - operadores utilizados para comparar valores.
+
+```
+// comparar se valores são iguais. retorno booleano, se sim true, se não false.
+var_dump(10 == 10);
+
+// comparar se o tipo de valor é igual.
+var_dump(10 === 8);
+
+// verificar se valor não é igual.
+var_dump(10 <> 2);
+
+// outra maneira de verificar se o valor não é igual.
+var_dump(10 != 2);
+
+// verificando se o tipo do valor não é igual
+var_dump(10 !== 2);
+
+// verificando se um valor é maior que o outro
+var_dump(10 > 12);
+
+// verificando se o valor é maior ou igual
+var_dump(10 >= 1);
+
+// verificando se valor é menor
+var_dump(10 < 1);
+
+// verificando se valor é menor ou igual
+var_dump(10 <= 1);
+```
+
+Operador spaceship - possibilita efetuar três comparações em uma unica expressão. Primeiro é verificado se o valor é menor, depois se é igual, e por fim, se é menor (<=>).
+
+```
+// dica: se o primeiro valor for maior que o outro, o resultado vai ser positivo, caso contrário vai ser negativo.
+// o número negativo representa um valor menor na comparação, o positivo um valor maior.
+echo 1 <=> 2;
+```
+
+Operadores lógicos - operadores que utilizam a lógica para retornar valores.
+
+
+
