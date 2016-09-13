@@ -767,7 +767,7 @@ $novaPessoa = new Pessoa();
 echo $novaPessoa->printarNome();
 ```
 
-Operadores e controle de estrutura
+### Operadores e controle de estrutura
 
 Operadores matemáticos - exemplo simples dos operadores matemáticos do php.
 
@@ -780,3 +780,22 @@ echo 8 % 3; // retorna o resto
 echo 8 ** 3; // oito elevado ao cubo
 ```
 
+Operadores para incrementar (ou não) valores - existem operadores que adicionam ou subtraem valores de uma valor.
+
+```
+$varX = 10;
+
+// adiciona um a qualquer que seja o valor da variável.
+$varX++;
+
+// podemos também adicionar um valor sinalizando o operador ++ antes da variável.
+// a diferença, neste caso, é que o valor é adicionado antes que qualquer coisa seja feita com a variável.
+++$var;
+
+// também podemos subtrair valores com o operador --
+// as regras são as mesmas para a substração de valores
+--$var;
+$var--;
+
+echo $varx;
+```
