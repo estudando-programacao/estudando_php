@@ -895,3 +895,38 @@ var_dump($varA or $varB);
 // pega o valor de retorno de uma condição e apresenta o oposto.
 var_dump(!$varA);
 ```
+
+Condição IF/ELSE - utilizamos a condição SE para definir que bloco de código deve ser executado de acordo com alguma ação.
+
+```
+$array = ['um', 'dois', 'tres'];
+// $array = [];
+
+$count = count($array);
+
+if($count > 0) {
+	echo 'testando condição if pela' . $count . ' vez.';
+} else {
+	echo '$count menor ou igual a 0';
+}
+
+// para testar a condição false, basta sobscrever a variável $array sem nenhum valor.
+```
+
+Condição ELSE/IF - podemos utilizar essa condição dentro de uma condição if/else para verificar mais informações.
+
+```
+$array = ['um', 'dois', 'tres'];
+// $array = [];
+
+$count = count($array);
+
+if($count == 0) {
+	echo 'testando condição if pela '. $count .'° vez.';
+} elseif($count > 2) {
+	echo 'testando condição p'
+}
+else {
+	echo '$count menor ou igual a 0';
+}
+```
