@@ -975,10 +975,17 @@ switch (5 <=> 7) {
 }
 ```
 
-Operador ternário - utilizamos o operador ternário para criar uma condição resumida.
+Operador ternário - utilizamos o operador ternário para criar uma condição resumida. Ao utilizar o operador ternário, normalmente salvamos o valor em um variável.
 
 ```
 $var = array[1, 2, 3, 4, 5, 6, 7, 8, 9];
+$varCount = count($var);
 
+// o primeiro paragráfo simboliza a condição Y/N
+// se sim, o primeiro bloco após a interrogação é executado
+// se não, o segundo bloco, após o : é executado.
+$var2 = ($varCount > 2) ? "Total de " .$varCount. " itens no array." : "o valor é menor que o pedido na condição.";
 
+// para exibir o resultado, printamos a variável
+echo $var2;
 ```
