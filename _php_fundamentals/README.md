@@ -913,7 +913,7 @@ if($count > 0) {
 // para testar a condição false, basta sobscrever a variável $array sem nenhum valor.
 ```
 
-Condição ELSE/IF - podemos utilizar essa condição dentro de uma condição if/else para verificar mais informações.
+Condição ELSE/IF - podemos utilizar essa condição dentro de uma condição if/else para verificar mais informações. Podemos utilizar quantas condições else/if forem necessárias.
 
 ```
 $array = ['um', 'dois', 'tres'];
@@ -921,12 +921,64 @@ $array = ['um', 'dois', 'tres'];
 
 $count = count($array);
 
-if($count == 0) {
-	echo 'testando condição if pela '. $count .'° vez.';
+if($count == 1) {
+	echo 'testando condição if pela primeira vez.';
 } elseif($count > 2) {
-	echo 'testando condição p'
+	echo 'testando condições pela '.$count.'° vez.';
 }
 else {
 	echo '$count menor ou igual a 0';
 }
+```
+
+Condição SWITCH - com o switch podemos definir diversos blocos de código, definindo quando cada um deles deve ser executado.
+
+```
+// --------------------------------
+// swithc statement
+// --------------------------------
+
+$var = array[1, 2, 3, 4, 5, 6, 7, 8, 9];
+$var = count($var);
+
+// definimos o switch, com um paramêtro que pode ser validado com condições para entrar no case
+switch($var) {
+	case 0:
+		echo "primeiro case".PHP_EOL;
+		// o break deve ser adicionado após o termino do case, se não todos os cases serão executados.
+		break;
+	case 1:
+		echo "segundo case".PHP_EOL;
+		break;
+	case 2:
+		echo "terceiro case".PHP_EOL;
+		break;
+	// o default configura o case padrão, caso nenhum dos cases seja localizado.	
+	default:
+		printf "case padrão: a variável $var tem ".$var." elementos.".PHP_EOL;
+		break;
+}
+
+// --------------------------------
+// uso do switch com spaceship
+// neste caso, como o spaceship retorna como resultado os valores 1, 0 ou -1
+// podemos criar um switch com estes case, conforme o exemplo abaixo.
+// --------------------------------
+
+switch (5 <=> 7) {
+	case -1:
+		echo "case 1";
+	case 0:
+		echo "case 0";
+	case 1:
+		echo "case 1";
+}
+```
+
+Operador ternário - utilizamos o operador ternário para criar uma condição resumida.
+
+```
+$var = array[1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+
 ```
