@@ -1005,3 +1005,9 @@ $var2 = $varCount1 ?? $varCount2 ?? "erro.";
 echo $var2;
 ```
 
+While loop - executa bloco de códigos dentro da condição ENQUANTO (while).
+
+```
+
+```
+
