@@ -990,13 +990,12 @@ $var2 = ($varCount > 2) ? "Total de " .$varCount. " itens no array." : "o valor 
 echo $var2;
 ```
 
-Operador null coalesce - mais uma abreviação para a validação sim/não. Apenas serve para verificar se a variável foi declarada.
+Operador null coalesce - mais uma abreviação para a validação sim/não. Só pode ser utilizado na verificação de uma variável já declarada.
 
 ```
 $var = array[1, 2, 3, 4, 5, 6, 7, 8, 9];
 $varCount = count($var);
 
-// o null coalesce só pode ser utilizado na verificação de uma variável já declarada.
 // utilizamos duas interrogações para simbolizar o operador null coalesce.
 // neste caso, o operador vai verificar se a variável existe, e se existir, o bloco continua, se não, é apresentada a string de erro logo em seguida.
 $var2 = $varCount ?? "Erro.";
@@ -1005,3 +1004,4 @@ $var2 = $varCount1 ?? $varCount2 ?? "erro.";
 
 echo $var2;
 ```
+
