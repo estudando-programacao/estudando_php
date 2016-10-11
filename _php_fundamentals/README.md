@@ -999,6 +999,7 @@ $varCount = count($var);
 // utilizamos duas interrogações para simbolizar o operador null coalesce.
 // neste caso, o operador vai verificar se a variável existe, e se existir, o bloco continua, se não, é apresentada a string de erro logo em seguida.
 $var2 = $varCount ?? "Erro.";
+
 // podemos verificar diversos valores, conforme o exemplo abaixo
 $var2 = $varCount1 ?? $varCount2 ?? "erro.";
 
@@ -1008,6 +1009,94 @@ echo $var2;
 While loop - executa bloco de códigos dentro da condição ENQUANTO (while).
 
 ```
+// --------------------------------
+// while loop
+// --------------------------------
+
+$var = true;
+
+while($var) {
+	echo "enquanto isso...";
+	
+	// devemos definir algum valor para evitar o loop eterno, neste caso, definmos a variável como false
+	$var = false;
+}
+```
+
+For loop - parecido com o while, mudando apenas a expressão dos parametros.
 
 ```
+// --------------------------------
+// For loop
+// --------------------------------
+
+// note que na expressão, primeiro definimos o valor inicial da variável $var, depois verificamos se esta é maior que cinco, e no fim de cada verificação, somamos um ao valor da variável.
+for($var = 0; $var > 5; $var++) {
+	echo "testando for loop!.PHP_EOL";
+}
+```
+
+Sintáxe alternativa para controle de estruturas
+
+```
+// --------------------------------
+// sintaxe alternativa
+// --------------------------------
+
+$readingIsFun = true;
+$authors = ["Charles Dickens", "Jane Austen", "William Shakespeare", "Mark Twain"];
+$count = count($authors);
+
+// sintáxe alternativa para o if
+if($count > 0):
+	echo "testando sintaxe alternativa";
+else:
+	echo "novamente testando";
+endif;
+
+// sintáxe alternativa para o while
+while($readingIsFun):
+	echo "ler é legal".PHP_EOL;
+	$readingIsFun = false;
+endwhile;
+
+// sintáxe alternativa para o for
+for($i = 1; $i > 5; $i++):
+	echo "teste";
+endfor;
+```
+
+### Banco de dados
+
+Criando uma conexão com um banco de dados
+
+```
+// --------------------------------
+// conctando ao banco de dados
+// --------------------------------
+
+$dbPass = "password";
+$dbUser = "root";
+$dbServer = "localhost";
+$dbName = "phpfundamentals";
+
+// criamos um objeto a partir da classe mysqli, que utiliza como parametro os valores declarados nas variáveis acima
+$connection = new mysqli($dbServer, $dbUser, $dbPass, $dbName);
+
+// podemos printar o objeto $connection para verificar o que está ocorrendo com as informações passadas
+print_f($connection);
+
+// podemos testar se a conexão falhou, analisando uma das propriedades do objeto $connection, a "connect_errno", que indica se a conexão apresentou erro.
+// abaixo utilizamos um operador de objeto para verificar a propriedade connect_errno no objeto. caso a propriedade tenha algum valor diferente de zero, é apresentado erro.
+if($connection->connect_errno) {
+	echo "falha na coneão. {$connection->connect_error}";
+	
+	// para finalizar uma conexão, ao invés de printar uma mensagem, utilizamos a função exit, que finaliza o script.
+	exit("falha na coneão. {$connection->connect_error}");
+}
+```
+
+
+
+
 
