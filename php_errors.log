@@ -559,3 +559,4 @@
 [12-Oct-2016 16:27:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/_php_fundamentals/08_bd.php:0
 [12-Oct-2016 16:27:35 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/_php_fundamentals/08_bd.php:8
 [12-Oct-2016 16:52:53 UTC] PHP Parse error:  syntax error, unexpected '|', expecting '}' in /home/ubuntu/workspace/_php_fundamentals/08_bd.php on line 36
+[12-Oct-2016 17:15:41 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/_php_fundamentals/08_bd.php on line 61

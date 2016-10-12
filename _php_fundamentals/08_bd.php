@@ -1,3 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css">
+  </head>
+  
+  <body class="container">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js"></script>
+    
+  </body>
+  
+</html>
+
 <?php
 
 $dbPass = "";
@@ -22,30 +42,35 @@ if($connection->connect_errno) {
 
 // INSERT QUERY
 // $query = "INSERT INTO authors SET name = 'jonas', phone = '54654'";
-$query = "INSERT INTO authors (name, phone) VALUES ('teste', '1')";
+// $query = "INSERT INTO authors (name, phone) VALUES ('teste', '1')";
 
-$connection->query($query);
+// $connection->query($query);
 
 // SELECT QUERY
 $query = "SELECT name, phone FROM authors";
 
-$resultObj = $connection->query($query);
-
 echo "<h1>area de resultados</h1>";
 
-// utilizado no insert, após a query
-echo "<p>Novo usuario criado: {$connection->insert_id}.</p>";
+// printando resultado do select
+$resultObj = $connection->query($query);
+
+if($connection->insert_id > 0) {
+	echo "<p class='lead alert alert-success'>novo usuario criado: {$connection->insert_id}.</p>";
+} else {
+	echo "<p class='lead alert alert-danger'>nenhum usuário novo foi criado.</p>";
+}
 
 // condicao para carregar cada linha da tabela no select
 if($resultObj->num_rows > 0) {
 	while($singleRowResult = $resultObj->fetch_assoc()) {
-		echo "id: {$singleRowResult['id']}
-			  nome: {$singleRowResult['name']}
-			  phone: {$singleRowResult['phone']}".PHP_EOL;
-		echo "<br>";
+		echo "<p>nome: {$singleRowResult['name']}
+			  phone: {$singleRowResult['phone']}</p>".PHP_EOL;
 	}
 }
 
 $resultObj->close();
 $connection->close();
+
+?>
+
 
