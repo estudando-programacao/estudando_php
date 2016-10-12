@@ -536,3 +536,26 @@
 [15-Aug-2016 11:46:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:0
 [15-Aug-2016 11:46:31 UTC] PHP   2. __autoload() /home/ubuntu/workspace/06-php-data-object/01-conectando-ao-banco.php:18
 [15-Aug-2016 11:46:31 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/06-php-data-object/_app/Config.inc.php:38
+[12-Oct-2016 15:53:28 UTC] PHP Fatal error:  Call to undefined function print_f() in /home/ubuntu/workspace/_php_fundamentals/08_bd.php on line 12
+[12-Oct-2016 15:53:28 UTC] PHP Stack trace:
+[12-Oct-2016 15:53:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/_php_fundamentals/08_bd.php:0
+[12-Oct-2016 15:53:36 UTC] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home/ubuntu/workspace/_php_fundamentals/08_bd.php on line 12
+[12-Oct-2016 15:53:36 UTC] PHP Stack trace:
+[12-Oct-2016 15:53:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/_php_fundamentals/08_bd.php:0
+[12-Oct-2016 15:53:36 UTC] PHP   2. printf() /home/ubuntu/workspace/_php_fundamentals/08_bd.php:12
+[12-Oct-2016 15:54:58 UTC] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home/ubuntu/workspace/_php_fundamentals/08_bd.php on line 12
+[12-Oct-2016 15:54:58 UTC] PHP Stack trace:
+[12-Oct-2016 15:54:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/_php_fundamentals/08_bd.php:0
+[12-Oct-2016 15:54:58 UTC] PHP   2. printf() /home/ubuntu/workspace/_php_fundamentals/08_bd.php:12
+[12-Oct-2016 16:01:13 UTC] PHP Fatal error:  Call to undefined method mysqli::mysqli_result() in /home/ubuntu/workspace/_php_fundamentals/08_bd.php on line 21
+[12-Oct-2016 16:01:13 UTC] PHP Stack trace:
+[12-Oct-2016 16:01:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/_php_fundamentals/08_bd.php:0
+[12-Oct-2016 16:27:35 UTC] PHP Warning:  mysqli::mysqli(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/_php_fundamentals/08_bd.php on line 8
+[12-Oct-2016 16:27:35 UTC] PHP Stack trace:
+[12-Oct-2016 16:27:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/_php_fundamentals/08_bd.php:0
+[12-Oct-2016 16:27:35 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/_php_fundamentals/08_bd.php:8
+[12-Oct-2016 16:27:35 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/_php_fundamentals/08_bd.php on line 8
+[12-Oct-2016 16:27:35 UTC] PHP Stack trace:
+[12-Oct-2016 16:27:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/_php_fundamentals/08_bd.php:0
+[12-Oct-2016 16:27:35 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/_php_fundamentals/08_bd.php:8
+[12-Oct-2016 16:52:53 UTC] PHP Parse error:  syntax error, unexpected '|', expecting '}' in /home/ubuntu/workspace/_php_fundamentals/08_bd.php on line 36

@@ -1096,6 +1096,10 @@ if($connection->connect_errno) {
 }
 ```
 
+Delete, Update e Insert - deletando, atualizando e inserindo dados no BD
+
+
+
 
 
 
