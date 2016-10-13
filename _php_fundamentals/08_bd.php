@@ -54,11 +54,11 @@ echo "<h1>area de resultados</h1>";
 // printando resultado do select
 $resultObj = $connection->query($query);
 
-if($connection->insert_id > 0) {
-	echo "<p class='lead alert alert-success'>novo usuario criado: {$connection->insert_id}.</p>";
-} else {
-	echo "<p class='lead alert alert-danger'>nenhum usuário novo foi criado.</p>";
-}
+// if($connection->num_rows > 0) {
+// echo "<p class='alert alert-primary'>novo usuario criado: {$connection->insert_id}.</p>";
+// } else {
+// 	echo "<p class='alert alert-danger'>nenhum usuário novo foi criado.</p>";
+// }
 
 // condicao para carregar cada linha da tabela no select
 if($resultObj->num_rows > 0) {
