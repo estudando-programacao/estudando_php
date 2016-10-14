@@ -1149,5 +1149,97 @@ $resultObj->close();
 $connection->close();
 ```
 
+Select no BD - apresentando informações do banco de dados
+
+```
+$dbPass = "";
+$dbUser = "root";
+$dbServer = "localhost";
+$dbName = "phpfundamentals";
+
+$connection = new mysqli($dbServer, $dbUser, $dbPass, $dbName);
+
+if($connection->connect_errno) {
+	echo "falha na conexão. {$connection->connect_error}";
+	exit("falha na conexão. {$connection->connect_error}");
+}
+
+// var_dump($connection);
+
+// SELECT QUERY
+$query = "SELECT name, phone FROM authors";
+
+echo "<h1>area de resultados</h1>";
+
+// printando resultado do select
+$resultObj = $connection->query($query);
+
+// condicao para carregar cada linha da tabela no select
+if($resultObj->num_rows > 0) {
+	while($singleRowResult = $resultObj->fetch_assoc()) {
+		echo "<p>nome: {$singleRowResult['name']}
+			  phone: {$singleRowResult['phone']}</p>".PHP_EOL;
+	}
+}
+
+$resultObj->close();
+$connection->close();
+```
+
+Prepared statements - utilizamos esse recurso para enviar depois os valores de uma query.
+
+Para utilizar um prepared statement, utilizamos o método `prepare` ao invés do método `query` para processar a $query.
+
+Os valores a serem substituidos na query são representados por uma interrogação "?". Para vincular os dados aos parametros, utilizamos o método bind_param. `bind_param ( string $types , mixed &$var1 [, mixed &$... ] )`.
+
+```
+$dbPass = "";
+$dbUser = "root";
+$dbServer = "localhost";
+$dbName = "phpfundamentals";
+
+$connection = new mysqli($dbServer, $dbUser, $dbPass, $dbName);
+
+if($connection->connect_errno) {
+	echo "falha na conexão. {$connection->connect_error}";
+	exit("falha na conexão. {$connection->connect_error}");
+}
+
+// var_dump($connection);
+
+$tempFirstName = "thierry";
+
+// definimos no where que vamos solicitar o valor posteriormente
+$query = "SELECT name, phone FROM authors WHERE name = ?";
+
+aqui preparamos a query acima
+$statementObj = $connection->prepare($query);
+
+// utilizamos o método bind_param para vincular o valor da variável $tempFirstName a query que aguarda preparada 
+$statementObj->bind_param("s", $tempFirstName);
+
+// executamos a query
+$statementObj->execute();
+
+// utilizamos o método bind_result para vincular o valor que foi retornado nas variáveis abaixo
+$statementObj->bind_result($name, $phone);
+
+// armazenamos o resultado
+$statementObj->store_result();
+
+// condição para apresentar resultados, caso o número de linhas da query seja mais que 0
+if($statementObj->num_rows > 0) {
+	// se houver linhas, entramos na condição enquanto, que vai fatiar cada linha com o método fetch
+	while($statementObj->fetch()) {
+		// printamos cada linha concatenando os valores solicitados no BD
+		echo "Meu nome é {$name}, e meu telefone {$phone}.".PHP_EOL;
+	}
+}
+
+$statementObj->close();
+$connecton->close();
+```
+
+
 
 
