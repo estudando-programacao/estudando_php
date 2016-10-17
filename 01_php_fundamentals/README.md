@@ -1240,6 +1240,46 @@ $statementObj->close();
 $connecton->close();
 ```
 
+PDO - PDO_MYSQL é um driver que implementa a interface PHP Data Objects (PDO). Tem vantagens do nativo suporte a prepared statement presente no MySQL 4.1 e superior. A utilização do PDO fornece uma camada de abstração em relação a conexão com o banco de dados visto que o PDO efetua a conexão com diversos bancos de dados da mesma maneira, modificando apenas a sua string de conexão.
+
+```
+$dbPass = "";
+$dbUser = "root";
+$dbServer = "localhost";
+$dbName = "phpfundamentals";
+
+// criamos um novo objeto a partir da class PDO
+$connection = new PDO("mysql:host={$dbServer}; dbname={$dbName}", $dbUser, $dbPass);
+
+// teste conexão
+if($connection->connect_errno) {
+	echo "falha na conexão. {$connection->connect_error}";
+	exit("falha na conexão. {$connection->connect_error}");
+}
+
+// SELECT QUERY
+$query = "SELECT name, phone FROM authors";
+
+echo "<h1>area de resultados</h1>";
+
+// printando resultado do select
+$resultObj = $connection->query($query);
+
+// condicao para carregar cada linha da tabela no select.
+// utilizamos o método rowCount() do PDO para contar as linhas
+if($resultObj -> rowCount() > 0) {
+  // condição foreach para fatiar cada resultado
+	foreach($resultObj as $singleRowFromQuery) {
+		echo "<p>nome: {$singleRowFromQuery['name']}
+			  phone: {$singleRowFromQuery['phone']}</p>".PHP_EOL;
+	}
+}
+
+// encerramos a conexão com o BD
+$resultObj = null;
+$connection = null;
+```
+
 
 
 
