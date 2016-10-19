@@ -100,7 +100,7 @@ if($connection->connect_errno) {
                                     <label class="form-check-label">
                                         <input type="radio" class="form-check-input" name="rcvNewsYes" id="rcvNews" value="yes" checked>yes</label>
                                     <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="rcvNewsNo" id="rcvNews" value="no" checked>no</label>
+                                        <input type="radio" class="form-check-input" name="rcvNewsYes" id="rcvNews" value="no">no</label>
                                 </div>
                             </fieldset>
                             
