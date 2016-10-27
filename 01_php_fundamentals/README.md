@@ -1280,6 +1280,8 @@ $resultObj = null;
 $connection = null;
 ```
 
+## Programação web - exemplo de aplicação com conexão em um banco de dados.
+
 
 
 
