@@ -1,0 +1,163 @@
+[01-Dec-2016 19:43:03 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 14
+[01-Dec-2016 19:43:03 UTC] PHP Stack trace:
+[01-Dec-2016 19:43:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:44:48 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 14
+[01-Dec-2016 19:44:48 UTC] PHP Stack trace:
+[01-Dec-2016 19:44:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:45:13 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 14
+[01-Dec-2016 19:45:13 UTC] PHP Stack trace:
+[01-Dec-2016 19:45:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:45:30 UTC] PHP Warning:  require(/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:45:30 UTC] PHP Stack trace:
+[01-Dec-2016 19:45:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:45:30 UTC] PHP Fatal error:  require(): Failed opening required '/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:45:30 UTC] PHP Stack trace:
+[01-Dec-2016 19:45:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:46:06 UTC] PHP Warning:  require(/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:46:06 UTC] PHP Stack trace:
+[01-Dec-2016 19:46:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:46:06 UTC] PHP Fatal error:  require(): Failed opening required '/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:46:06 UTC] PHP Stack trace:
+[01-Dec-2016 19:46:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:48:10 UTC] PHP Warning:  require(/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:48:10 UTC] PHP Stack trace:
+[01-Dec-2016 19:48:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:48:10 UTC] PHP Fatal error:  require(): Failed opening required '/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:48:10 UTC] PHP Stack trace:
+[01-Dec-2016 19:48:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:48:14 UTC] PHP Warning:  require(/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:48:14 UTC] PHP Stack trace:
+[01-Dec-2016 19:48:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:48:14 UTC] PHP Fatal error:  require(): Failed opening required '/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:48:14 UTC] PHP Stack trace:
+[01-Dec-2016 19:48:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:48:33 UTC] PHP Warning:  require(/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:48:33 UTC] PHP Stack trace:
+[01-Dec-2016 19:48:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:48:33 UTC] PHP Fatal error:  require(): Failed opening required '/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:48:33 UTC] PHP Stack trace:
+[01-Dec-2016 19:48:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:49:40 UTC] PHP Warning:  require(treinando-php-reload-thierryrene.c9users.io/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:49:40 UTC] PHP Stack trace:
+[01-Dec-2016 19:49:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:49:40 UTC] PHP Fatal error:  require(): Failed opening required 'treinando-php-reload-thierryrene.c9users.io/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:49:40 UTC] PHP Stack trace:
+[01-Dec-2016 19:49:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:50:07 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 14
+[01-Dec-2016 19:50:07 UTC] PHP Stack trace:
+[01-Dec-2016 19:50:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:52:13 UTC] PHP Warning:  require(/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:52:13 UTC] PHP Stack trace:
+[01-Dec-2016 19:52:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:52:13 UTC] PHP Fatal error:  require(): Failed opening required '/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:52:13 UTC] PHP Stack trace:
+[01-Dec-2016 19:52:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:52:32 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 14
+[01-Dec-2016 19:52:32 UTC] PHP Stack trace:
+[01-Dec-2016 19:52:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:53:00 UTC] PHP Warning:  require(/home/ubuntu/workspace/03_php_projects/testando_composervendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:53:00 UTC] PHP Stack trace:
+[01-Dec-2016 19:53:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:53:00 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/03_php_projects/testando_composervendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:53:00 UTC] PHP Stack trace:
+[01-Dec-2016 19:53:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:55:38 UTC] PHP Warning:  require(/home/ubuntu/workspacevendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:55:38 UTC] PHP Stack trace:
+[01-Dec-2016 19:55:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:55:38 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspacevendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:55:38 UTC] PHP Stack trace:
+[01-Dec-2016 19:55:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:55:55 UTC] PHP Warning:  require(/home/ubuntu/workspace/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:55:55 UTC] PHP Stack trace:
+[01-Dec-2016 19:55:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:55:55 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 3
+[01-Dec-2016 19:55:55 UTC] PHP Stack trace:
+[01-Dec-2016 19:55:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:56:03 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 14
+[01-Dec-2016 19:56:03 UTC] PHP Stack trace:
+[01-Dec-2016 19:56:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:56:11 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 14
+[01-Dec-2016 19:56:11 UTC] PHP Stack trace:
+[01-Dec-2016 19:56:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:56:50 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 14
+[01-Dec-2016 19:56:50 UTC] PHP Stack trace:
+[01-Dec-2016 19:56:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 19:58:53 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 14
+[01-Dec-2016 19:58:53 UTC] PHP Stack trace:
+[01-Dec-2016 19:58:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:02:57 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 14
+[01-Dec-2016 20:02:57 UTC] PHP Stack trace:
+[01-Dec-2016 20:02:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:04:47 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 14
+[01-Dec-2016 20:04:47 UTC] PHP Stack trace:
+[01-Dec-2016 20:04:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:04:59 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 14
+[01-Dec-2016 20:04:59 UTC] PHP Stack trace:
+[01-Dec-2016 20:04:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:05:31 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 14
+[01-Dec-2016 20:05:31 UTC] PHP Stack trace:
+[01-Dec-2016 20:05:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:05:53 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 14
+[01-Dec-2016 20:05:53 UTC] PHP Stack trace:
+[01-Dec-2016 20:05:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:05:54 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 14
+[01-Dec-2016 20:05:54 UTC] PHP Stack trace:
+[01-Dec-2016 20:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:06:00 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 14
+[01-Dec-2016 20:06:00 UTC] PHP Stack trace:
+[01-Dec-2016 20:06:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:06:25 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 16
+[01-Dec-2016 20:06:25 UTC] PHP Stack trace:
+[01-Dec-2016 20:06:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:06:34 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 18
+[01-Dec-2016 20:06:34 UTC] PHP Stack trace:
+[01-Dec-2016 20:06:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:09:31 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 18
+[01-Dec-2016 20:09:31 UTC] PHP Stack trace:
+[01-Dec-2016 20:09:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:11:21 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 18
+[01-Dec-2016 20:11:21 UTC] PHP Stack trace:
+[01-Dec-2016 20:11:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:15:03 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 16
+[01-Dec-2016 20:15:03 UTC] PHP Stack trace:
+[01-Dec-2016 20:15:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:15:39 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 16
+[01-Dec-2016 20:15:39 UTC] PHP Stack trace:
+[01-Dec-2016 20:15:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:16:41 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 16
+[01-Dec-2016 20:16:41 UTC] PHP Stack trace:
+[01-Dec-2016 20:16:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:18:29 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 16
+[01-Dec-2016 20:18:29 UTC] PHP Stack trace:
+[01-Dec-2016 20:18:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:24:44 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 16
+[01-Dec-2016 20:24:44 UTC] PHP Stack trace:
+[01-Dec-2016 20:24:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:24:44 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 15
+[01-Dec-2016 20:24:44 UTC] PHP Stack trace:
+[01-Dec-2016 20:24:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[01-Dec-2016 20:24:52 UTC] PHP Fatal error:  Call to a member function getImportantData() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 15
+[01-Dec-2016 20:24:52 UTC] PHP Stack trace:
+[01-Dec-2016 20:24:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[24-Dec-2016 11:30:51 UTC] PHP Parse error:  syntax error, unexpected 'throw' (T_THROW) in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 13
+[24-Dec-2016 12:18:55 UTC] PHP Warning:  Missing argument 1 for Whoops\Handler\CallbackHandler::__construct(), called in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 7 and defined in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/filp/whoops/src/Whoops/Handler/CallbackHandler.php on line 27
+[24-Dec-2016 12:18:55 UTC] PHP Stack trace:
+[24-Dec-2016 12:18:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[24-Dec-2016 12:18:55 UTC] PHP   2. Whoops\Handler\CallbackHandler->__construct() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:7
+[24-Dec-2016 12:18:55 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Argument to Whoops\Handler\CallbackHandler::__construct must be valid callable' in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/filp/whoops/src/Whoops/Handler/CallbackHandler.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/03_php_projects/testando_composer/index.php(7): Whoops\Handler\CallbackHandler->__construct()
+#1 {main}
+  thrown in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/filp/whoops/src/Whoops/Handler/CallbackHandler.php on line 30
+[24-Dec-2016 12:18:59 UTC] PHP Warning:  Missing argument 1 for Whoops\Handler\CallbackHandler::__construct(), called in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 7 and defined in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/filp/whoops/src/Whoops/Handler/CallbackHandler.php on line 27
+[24-Dec-2016 12:18:59 UTC] PHP Stack trace:
+[24-Dec-2016 12:18:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[24-Dec-2016 12:18:59 UTC] PHP   2. Whoops\Handler\CallbackHandler->__construct() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:7
+[24-Dec-2016 12:18:59 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Argument to Whoops\Handler\CallbackHandler::__construct must be valid callable' in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/filp/whoops/src/Whoops/Handler/CallbackHandler.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/03_php_projects/testando_composer/index.php(7): Whoops\Handler\CallbackHandler->__construct()
+#1 {main}
+  thrown in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/filp/whoops/src/Whoops/Handler/CallbackHandler.php on line 30
+[24-Dec-2016 12:19:19 UTC] PHP Fatal error:  Cannot instantiate abstract class Whoops\Handler\Handler in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 7
+[24-Dec-2016 12:19:19 UTC] PHP Stack trace:
+[24-Dec-2016 12:19:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0

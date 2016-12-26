@@ -1,0 +1,12 @@
+[29-Nov-2016 19:40:34 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/02_php_oop/05-tratamento-de-erros/02-disparando-erros.php on line 36
+[29-Nov-2016 19:40:34 UTC] PHP Stack trace:
+[29-Nov-2016 19:40:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/02_php_oop/05-tratamento-de-erros/02-disparando-erros.php:0
+[29-Nov-2016 19:40:34 UTC] PHP   2. trigger_error(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/02_php_oop/05-tratamento-de-erros/02-disparando-erros.php:36
+[29-Nov-2016 19:42:19 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/02_php_oop/05-tratamento-de-erros/02-disparando-erros.php on line 36
+[29-Nov-2016 19:42:19 UTC] PHP Stack trace:
+[29-Nov-2016 19:42:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/02_php_oop/05-tratamento-de-erros/02-disparando-erros.php:0
+[29-Nov-2016 19:42:19 UTC] PHP   2. trigger_error(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/02_php_oop/05-tratamento-de-erros/02-disparando-erros.php:36
+[29-Nov-2016 19:42:59 UTC] PHP Warning:  CPF em uso in /home/ubuntu/workspace/02_php_oop/05-tratamento-de-erros/02-disparando-erros.php on line 36
+[29-Nov-2016 19:42:59 UTC] PHP Stack trace:
+[29-Nov-2016 19:42:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/02_php_oop/05-tratamento-de-erros/02-disparando-erros.php:0
+[29-Nov-2016 19:42:59 UTC] PHP   2. trigger_error(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/02_php_oop/05-tratamento-de-erros/02-disparando-erros.php:36
