@@ -1,7 +1,10 @@
 {
     "name": "root/testando_composer",
     "require": {
-        "filp/whoops": "^2.1"
+        "filp/whoops": "^2.1",
+        "laravel/lumen-installer": "^1.0",
+        "monolog/monolog": "^1.22",
+        "fzaninotto/faker": "^1.6"
     },
     "authors": [
         {
