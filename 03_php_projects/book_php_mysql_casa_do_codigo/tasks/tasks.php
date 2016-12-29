@@ -1,84 +1,71 @@
 <?php
+
+require_once ('../../testando_composer/vendor/autoload.php');
+
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
+// create a log channel
+$log = new Logger($_SERVER['SERVER_ADDR']);
+$log->pushHandler(new StreamHandler('log/your.log', Logger::INFO));
+
+// require 'server_test.php';
+    
     session_start();
     
-    if (ini_get('register_globals'))
-    {
-        foreach ($_SESSION as $key=>$value)
-        {
-            if (isset($GLOBALS[$key]))
-                unset($GLOBALS[$key]);
-        }
-    }
+    // exemplo de validação com confirmação JS
+    // if (isset($_GET['task']) && $_GET['task'] != '') {
+    //     $_SESSION['lista_tarefas'][] = $_GET['task'];
+        ?> <script>// console.log("<?php // $_GET['task'] ?>")</script> <?php
+    //     // echo "Tarefa informada: " . $_GET['task'];
+    // }
     
-?>
-
-<!doctype html>
-
-<html lang="en">
-
-<head>
-    <title>Gerenciador de Tarefas</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
-</head>
-
-<body>
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h1>Gerenciador de Tarefas</h1>
-                <br>
-                <form action="" class="form-inline">
-                    <fieldset>
-                        <legend>Nova tarefa</legend>
-                        <div class="form-group">
-                            <label for="">Tarefa: <input type="email" name="task" class="form-control" /></label>
-                            <input type="submit" value="Cadastrar" class="form-control" />
-                        </div>
-                    </fieldset>
-                </form>
-                
-                <?php
-                    $lista_tarefas = array();
-                    
-                    if (isset($_GET['task'])) {
-                        $_SESSION['lista_tarefas'][] = $_GET['task'];
-                        ?> <script>console.log("<?= $_GET['task'] ?>")</script> <?php
-                        // echo "Tarefa informada: " . $_GET['task'];
-                    }
-                    
-                    if (isset($_SESSION['lista_tarefas'])) {
-                        $lista_tarefas = $_SESSION['lista_tarefas'];
-                    }
-                    
-                    // var_dump($lista_tarefas);
-                ?>
-                
-                <br>
-                <br>
-                
-                <table class="table">
-                    <tr>
-                        <th>Tarefas</th>
-                    </tr>
-                    <?php foreach ($lista_tarefas as $tarefa) : ?> 
-                        <tr>
-                            <td><?= $tarefa ?></td>
-                        </tr>
-                    <?php endforeach; ?>
-                </table>
-                
-            </div>
-            
-        </div>
+    if (isset($_GET['task']) && $_GET['task'] != '') {
         
-    </div>
+        $tarefa = array();
+        
+        $tarefa['task'] = $_GET['task'];
+        
+        if (isset($_GET['descricao'])) {
+            $tarefa['descricao'] = $_GET['descricao'];
+            $log->addInfo('[DESCRIÇÃO CADASTRADA]');
+        } else {
+            $tarefa['descricao'] = '';
+            $log->addWarning('[DESCRIÇÃO NÃO CADASTRADA]');
+        }
     
-</body>
+        if (isset($_GET['prazo'])) {
+            $tarefa['prazo'] = $_GET['prazo'];
+            $log->addInfo('[PRAZO CADASTRADO]');
+        } else {
+            $tarefa['prazo'] = '';
+            $log->addWarning('[PRAZO NÃO CADASTRADO]');
+        }
+        
+        $tarefa['prioridade'] = $_GET['prioridade'];
+        $log->addInfo('[PRIORIDADE CADASTRADA]');
+        
+        if (isset($_GET['concluida'])) {
+            $tarefa['concluida'] = $_GET['concluida'];
+            $log->addInfo('[TAREFA CONCLUIDA MARCADA]');
+        } else {
+            $tarefa['concluida'] = '';
+            $log->addWarning('[TAREFA CONCLUIDA NÃO MARCADA]');
+        }
+        
+        $_SESSION['lista_tarefas'][] = $tarefa;
+        
+        $log->addInfo('[CRIADA SESSÃO COM VALORES]');
+        $log->addInfo('----------------------------------');
+        
+        // var_dump($tarefa);
+        // var_dump($_SESSION);
+    }
+                            
+    // if (isset($_SESSION['lista_tarefas'])) {
+    //     $lista_tarefas = $_SESSION['lista_tarefas'];
+    // }
+    
+    include 'template.php';
 
-</html>
-
-<?php
-var_dump($lista_tarefas);
-?>
 
