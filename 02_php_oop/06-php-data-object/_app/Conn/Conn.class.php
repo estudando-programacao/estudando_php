@@ -12,15 +12,19 @@ class Conn {
 
   // metodo para conexao
   private static function Conectar() {
+    
     try {
+      
       // verifica se a conexão é null / se não houver uma instância do objeto a mesma é criada
       if(self::$Connect == NULL):
+        
         // dsn - determina o tipo de conexão com o BD
         $dsn = "mysql:host=" . self::$Host . ";dbname=" . self::$Dbsa;
         // setar caracteres como utf8
         $options = [ PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES UTF8'];
         // deinifmos o objeto de conexao PDO na variável $Connect, caso a condição seja verdadeira
         self::$Connect = new PDO($dsn, self::$User, self::$Pass, $options);
+        
       endif;
       // bloco catch para lançar exceções, conforme erros de exceções
     } catch (PDOException $e) {
@@ -29,6 +33,7 @@ class Conn {
     }
 
     self::$Connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    
     return self::$Connect;
   }
 

@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-md-12">
                 
-                <h1>Gerenciador de Tarefas</h1>
+                <h1><a href="tasks.php">Gerenciador de Tarefas</a></h1>
                 
                 <br>
                 
@@ -37,7 +37,7 @@
                         
                         <div class="form-group">
                             <label>Prazo (Opcional):
-                                <input type="text" name="prazo" class="form-control">
+                                <input type="date" name="prazo" class="form-control">
                             </label>
                         </div>
                         
@@ -48,15 +48,15 @@
                                 <legend>Prioridade</legend>
                                 
                                 <label>
-                                    <input type="radio" name="prioridade" value="Baixa" checked /> Baixa
+                                    <input type="radio" name="prioridade" value="1" checked /> Baixa
                                 </label>
                                 
                                 <label>
-                                    <input type="radio" name="prioridade" value="Media" /> Média
+                                    <input type="radio" name="prioridade" value="2" /> Média
                                 </label>
                                 
                                 <label>
-                                    <input type="radio" name="prioridade" value="Alta" /> Alta 
+                                    <input type="radio" name="prioridade" value="3" /> Alta 
                                 </label>
                                 
                             </fieldset>
@@ -64,9 +64,20 @@
                         </div>
                         
                         <div class="form-group">
-                            <label>Tarefa concluída: 
-                                <input type="checkbox" name="concluida" value="Sim" />
-                            </label>
+                            <fieldset>
+                                
+                                <legend>Tarefa concluída:</legend>
+                                
+                                <label>Sim 
+                                    <input type="radio" name="concluida" value="1"/>
+                                </label>
+                                
+                                <label>Não
+                                    <input type="radio" name="concluida" value="0"/>
+                                </label>
+                            
+                            </fieldset>
+                        
                         </div>
                         
                     </fieldset>
@@ -77,9 +88,10 @@
                 
                 <br><br>
                 
-                <table class="table table-bordered">
+                <table class="table table-bordered table-hover">
                     
                     <tr>
+                        <th>ID</th>
                         <th>Tarefa</th>
                         <th>Descrição</th>
                         <th>Prazo</th>
@@ -87,14 +99,25 @@
                         <th>Concluída</th>
                     </tr>
                     
-                    <?php foreach ($_SESSION['lista_tarefas'] as $tarefa) { ?> 
+                    <?php foreach ($lista_tarefas as $tarefa) { ?> 
                     
                         <tr>
+                            <td><?php echo $tarefa['id']; ?></td>
                             <td><?php echo $tarefa['task']; ?></td>
                             <td><?php echo $tarefa['descricao']; ?></td>
-                            <td><?php echo $tarefa['prazo']; ?></td>
-                            <td><?php echo $tarefa['prioridade']; ?></td>
-                            <td><?php echo $tarefa['concluida']; ?></td>
+                            <td style="width: 10%;"><?php echo $tarefa['prazo']; ?></td>
+                            <td>
+                                <?php echo traduz_prioridades($tarefa['prioridade']); ?>
+                            </td>
+                            <td>
+                                <?php 
+                                    if ($tarefa['concluida'] == 1) { 
+                                        echo "<span class='label label-success'>Concluída</span>"; 
+                                    } else {
+                                        echo "<span class='label label-warning'>Não concluída</span>";
+                                    }
+                                ?>
+                            </td>
                         </tr>
                         
                     <?php } ?>

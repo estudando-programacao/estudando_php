@@ -9,9 +9,12 @@
     </script>
 </head>
 <body class="container" style="margin-top: 80px;">
+  
     <p class="text-center">PDO - PHP Data Object</p>
+    
     <?php
-    require('./_app/Config.inc.php');
+    
+    require_once './_app/Config.inc.php';
 
     $Cadastra = new Create;
 
