@@ -105,11 +105,16 @@ class ComposerStaticInita1f060cca460c0aec66e6f3e0ed6d674
         ),
     );
 
+    public static $classMap = array (
+        'Zebra_Image' => __DIR__ . '/..' . '/stefangabos/zebra_image/Zebra_Image.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInita1f060cca460c0aec66e6f3e0ed6d674::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInita1f060cca460c0aec66e6f3e0ed6d674::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInita1f060cca460c0aec66e6f3e0ed6d674::$classMap;
 
         }, null, ClassLoader::class);
     }

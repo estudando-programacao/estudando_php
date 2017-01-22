@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d3e2642698ddf373c356f3d8ec48a57c",
-    "content-hash": "cda105518ed8f3f14219cca811d90b62",
+    "hash": "a6b4fe5d772e445f66c63ca9fe6b4431",
+    "content-hash": "4098073077f4ccd11ce810250586f6d9",
     "packages": [
         {
             "name": "filp/whoops",
@@ -505,6 +505,54 @@
                 "psr-3"
             ],
             "time": "2016-10-10 12:19:37"
+        },
+        {
+            "name": "stefangabos/zebra_image",
+            "version": "2.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stefangabos/Zebra_Image.git",
+                "reference": "2e5bb1ba1a04811fb5b6e5a6060f37cd80fd71a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stefangabos/Zebra_Image/zipball/2e5bb1ba1a04811fb5b6e5a6060f37cd80fd71a5",
+                "reference": "2e5bb1ba1a04811fb5b6e5a6060f37cd80fd71a5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Zebra_Image.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Stefan Gabos",
+                    "email": "contact@stefangabos.ro",
+                    "homepage": "http://stefangabos.ro/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A compact (one-file only), lightweight, image manipulation PHP library",
+            "homepage": "http://stefangabos.ro/php-libraries/zebra-image/",
+            "keywords": [
+                "crop",
+                "filters",
+                "gd",
+                "image",
+                "php",
+                "resize",
+                "thumbnail"
+            ],
+            "time": "2016-05-16 15:09:36"
         },
         {
             "name": "symfony/console",

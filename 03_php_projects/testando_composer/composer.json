@@ -4,7 +4,8 @@
         "filp/whoops": "^2.1",
         "laravel/lumen-installer": "^1.0",
         "monolog/monolog": "^1.22",
-        "fzaninotto/faker": "^1.6"
+        "fzaninotto/faker": "^1.6",
+        "stefangabos/zebra_image": "^2.2"
     },
     "authors": [
         {
