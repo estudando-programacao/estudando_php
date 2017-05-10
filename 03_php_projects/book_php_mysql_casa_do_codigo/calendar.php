@@ -2,6 +2,7 @@
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
+
 error_reporting(E_ALL);
     
     function linha($semana) {
@@ -17,32 +18,29 @@ error_reporting(E_ALL);
     }
     
     function calendario() {
-        
         $dia = 1;
-        
         $semana = array();
-        
         while ($dia <= 31) {
-            
             array_push($semana, $dia);
-            
             if(count($semana) == 7) {
                 linha($semana);
                 $semana = array();
             }
-            
             $dia++;
         }
         linha($semana);
     }
-
+    
+    if 
+    
 ?>
 
 <!doctype html>
 
-<html lang="en">
+<html lang="pt-br">
 
 <head>
+    <meta charset="UTF-8">
     <title>Dia <?= date('d'); ?></title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -54,12 +52,12 @@ error_reporting(E_ALL);
         <h1>Estamos em <?= date('Y'); ?> </h1>
         
         <p class="lead">Agora são <?= date('H'); ?> horas, <?= date('i'); ?> minutos e <?= date('s'); ?> segundos.</p>
-        
+        e
         <div class="row">
             
             <div class="col-md-4">
                 
-                <table border="1" class="table table-striped">
+                <table class="table table-bordered">
                     <tr>
                         <th>Dom</th>
                         <th>Seg</th>
@@ -69,7 +67,7 @@ error_reporting(E_ALL);
                         <th>Sex</th>
                         <th>Sáb</th>
                     </tr>
-                    <?php calendario() ?>
+                    <?php calendario(); ?>
                 </table>
                 
             </div>

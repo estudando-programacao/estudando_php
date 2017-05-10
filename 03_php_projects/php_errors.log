@@ -282,3 +282,406 @@ Stack trace:
 [26-Dec-2016 22:52:47 UTC] PHP Notice:  Undefined variable: teste in /home/ubuntu/workspace/03_php_projects/book_php_mysql_casa_do_codigo/calendar.php on line 41
 [26-Dec-2016 22:52:47 UTC] PHP Stack trace:
 [26-Dec-2016 22:52:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/book_php_mysql_casa_do_codigo/calendar.php:0
+[22-Jan-2017 14:28:39 UTC] PHP Warning:  Attempt to assign property of non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 20
+[22-Jan-2017 14:28:39 UTC] PHP Stack trace:
+[22-Jan-2017 14:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 14:28:39 UTC] PHP Warning:  Attempt to assign property of non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 28
+[22-Jan-2017 14:28:39 UTC] PHP Stack trace:
+[22-Jan-2017 14:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 14:28:39 UTC] PHP Warning:  Attempt to assign property of non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 34
+[22-Jan-2017 14:28:39 UTC] PHP Stack trace:
+[22-Jan-2017 14:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 14:28:39 UTC] PHP Warning:  Attempt to assign property of non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 38
+[22-Jan-2017 14:28:39 UTC] PHP Stack trace:
+[22-Jan-2017 14:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 14:28:39 UTC] PHP Warning:  Attempt to assign property of non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 39
+[22-Jan-2017 14:28:39 UTC] PHP Stack trace:
+[22-Jan-2017 14:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 14:28:39 UTC] PHP Warning:  Attempt to assign property of non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 40
+[22-Jan-2017 14:28:39 UTC] PHP Stack trace:
+[22-Jan-2017 14:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 14:28:39 UTC] PHP Fatal error:  Call to a member function resize() on a non-object in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 45
+[22-Jan-2017 14:28:39 UTC] PHP Stack trace:
+[22-Jan-2017 14:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 14:41:41 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, array given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 14:41:41 UTC] PHP Stack trace:
+[22-Jan-2017 14:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 14:41:41 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:50
+[22-Jan-2017 14:41:41 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 14:41:41 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 14:53:36 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, string given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 14:53:36 UTC] PHP Stack trace:
+[22-Jan-2017 14:53:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 14:53:36 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:45
+[22-Jan-2017 14:53:36 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 14:53:36 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 14:54:57 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, string given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 14:54:57 UTC] PHP Stack trace:
+[22-Jan-2017 14:54:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 14:54:57 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:45
+[22-Jan-2017 14:54:57 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 14:54:57 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 15:05:45 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, string given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 15:05:45 UTC] PHP Stack trace:
+[22-Jan-2017 15:05:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 15:05:45 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:45
+[22-Jan-2017 15:05:45 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 15:05:45 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 15:05:51 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, resource given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 15:05:51 UTC] PHP Stack trace:
+[22-Jan-2017 15:05:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 15:05:51 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:45
+[22-Jan-2017 15:05:51 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 15:05:51 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 15:06:30 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, resource given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 15:06:30 UTC] PHP Stack trace:
+[22-Jan-2017 15:06:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 15:06:30 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:47
+[22-Jan-2017 15:06:30 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 15:06:30 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 15:06:51 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, resource given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 15:06:51 UTC] PHP Stack trace:
+[22-Jan-2017 15:06:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 15:06:51 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:47
+[22-Jan-2017 15:06:51 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 15:06:51 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 15:09:50 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, string given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 15:09:50 UTC] PHP Stack trace:
+[22-Jan-2017 15:09:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 15:09:50 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:47
+[22-Jan-2017 15:09:50 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 15:09:50 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 15:14:04 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, string given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 15:14:04 UTC] PHP Stack trace:
+[22-Jan-2017 15:14:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 15:14:04 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:47
+[22-Jan-2017 15:14:04 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 15:14:04 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 15:18:59 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, string given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 15:18:59 UTC] PHP Stack trace:
+[22-Jan-2017 15:18:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 15:18:59 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:48
+[22-Jan-2017 15:18:59 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 15:18:59 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 15:19:23 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, string given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 15:19:23 UTC] PHP Stack trace:
+[22-Jan-2017 15:19:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 15:19:23 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:48
+[22-Jan-2017 15:19:23 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 15:19:23 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 15:40:03 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, array given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 15:40:03 UTC] PHP Stack trace:
+[22-Jan-2017 15:40:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 15:40:03 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:46
+[22-Jan-2017 15:40:03 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 15:40:03 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 15:42:12 UTC] PHP Warning:  fopen() expects parameter 1 to be a valid path, array given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 21
+[22-Jan-2017 15:42:12 UTC] PHP Stack trace:
+[22-Jan-2017 15:42:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 15:42:12 UTC] PHP   2. fopen(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:21
+[22-Jan-2017 15:42:28 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, resource given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 15:42:28 UTC] PHP Stack trace:
+[22-Jan-2017 15:42:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 15:42:28 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:46
+[22-Jan-2017 15:42:28 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 15:42:28 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 15:43:01 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, resource given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 15:43:01 UTC] PHP Stack trace:
+[22-Jan-2017 15:43:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 15:43:01 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:46
+[22-Jan-2017 15:43:01 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 15:43:01 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 15:45:44 UTC] PHP Warning:  fopen(http://tbb.vteximg.com.br/arquivos/ids/177670-1000-1000/modelador-de-cachos-surf-breeze-200ml-produtinhos-da-beauty_1_806015.jpg): failed to open stream: HTTP wrapper does not support writeable connections in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 17
+[22-Jan-2017 15:45:44 UTC] PHP Stack trace:
+[22-Jan-2017 15:45:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 15:45:44 UTC] PHP   2. fopen(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:17
+[22-Jan-2017 15:50:49 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, resource given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 15:50:49 UTC] PHP Stack trace:
+[22-Jan-2017 15:50:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 15:50:49 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:47
+[22-Jan-2017 15:50:49 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 15:50:49 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 16:06:14 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, array given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 16:06:14 UTC] PHP Stack trace:
+[22-Jan-2017 16:06:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:06:14 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:46
+[22-Jan-2017 16:06:14 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 16:06:14 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 16:23:26 UTC] PHP Warning:  file_get_contents() expects parameter 1 to be a valid path, array given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 20
+[22-Jan-2017 16:23:26 UTC] PHP Stack trace:
+[22-Jan-2017 16:23:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:23:26 UTC] PHP   2. file_get_contents(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:20
+[22-Jan-2017 16:23:26 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 20
+[22-Jan-2017 16:23:26 UTC] PHP Stack trace:
+[22-Jan-2017 16:23:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:23:26 UTC] PHP   2. imagecreatefromstring(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:20
+[22-Jan-2017 16:23:46 UTC] PHP Warning:  is_file() expects parameter 1 to be a valid path, resource given in /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php on line 1246
+[22-Jan-2017 16:23:46 UTC] PHP Stack trace:
+[22-Jan-2017 16:23:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:23:46 UTC] PHP   2. Zebra_Image->resize($width = *uninitialized*, $height = *uninitialized*, $method = *uninitialized*, $background_color = *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:48
+[22-Jan-2017 16:23:46 UTC] PHP   3. Zebra_Image->_create_from_source() /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:737
+[22-Jan-2017 16:23:46 UTC] PHP   4. is_file(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/vendor/stefangabos/zebra_image/Zebra_Image.php:1246
+[22-Jan-2017 16:31:38 UTC] PHP Warning:  getimagesize() expects parameter 1 to be string, resource given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 27
+[22-Jan-2017 16:31:38 UTC] PHP Stack trace:
+[22-Jan-2017 16:31:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:31:38 UTC] PHP   2. getimagesize(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:27
+[22-Jan-2017 16:31:38 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 36
+[22-Jan-2017 16:31:38 UTC] PHP Stack trace:
+[22-Jan-2017 16:31:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:31:38 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 38
+[22-Jan-2017 16:31:38 UTC] PHP Stack trace:
+[22-Jan-2017 16:31:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:31:38 UTC] PHP   2. file_get_contents(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:38
+[22-Jan-2017 16:31:38 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 38
+[22-Jan-2017 16:31:38 UTC] PHP Stack trace:
+[22-Jan-2017 16:31:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:31:38 UTC] PHP   2. imagecreatefromstring(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:38
+[22-Jan-2017 16:31:38 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 45
+[22-Jan-2017 16:31:38 UTC] PHP Stack trace:
+[22-Jan-2017 16:31:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:31:38 UTC] PHP   2. imagecreatetruecolor(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:45
+[22-Jan-2017 16:31:38 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 51
+[22-Jan-2017 16:31:38 UTC] PHP Stack trace:
+[22-Jan-2017 16:31:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:31:38 UTC] PHP   2. imagecopyresampled(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:51
+[22-Jan-2017 16:31:38 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 53
+[22-Jan-2017 16:31:38 UTC] PHP Stack trace:
+[22-Jan-2017 16:31:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:31:38 UTC] PHP   2. imagejpeg(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:53
+[22-Jan-2017 16:31:38 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 55
+[22-Jan-2017 16:31:38 UTC] PHP Stack trace:
+[22-Jan-2017 16:31:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:31:38 UTC] PHP   2. imagedestroy(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:55
+[22-Jan-2017 16:32:26 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 38
+[22-Jan-2017 16:32:26 UTC] PHP Stack trace:
+[22-Jan-2017 16:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:32:26 UTC] PHP   2. file_get_contents(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:38
+[22-Jan-2017 16:32:26 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 38
+[22-Jan-2017 16:32:26 UTC] PHP Stack trace:
+[22-Jan-2017 16:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:32:26 UTC] PHP   2. imagecreatefromstring(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:38
+[22-Jan-2017 16:32:26 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 51
+[22-Jan-2017 16:32:26 UTC] PHP Stack trace:
+[22-Jan-2017 16:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:32:26 UTC] PHP   2. imagecopyresampled(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:51
+[22-Jan-2017 16:32:26 UTC] PHP Warning:  imagejpeg(): Unable to open 'http://tbb.vteximg.com.br/arquivos/ids/177670-1000-1000/modelador-de-cachos-surf-breeze-200ml-produtinhos-da-beauty_1_806015.jpg' for writing: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 53
+[22-Jan-2017 16:32:26 UTC] PHP Stack trace:
+[22-Jan-2017 16:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:32:26 UTC] PHP   2. imagejpeg(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:53
+[22-Jan-2017 16:34:35 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 23
+[22-Jan-2017 16:34:35 UTC] PHP Stack trace:
+[22-Jan-2017 16:34:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:34:35 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 39
+[22-Jan-2017 16:34:35 UTC] PHP Stack trace:
+[22-Jan-2017 16:34:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:34:35 UTC] PHP   2. imagecreatetruecolor(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:39
+[22-Jan-2017 16:34:35 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 45
+[22-Jan-2017 16:34:35 UTC] PHP Stack trace:
+[22-Jan-2017 16:34:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:34:35 UTC] PHP   2. imagecopyresampled(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:45
+[22-Jan-2017 16:34:35 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 47
+[22-Jan-2017 16:34:35 UTC] PHP Stack trace:
+[22-Jan-2017 16:34:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:34:35 UTC] PHP   2. imagejpeg(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:47
+[22-Jan-2017 16:35:16 UTC] PHP Warning:  imagejpeg(): Unable to open 'http://tbb.vteximg.com.br/arquivos/ids/177670-1000-1000/modelador-de-cachos-surf-breeze-200ml-produtinhos-da-beauty_1_806015.jpg' for writing: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 47
+[22-Jan-2017 16:35:16 UTC] PHP Stack trace:
+[22-Jan-2017 16:35:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:35:16 UTC] PHP   2. imagejpeg(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:47
+[22-Jan-2017 16:48:52 UTC] PHP Warning:  imagejpeg(): Unable to open 'img/amaro/khelf_steal_the_look_pictures.jpg' for writing: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 49
+[22-Jan-2017 16:48:52 UTC] PHP Stack trace:
+[22-Jan-2017 16:48:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 16:48:52 UTC] PHP   2. imagejpeg(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:49
+[22-Jan-2017 17:02:50 UTC] PHP Warning:  getimagesize(//d3l7rqep7l31az.cloudfront.net/images/products/20005767_712_main_4.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 23
+[22-Jan-2017 17:02:50 UTC] PHP Stack trace:
+[22-Jan-2017 17:02:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:02:50 UTC] PHP   2. getimagesize(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:23
+[22-Jan-2017 17:02:50 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 29
+[22-Jan-2017 17:02:50 UTC] PHP Stack trace:
+[22-Jan-2017 17:02:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:02:50 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 31
+[22-Jan-2017 17:02:50 UTC] PHP Stack trace:
+[22-Jan-2017 17:02:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:02:50 UTC] PHP Warning:  file_get_contents(//d3l7rqep7l31az.cloudfront.net/images/products/20005767_712_main_4.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 33
+[22-Jan-2017 17:02:50 UTC] PHP Stack trace:
+[22-Jan-2017 17:02:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:02:50 UTC] PHP   2. file_get_contents(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:33
+[22-Jan-2017 17:02:50 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 33
+[22-Jan-2017 17:02:50 UTC] PHP Stack trace:
+[22-Jan-2017 17:02:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:02:50 UTC] PHP   2. imagecreatefromstring(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:33
+[22-Jan-2017 17:02:50 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 40
+[22-Jan-2017 17:02:50 UTC] PHP Stack trace:
+[22-Jan-2017 17:02:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:02:50 UTC] PHP   2. imagecreatetruecolor(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:40
+[22-Jan-2017 17:02:50 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 48
+[22-Jan-2017 17:02:50 UTC] PHP Stack trace:
+[22-Jan-2017 17:02:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:02:50 UTC] PHP   2. imagecopyresampled(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:48
+[22-Jan-2017 17:02:50 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 50
+[22-Jan-2017 17:02:50 UTC] PHP Stack trace:
+[22-Jan-2017 17:02:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:02:50 UTC] PHP   2. imagejpeg(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:50
+[22-Jan-2017 17:02:50 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 52
+[22-Jan-2017 17:02:50 UTC] PHP Stack trace:
+[22-Jan-2017 17:02:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:02:50 UTC] PHP   2. imagedestroy(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:52
+[22-Jan-2017 17:02:50 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 40
+[22-Jan-2017 17:02:50 UTC] PHP Stack trace:
+[22-Jan-2017 17:02:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:02:50 UTC] PHP   2. imagecreatetruecolor(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:40
+[22-Jan-2017 17:02:50 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 48
+[22-Jan-2017 17:02:50 UTC] PHP Stack trace:
+[22-Jan-2017 17:02:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:02:50 UTC] PHP   2. imagecopyresampled(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:48
+[22-Jan-2017 17:02:50 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 50
+[22-Jan-2017 17:02:50 UTC] PHP Stack trace:
+[22-Jan-2017 17:02:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:02:50 UTC] PHP   2. imagejpeg(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:50
+[22-Jan-2017 17:02:50 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 52
+[22-Jan-2017 17:02:50 UTC] PHP Stack trace:
+[22-Jan-2017 17:02:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:02:50 UTC] PHP   2. imagedestroy(*uninitialized*) /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:52
+[22-Jan-2017 17:51:47 UTC] PHP Warning:  getimagesize(//d3l7rqep7l31az.cloudfront.net/images/products/20003058_290_main_4.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 18
+[22-Jan-2017 17:51:47 UTC] PHP Stack trace:
+[22-Jan-2017 17:51:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:51:47 UTC] PHP   2. getimagesize() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:18
+[22-Jan-2017 17:51:47 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 24
+[22-Jan-2017 17:51:47 UTC] PHP Stack trace:
+[22-Jan-2017 17:51:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:51:47 UTC] PHP Warning:  file_get_contents(//d3l7rqep7l31az.cloudfront.net/images/products/20003058_290_main_4.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 28
+[22-Jan-2017 17:51:47 UTC] PHP Stack trace:
+[22-Jan-2017 17:51:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:51:47 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:28
+[22-Jan-2017 17:51:47 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 28
+[22-Jan-2017 17:51:47 UTC] PHP Stack trace:
+[22-Jan-2017 17:51:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:51:47 UTC] PHP   2. imagecreatefromstring() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:28
+[22-Jan-2017 17:51:47 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 35
+[22-Jan-2017 17:51:47 UTC] PHP Stack trace:
+[22-Jan-2017 17:51:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:51:47 UTC] PHP   2. imagecreatetruecolor() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:35
+[22-Jan-2017 17:51:47 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 43
+[22-Jan-2017 17:51:47 UTC] PHP Stack trace:
+[22-Jan-2017 17:51:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:51:47 UTC] PHP   2. imagecopyresampled() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:43
+[22-Jan-2017 17:51:47 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 45
+[22-Jan-2017 17:51:47 UTC] PHP Stack trace:
+[22-Jan-2017 17:51:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:51:47 UTC] PHP   2. imagejpeg() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:45
+[22-Jan-2017 17:51:47 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 47
+[22-Jan-2017 17:51:47 UTC] PHP Stack trace:
+[22-Jan-2017 17:51:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[22-Jan-2017 17:51:47 UTC] PHP   2. imagedestroy() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:47
+[23-Jan-2017 13:28:15 UTC] PHP Warning:  getimagesize(dasdasdasd): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 22
+[23-Jan-2017 13:28:16 UTC] PHP Stack trace:
+[23-Jan-2017 13:28:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[23-Jan-2017 13:28:16 UTC] PHP   2. getimagesize() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:22
+[23-Jan-2017 13:28:16 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 28
+[23-Jan-2017 13:28:16 UTC] PHP Stack trace:
+[23-Jan-2017 13:28:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[23-Jan-2017 13:28:16 UTC] PHP Warning:  file_get_contents(dasdasdasd): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 32
+[23-Jan-2017 13:28:16 UTC] PHP Stack trace:
+[23-Jan-2017 13:28:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[23-Jan-2017 13:28:16 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:32
+[23-Jan-2017 13:28:16 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 32
+[23-Jan-2017 13:28:16 UTC] PHP Stack trace:
+[23-Jan-2017 13:28:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[23-Jan-2017 13:28:16 UTC] PHP   2. imagecreatefromstring() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:32
+[23-Jan-2017 13:28:16 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 39
+[23-Jan-2017 13:28:16 UTC] PHP Stack trace:
+[23-Jan-2017 13:28:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[23-Jan-2017 13:28:16 UTC] PHP   2. imagecreatetruecolor() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:39
+[23-Jan-2017 13:28:16 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 47
+[23-Jan-2017 13:28:16 UTC] PHP Stack trace:
+[23-Jan-2017 13:28:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[23-Jan-2017 13:28:16 UTC] PHP   2. imagecopyresampled() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:47
+[23-Jan-2017 13:28:16 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 49
+[23-Jan-2017 13:28:16 UTC] PHP Stack trace:
+[23-Jan-2017 13:28:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[23-Jan-2017 13:28:16 UTC] PHP   2. imagejpeg() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:49
+[23-Jan-2017 13:28:16 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 51
+[23-Jan-2017 13:28:16 UTC] PHP Stack trace:
+[23-Jan-2017 13:28:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[23-Jan-2017 13:28:16 UTC] PHP   2. imagedestroy() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:51
+[23-Jan-2017 13:47:59 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 28
+[23-Jan-2017 13:47:59 UTC] PHP Stack trace:
+[23-Jan-2017 13:47:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[23-Jan-2017 13:48:00 UTC] PHP Warning:  imagecreatefromstring(): Data is not in a recognized format in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 32
+[23-Jan-2017 13:48:00 UTC] PHP Stack trace:
+[23-Jan-2017 13:48:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[23-Jan-2017 13:48:00 UTC] PHP   2. imagecreatefromstring() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:32
+[23-Jan-2017 13:48:00 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 39
+[23-Jan-2017 13:48:00 UTC] PHP Stack trace:
+[23-Jan-2017 13:48:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[23-Jan-2017 13:48:00 UTC] PHP   2. imagecreatetruecolor() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:39
+[23-Jan-2017 13:48:00 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 47
+[23-Jan-2017 13:48:00 UTC] PHP Stack trace:
+[23-Jan-2017 13:48:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[23-Jan-2017 13:48:00 UTC] PHP   2. imagecopyresampled() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:47
+[23-Jan-2017 13:48:00 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 49
+[23-Jan-2017 13:48:00 UTC] PHP Stack trace:
+[23-Jan-2017 13:48:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[23-Jan-2017 13:48:00 UTC] PHP   2. imagejpeg() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:49
+[23-Jan-2017 13:48:00 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/03_php_projects/testando_composer/index.php on line 51
+[23-Jan-2017 13:48:00 UTC] PHP Stack trace:
+[23-Jan-2017 13:48:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:0
+[23-Jan-2017 13:48:00 UTC] PHP   2. imagedestroy() /home/ubuntu/workspace/03_php_projects/testando_composer/index.php:51
+[02-Feb-2017 17:14:25 UTC] PHP Fatal error:  Cannot use object of type PDO as array in /home/ubuntu/workspace/03_php_projects/draft_autosave/index.php on line 10
+[02-Feb-2017 17:14:25 UTC] PHP Stack trace:
+[02-Feb-2017 17:14:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/draft_autosave/index.php:0
+[02-Feb-2017 17:14:30 UTC] PHP Fatal error:  Cannot use object of type PDO as array in /home/ubuntu/workspace/03_php_projects/draft_autosave/index.php on line 10
+[02-Feb-2017 17:14:30 UTC] PHP Stack trace:
+[02-Feb-2017 17:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/draft_autosave/index.php:0
+[02-Feb-2017 17:25:46 UTC] PHP Fatal error:  Call to a member function rowCount() on a non-object in /home/ubuntu/workspace/03_php_projects/draft_autosave/index.php on line 16
+[02-Feb-2017 17:25:46 UTC] PHP Stack trace:
+[02-Feb-2017 17:25:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/draft_autosave/index.php:0
+[02-Feb-2017 17:29:36 UTC] PHP Fatal error:  Call to a member function rowCount() on a non-object in /home/ubuntu/workspace/03_php_projects/draft_autosave/index.php on line 16
+[02-Feb-2017 17:29:36 UTC] PHP Stack trace:
+[02-Feb-2017 17:29:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/draft_autosave/index.php:0
+[02-Feb-2017 17:33:16 UTC] PHP Fatal error:  Call to a member function rowCount() on a non-object in /home/ubuntu/workspace/03_php_projects/draft_autosave/index.php on line 16
+[02-Feb-2017 17:33:16 UTC] PHP Stack trace:
+[02-Feb-2017 17:33:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/draft_autosave/index.php:0
+[02-Feb-2017 17:34:12 UTC] PHP Fatal error:  Call to a member function rowCount() on a non-object in /home/ubuntu/workspace/03_php_projects/draft_autosave/index.php on line 16
+[02-Feb-2017 17:34:12 UTC] PHP Stack trace:
+[02-Feb-2017 17:34:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/draft_autosave/index.php:0
+[24-Apr-2017 19:26:21 UTC] PHP Fatal error:  Call to undefined function r() in /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php on line 89
+[24-Apr-2017 19:26:21 UTC] PHP Stack trace:
+[24-Apr-2017 19:26:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php:0
+[24-Apr-2017 19:26:59 UTC] PHP Fatal error:  Call to undefined function r() in /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php on line 91
+[24-Apr-2017 19:26:59 UTC] PHP Stack trace:
+[24-Apr-2017 19:26:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php:0
+[24-Apr-2017 19:27:19 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/testando_composer/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php on line 5
+[24-Apr-2017 19:27:19 UTC] PHP Stack trace:
+[24-Apr-2017 19:27:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php:0
+[24-Apr-2017 19:27:19 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/testando_composer/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php on line 5
+[24-Apr-2017 19:27:19 UTC] PHP Stack trace:
+[24-Apr-2017 19:27:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php:0
+[24-Apr-2017 19:28:02 UTC] PHP Fatal error:  Call to undefined function r() in /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php on line 91
+[24-Apr-2017 19:28:02 UTC] PHP Stack trace:
+[24-Apr-2017 19:28:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php:0
+[24-Apr-2017 19:28:41 UTC] PHP Fatal error:  Call to undefined function r() in /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php on line 91
+[24-Apr-2017 19:28:41 UTC] PHP Stack trace:
+[24-Apr-2017 19:28:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php:0
+[24-Apr-2017 19:29:13 UTC] PHP Fatal error:  Call to undefined function r() in /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php on line 91
+[24-Apr-2017 19:29:13 UTC] PHP Stack trace:
+[24-Apr-2017 19:29:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php:0
+[24-Apr-2017 19:32:04 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/treinando_php_reload/03_php_projects/testando_composer/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php on line 5
+[24-Apr-2017 19:32:04 UTC] PHP Stack trace:
+[24-Apr-2017 19:32:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php:0
+[24-Apr-2017 19:32:04 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/treinando_php_reload/03_php_projects/testando_composer/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php on line 5
+[24-Apr-2017 19:32:04 UTC] PHP Stack trace:
+[24-Apr-2017 19:32:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php:0
+[24-Apr-2017 19:32:20 UTC] PHP Fatal error:  Call to undefined function r() in /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php on line 91
+[24-Apr-2017 19:32:20 UTC] PHP Stack trace:
+[24-Apr-2017 19:32:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php:0
+[10-May-2017 15:57:27 UTC] PHP Fatal error:  Call to undefined function r() in /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php on line 126
+[10-May-2017 15:57:27 UTC] PHP Stack trace:
+[10-May-2017 15:57:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php:0
+[10-May-2017 15:57:34 UTC] PHP Fatal error:  Call to undefined function r() in /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php on line 126
+[10-May-2017 15:57:34 UTC] PHP Stack trace:
+[10-May-2017 15:57:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php:0
+[10-May-2017 15:57:36 UTC] PHP Fatal error:  Call to undefined function r() in /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php on line 126
+[10-May-2017 15:57:36 UTC] PHP Stack trace:
+[10-May-2017 15:57:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/02_variables_data_types.php:0
+[10-May-2017 16:54:43 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/ubuntu/workspace/03_php_projects/php_pandas/04_arrays.php on line 32
+[10-May-2017 16:55:09 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/03_php_projects/php_pandas/04_arrays.php on line 32
