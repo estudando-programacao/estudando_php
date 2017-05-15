@@ -51,8 +51,16 @@ $multiArray = [
     'nome'  => 'thierry rene',
     'idade' => 30,
     'sexo'  => 'masculino',
-    'tasks' => ['programar', 'ajustar falhas', 'configurar máquinas', 'redes']
+    'tasks' => ['programar', 'ajustar falhas ', 'configurar máquinas', 'redes']
 ];
 var_dump($multiArray);
+
+// display value for the key nome
 var_dump($multiArray['nome']);
+
+// display a value of an array inside another
 var_dump($multiArray['tasks'][0]);
+var_dump($multiArray['tasks'][1] . $multiArray['nome']);
+echo $hr;
+
+
