@@ -5,12 +5,11 @@
         "laravel/lumen-installer": "^1.0",
         "monolog/monolog": "^1.22",
         "fzaninotto/faker": "^1.6",
-        "stefangabos/zebra_image": "^2.2"
+        "stefangabos/zebra_image": "^2.2",
+        "maximebf/debugbar": "1.*"
     },
-    "authors": [
-        {
-            "name": "thierry rene matos",
-            "email": "td_matos@terra.com.br"
-        }
-    ]
+    "authors": [{
+        "name": "thierry rene matos",
+        "email": "td_matos@terra.com.br"
+    }]
 }
