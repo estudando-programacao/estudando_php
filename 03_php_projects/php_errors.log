@@ -800,3 +800,52 @@ Stack trace:
 [15-May-2017 17:52:59 UTC] PHP Stack trace:
 [15-May-2017 17:52:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/09_functions.php:0
 [15-May-2017 17:52:59 UTC] PHP   2. testeNomes() /home/ubuntu/workspace/03_php_projects/php_pandas/09_functions.php:99
+[15-May-2017 21:18:04 UTC] PHP Fatal error:  Call to undefined function r() in /home/ubuntu/workspace/03_php_projects/php_pandas/10_closures.php on line 11
+[15-May-2017 21:18:04 UTC] PHP Stack trace:
+[15-May-2017 21:18:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/10_closures.php:0
+[15-May-2017 21:24:45 UTC] PHP Fatal error:  Call to undefined function r() in /home/ubuntu/workspace/03_php_projects/php_pandas/10_closures.php on line 11
+[15-May-2017 21:24:45 UTC] PHP Stack trace:
+[15-May-2017 21:24:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/10_closures.php:0
+[15-May-2017 21:31:02 UTC] PHP Fatal error:  Class 'StandardDebugBar' not found in /home/ubuntu/workspace/03_php_projects/php_pandas/10_closures.php on line 7
+[15-May-2017 21:31:02 UTC] PHP Stack trace:
+[15-May-2017 21:31:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/10_closures.php:0
+[15-May-2017 21:42:12 UTC] PHP Catchable fatal error:  Object of class Closure could not be converted to string in /home/ubuntu/workspace/03_php_projects/php_pandas/10_closures.php on line 19
+[15-May-2017 21:42:12 UTC] PHP Stack trace:
+[15-May-2017 21:42:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/10_closures.php:0
+[15-May-2017 21:51:11 UTC] PHP Parse error:  syntax error, unexpected '$subtracao' (T_VARIABLE) in /home/ubuntu/workspace/03_php_projects/php_pandas/10_closures.php on line 28
+[15-May-2017 22:11:01 UTC] PHP Warning:  include(test.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php on line 5
+[15-May-2017 22:11:01 UTC] PHP Stack trace:
+[15-May-2017 22:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php:0
+[15-May-2017 22:11:01 UTC] PHP Warning:  include(): Failed opening 'test.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php on line 5
+[15-May-2017 22:11:01 UTC] PHP Stack trace:
+[15-May-2017 22:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php:0
+[15-May-2017 22:11:34 UTC] PHP Warning:  include(test.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php on line 5
+[15-May-2017 22:11:34 UTC] PHP Stack trace:
+[15-May-2017 22:11:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php:0
+[15-May-2017 22:11:34 UTC] PHP Warning:  include(): Failed opening 'test.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php on line 5
+[15-May-2017 22:11:34 UTC] PHP Stack trace:
+[15-May-2017 22:11:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php:0
+[15-May-2017 22:11:48 UTC] PHP Warning:  include(test.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php on line 5
+[15-May-2017 22:11:48 UTC] PHP Stack trace:
+[15-May-2017 22:11:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php:0
+[15-May-2017 22:11:48 UTC] PHP Warning:  include(): Failed opening 'test.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php on line 5
+[15-May-2017 22:11:48 UTC] PHP Stack trace:
+[15-May-2017 22:11:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php:0
+[15-May-2017 22:11:48 UTC] PHP Warning:  require(test.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php on line 6
+[15-May-2017 22:11:48 UTC] PHP Stack trace:
+[15-May-2017 22:11:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php:0
+[15-May-2017 22:11:48 UTC] PHP Fatal error:  require(): Failed opening required 'test.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php on line 6
+[15-May-2017 22:11:48 UTC] PHP Stack trace:
+[15-May-2017 22:11:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php:0
+[15-May-2017 22:12:04 UTC] PHP Warning:  include(test.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php on line 5
+[15-May-2017 22:12:04 UTC] PHP Stack trace:
+[15-May-2017 22:12:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php:0
+[15-May-2017 22:12:04 UTC] PHP Warning:  include(): Failed opening 'test.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php on line 5
+[15-May-2017 22:12:04 UTC] PHP Stack trace:
+[15-May-2017 22:12:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php:0
+[15-May-2017 22:12:04 UTC] PHP Warning:  require(test.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php on line 6
+[15-May-2017 22:12:04 UTC] PHP Stack trace:
+[15-May-2017 22:12:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php:0
+[15-May-2017 22:12:04 UTC] PHP Fatal error:  require(): Failed opening required 'test.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php on line 6
+[15-May-2017 22:12:04 UTC] PHP Stack trace:
+[15-May-2017 22:12:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php:0
