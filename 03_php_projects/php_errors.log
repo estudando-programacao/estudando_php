@@ -849,3 +849,247 @@ Stack trace:
 [15-May-2017 22:12:04 UTC] PHP Fatal error:  require(): Failed opening required 'test.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php on line 6
 [15-May-2017 22:12:04 UTC] PHP Stack trace:
 [15-May-2017 22:12:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/11_includes.php:0
+[16-May-2017 15:18:35 UTC] PHP Warning:  require_once(../03_php_projects/testando_composer/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php on line 3
+[16-May-2017 15:18:35 UTC] PHP Stack trace:
+[16-May-2017 15:18:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 15:18:35 UTC] PHP Fatal error:  require_once(): Failed opening required '../03_php_projects/testando_composer/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php on line 3
+[16-May-2017 15:18:35 UTC] PHP Stack trace:
+[16-May-2017 15:18:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 15:28:13 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 5
+[16-May-2017 15:28:13 UTC] PHP Stack trace:
+[16-May-2017 15:28:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 15:28:29 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php on line 16
+[16-May-2017 15:34:24 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php on line 15
+[16-May-2017 15:34:24 UTC] PHP Stack trace:
+[16-May-2017 15:34:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 15:34:24 UTC] PHP   2. date() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:15
+[16-May-2017 16:39:33 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 11
+[16-May-2017 16:39:33 UTC] PHP Stack trace:
+[16-May-2017 16:39:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 16:39:55 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 11
+[16-May-2017 16:39:55 UTC] PHP Stack trace:
+[16-May-2017 16:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 16:52:18 UTC] PHP Fatal error:  Call to undefined function bookParams() in /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php on line 53
+[16-May-2017 16:52:18 UTC] PHP Stack trace:
+[16-May-2017 16:52:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 16:59:16 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php on line 51
+[16-May-2017 16:59:16 UTC] PHP Stack trace:
+[16-May-2017 16:59:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 16:59:16 UTC] PHP   2. getObjParams() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:55
+[16-May-2017 17:00:52 UTC] PHP Fatal error:  Call to undefined function getObjParams() in /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php on line 50
+[16-May-2017 17:00:52 UTC] PHP Stack trace:
+[16-May-2017 17:00:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 17:01:07 UTC] PHP Fatal error:  Call to undefined function getObjParams() in /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php on line 50
+[16-May-2017 17:01:07 UTC] PHP Stack trace:
+[16-May-2017 17:01:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 17:05:05 UTC] PHP Fatal error:  Cannot re-assign $this in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 36
+[16-May-2017 17:05:05 UTC] PHP Stack trace:
+[16-May-2017 17:05:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 17:13:11 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 44
+[16-May-2017 17:13:11 UTC] PHP Stack trace:
+[16-May-2017 17:13:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 17:13:27 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 44
+[16-May-2017 17:13:27 UTC] PHP Stack trace:
+[16-May-2017 17:13:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 17:13:33 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 44
+[16-May-2017 17:13:33 UTC] PHP Stack trace:
+[16-May-2017 17:13:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 17:36:34 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php on line 40
+[16-May-2017 17:37:04 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php on line 41
+[16-May-2017 17:37:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php on line 41
+[16-May-2017 17:37:26 UTC] PHP Catchable fatal error:  Object of class Book could not be converted to string in /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php on line 35
+[16-May-2017 17:37:26 UTC] PHP Stack trace:
+[16-May-2017 17:37:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 17:43:54 UTC] PHP Warning:  Missing argument 1 for Book::getObjParams(), called in /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php on line 71 and defined in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 51
+[16-May-2017 17:43:54 UTC] PHP Stack trace:
+[16-May-2017 17:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 17:43:54 UTC] PHP   2. Book->getObjParams() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:71
+[16-May-2017 17:43:54 UTC] PHP Warning:  get_object_vars() expects parameter 1 to be object, null given in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 53
+[16-May-2017 17:43:54 UTC] PHP Stack trace:
+[16-May-2017 17:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 17:43:54 UTC] PHP   2. Book->getObjParams() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:71
+[16-May-2017 17:43:54 UTC] PHP   3. get_object_vars() /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php:53
+[16-May-2017 17:43:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 54
+[16-May-2017 17:43:54 UTC] PHP Stack trace:
+[16-May-2017 17:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 17:43:54 UTC] PHP   2. Book->getObjParams() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:71
+[16-May-2017 17:59:37 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 16
+[16-May-2017 17:59:37 UTC] PHP Stack trace:
+[16-May-2017 17:59:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 18:02:18 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 12
+[16-May-2017 18:02:18 UTC] PHP Stack trace:
+[16-May-2017 18:02:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 18:02:19 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 12
+[16-May-2017 18:02:19 UTC] PHP Stack trace:
+[16-May-2017 18:02:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 18:03:44 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 12
+[16-May-2017 18:03:44 UTC] PHP Stack trace:
+[16-May-2017 18:03:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 21:32:40 UTC] PHP Warning:  Missing argument 1 for Book::toLoud(), called in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 21 and defined in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 44
+[16-May-2017 21:32:40 UTC] PHP Stack trace:
+[16-May-2017 21:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 21:32:40 UTC] PHP   2. Book->getAuthor() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:14
+[16-May-2017 21:32:40 UTC] PHP   3. Book->toLoud() /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php:21
+[16-May-2017 21:32:40 UTC] PHP Warning:  Missing argument 1 for Book::toLoud(), called in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 21 and defined in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 44
+[16-May-2017 21:32:40 UTC] PHP Stack trace:
+[16-May-2017 21:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 21:32:40 UTC] PHP   2. Book->getAuthor() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:55
+[16-May-2017 21:32:40 UTC] PHP   3. Book->toLoud() /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php:21
+[16-May-2017 21:32:40 UTC] PHP Warning:  Missing argument 1 for Book::toLoud(), called in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 21 and defined in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 44
+[16-May-2017 21:32:40 UTC] PHP Stack trace:
+[16-May-2017 21:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 21:32:40 UTC] PHP   2. Book->getAuthorYear() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:79
+[16-May-2017 21:32:40 UTC] PHP   3. Book->getAuthor() /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php:50
+[16-May-2017 21:32:40 UTC] PHP   4. Book->toLoud() /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php:21
+[16-May-2017 21:33:12 UTC] PHP Warning:  Missing argument 1 for Book::toLoud(), called in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 21 and defined in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 44
+[16-May-2017 21:33:12 UTC] PHP Stack trace:
+[16-May-2017 21:33:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 21:33:12 UTC] PHP   2. Book->getAuthor() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:14
+[16-May-2017 21:33:12 UTC] PHP   3. Book->toLoud() /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php:21
+[16-May-2017 21:33:12 UTC] PHP Warning:  Missing argument 1 for Book::toLoud(), called in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 21 and defined in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 44
+[16-May-2017 21:33:12 UTC] PHP Stack trace:
+[16-May-2017 21:33:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 21:33:12 UTC] PHP   2. Book->getAuthor() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:55
+[16-May-2017 21:33:12 UTC] PHP   3. Book->toLoud() /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php:21
+[16-May-2017 21:33:12 UTC] PHP Warning:  Missing argument 1 for Book::toLoud(), called in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 21 and defined in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php on line 44
+[16-May-2017 21:33:12 UTC] PHP Stack trace:
+[16-May-2017 21:33:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 21:33:12 UTC] PHP   2. Book->getAuthorYear() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:79
+[16-May-2017 21:33:12 UTC] PHP   3. Book->getAuthor() /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php:50
+[16-May-2017 21:33:12 UTC] PHP   4. Book->toLoud() /home/ubuntu/workspace/03_php_projects/php_pandas/class/Book.class.php:21
+[16-May-2017 22:05:34 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php on line 99
+[16-May-2017 22:05:34 UTC] PHP Stack trace:
+[16-May-2017 22:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 22:06:29 UTC] PHP Warning:  Missing argument 1 for Panda2::__construct(), called in /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php on line 97 and defined in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Panda2.class.php on line 7
+[16-May-2017 22:06:29 UTC] PHP Stack trace:
+[16-May-2017 22:06:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 22:06:29 UTC] PHP   2. Panda2->__construct() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:97
+[16-May-2017 22:12:04 UTC] PHP Warning:  Missing argument 1 for Panda2::__construct(), called in /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php on line 99 and defined in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Panda2.class.php on line 7
+[16-May-2017 22:12:04 UTC] PHP Stack trace:
+[16-May-2017 22:12:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:0
+[16-May-2017 22:12:04 UTC] PHP   2. Panda2->__construct() /home/ubuntu/workspace/03_php_projects/php_pandas/12_classes.php:99
+[16-May-2017 22:26:34 UTC] PHP Warning:  require_once(../../testando_composer/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Touro.class.php on line 3
+[16-May-2017 22:26:34 UTC] PHP Stack trace:
+[16-May-2017 22:26:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:0
+[16-May-2017 22:26:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:3
+[16-May-2017 22:26:34 UTC] PHP Fatal error:  require_once(): Failed opening required '../../testando_composer/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Touro.class.php on line 3
+[16-May-2017 22:26:34 UTC] PHP Stack trace:
+[16-May-2017 22:26:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:0
+[16-May-2017 22:26:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:3
+[16-May-2017 22:27:36 UTC] PHP Warning:  require_once(../../testando_composer/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php on line 3
+[16-May-2017 22:27:36 UTC] PHP Stack trace:
+[16-May-2017 22:27:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:0
+[16-May-2017 22:27:36 UTC] PHP Fatal error:  require_once(): Failed opening required '../../testando_composer/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php on line 3
+[16-May-2017 22:27:36 UTC] PHP Stack trace:
+[16-May-2017 22:27:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:0
+[16-May-2017 22:35:16 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or '{' in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Touro.class.php on line 24
+[16-May-2017 22:35:16 UTC] PHP Stack trace:
+[16-May-2017 22:35:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:0
+[16-May-2017 22:39:57 UTC] PHP Warning:  get_object_vars() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Touro.class.php on line 24
+[16-May-2017 22:39:57 UTC] PHP Stack trace:
+[16-May-2017 22:39:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:0
+[16-May-2017 22:39:57 UTC] PHP   2. TouroGigante->getTouroParams() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:13
+[16-May-2017 22:39:57 UTC] PHP   3. get_object_vars() /home/ubuntu/workspace/03_php_projects/php_pandas/class/Touro.class.php:24
+[16-May-2017 22:39:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Touro.class.php on line 25
+[16-May-2017 22:39:57 UTC] PHP Stack trace:
+[16-May-2017 22:39:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:0
+[16-May-2017 22:39:57 UTC] PHP   2. TouroGigante->getTouroParams() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:13
+[16-May-2017 22:40:28 UTC] PHP Warning:  get_object_vars() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Touro.class.php on line 26
+[16-May-2017 22:40:28 UTC] PHP Stack trace:
+[16-May-2017 22:40:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:0
+[16-May-2017 22:40:28 UTC] PHP   2. TouroGigante->getTouroParams() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:13
+[16-May-2017 22:40:28 UTC] PHP   3. get_object_vars() /home/ubuntu/workspace/03_php_projects/php_pandas/class/Touro.class.php:26
+[16-May-2017 22:40:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Touro.class.php on line 28
+[16-May-2017 22:40:28 UTC] PHP Stack trace:
+[16-May-2017 22:40:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:0
+[16-May-2017 22:40:28 UTC] PHP   2. TouroGigante->getTouroParams() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:13
+[16-May-2017 22:42:22 UTC] PHP Fatal error:  Cannot re-assign $this in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Touro.class.php on line 24
+[16-May-2017 22:42:22 UTC] PHP Stack trace:
+[16-May-2017 22:42:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:0
+[16-May-2017 22:45:15 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php on line 13
+[16-May-2017 22:47:38 UTC] PHP Warning:  get_object_vars() expects parameter 1 to be object, string given in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Touro.class.php on line 26
+[16-May-2017 22:47:38 UTC] PHP Stack trace:
+[16-May-2017 22:47:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:0
+[16-May-2017 22:47:38 UTC] PHP   2. TouroGigante->getTouroGiganteParams() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:16
+[16-May-2017 22:47:38 UTC] PHP   3. get_object_vars() /home/ubuntu/workspace/03_php_projects/php_pandas/class/Touro.class.php:26
+[16-May-2017 22:47:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Touro.class.php on line 28
+[16-May-2017 22:47:38 UTC] PHP Stack trace:
+[16-May-2017 22:47:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:0
+[16-May-2017 22:47:38 UTC] PHP   2. TouroGigante->getTouroGiganteParams() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:16
+[16-May-2017 22:47:57 UTC] PHP Warning:  get_object_vars() expects parameter 1 to be object, string given in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Touro.class.php on line 27
+[16-May-2017 22:47:57 UTC] PHP Stack trace:
+[16-May-2017 22:47:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:0
+[16-May-2017 22:47:57 UTC] PHP   2. TouroGigante->getTouroGiganteParams() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:16
+[16-May-2017 22:47:57 UTC] PHP   3. get_object_vars() /home/ubuntu/workspace/03_php_projects/php_pandas/class/Touro.class.php:27
+[16-May-2017 22:47:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Touro.class.php on line 29
+[16-May-2017 22:47:57 UTC] PHP Stack trace:
+[16-May-2017 22:47:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:0
+[16-May-2017 22:47:57 UTC] PHP   2. TouroGigante->getTouroGiganteParams() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:16
+[16-May-2017 23:12:40 UTC] PHP Fatal error:  Class 'Casa' not found in /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php on line 36
+[16-May-2017 23:12:40 UTC] PHP Stack trace:
+[16-May-2017 23:12:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:0
+[16-May-2017 23:13:30 UTC] PHP Catchable fatal error:  Argument 1 passed to Casa::houseTool() must be an instance of Hous, instance of House given, called in /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php on line 40 and defined in /home/ubuntu/workspace/03_php_projects/php_pandas/class/Casa.class.php on line 4
+[16-May-2017 23:13:30 UTC] PHP Stack trace:
+[16-May-2017 23:13:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:0
+[16-May-2017 23:13:30 UTC] PHP   2. Casa->houseTool() /home/ubuntu/workspace/03_php_projects/php_pandas/13_inheritance.php:40
+[17-May-2017 21:52:25 UTC] PHP Fatal error:  Cannot access private property Mulher::$skin in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 47
+[17-May-2017 21:52:25 UTC] PHP Stack trace:
+[17-May-2017 21:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 21:55:27 UTC] PHP Fatal error:  Cannot access private property Mulher::$skin in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 50
+[17-May-2017 21:55:27 UTC] PHP Stack trace:
+[17-May-2017 21:55:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 21:55:39 UTC] PHP Fatal error:  Cannot access private property Mulher::$skin in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 50
+[17-May-2017 21:55:39 UTC] PHP Stack trace:
+[17-May-2017 21:55:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 21:55:47 UTC] PHP Fatal error:  Cannot access private property Mulher::$skin in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 53
+[17-May-2017 21:55:47 UTC] PHP Stack trace:
+[17-May-2017 21:55:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 21:55:54 UTC] PHP Fatal error:  Cannot access private property Mulher::$skin in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 50
+[17-May-2017 21:55:54 UTC] PHP Stack trace:
+[17-May-2017 21:55:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 21:56:57 UTC] PHP Fatal error:  Cannot access private property Mulher::$skin in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 50
+[17-May-2017 21:56:57 UTC] PHP Stack trace:
+[17-May-2017 21:56:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 22:01:55 UTC] PHP Fatal error:  Call to a member function getSkin() on a non-object in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 74
+[17-May-2017 22:01:55 UTC] PHP Stack trace:
+[17-May-2017 22:01:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 22:02:06 UTC] PHP Fatal error:  Call to private method Crianca::getSkin() from context '' in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 74
+[17-May-2017 22:02:06 UTC] PHP Stack trace:
+[17-May-2017 22:02:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 22:02:46 UTC] PHP Fatal error:  Call to private method Crianca::getSkin() from context '' in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 74
+[17-May-2017 22:02:46 UTC] PHP Stack trace:
+[17-May-2017 22:02:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 22:09:41 UTC] PHP Fatal error:  Call to private method Crianca::getSkin() from context '' in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 74
+[17-May-2017 22:09:41 UTC] PHP Stack trace:
+[17-May-2017 22:09:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 22:10:28 UTC] PHP Fatal error:  Call to private method Crianca::getSkin() from context '' in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 78
+[17-May-2017 22:10:28 UTC] PHP Stack trace:
+[17-May-2017 22:10:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 22:11:54 UTC] PHP Fatal error:  Call to private method Crianca::getSkin() from context '' in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 78
+[17-May-2017 22:11:54 UTC] PHP Stack trace:
+[17-May-2017 22:11:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 22:12:09 UTC] PHP Fatal error:  Call to private method Crianca::getSkin() from context '' in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 80
+[17-May-2017 22:12:09 UTC] PHP Stack trace:
+[17-May-2017 22:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 22:13:39 UTC] PHP Fatal error:  Call to private method Crianca::getSkin() from context '' in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 88
+[17-May-2017 22:13:39 UTC] PHP Stack trace:
+[17-May-2017 22:13:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 22:13:52 UTC] PHP Fatal error:  Call to private method Crianca::getSkin() from context '' in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 88
+[17-May-2017 22:13:52 UTC] PHP Stack trace:
+[17-May-2017 22:13:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 22:14:12 UTC] PHP Fatal error:  Call to private method Crianca::getSkin() from context '' in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 88
+[17-May-2017 22:14:12 UTC] PHP Stack trace:
+[17-May-2017 22:14:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 22:16:25 UTC] PHP Fatal error:  Call to private method Crianca::getSkin() from context '' in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 95
+[17-May-2017 22:16:25 UTC] PHP Stack trace:
+[17-May-2017 22:16:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 22:17:10 UTC] PHP Fatal error:  Call to private method Crianca::getSkin() from context '' in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 96
+[17-May-2017 22:17:10 UTC] PHP Stack trace:
+[17-May-2017 22:17:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 22:17:32 UTC] PHP Fatal error:  Call to undefined function getSkin() in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 85
+[17-May-2017 22:17:32 UTC] PHP Stack trace:
+[17-May-2017 22:17:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
+[17-May-2017 22:17:32 UTC] PHP   2. Crianca->testScope2() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:96
+[17-May-2017 22:17:51 UTC] PHP Fatal error:  Call to private method Crianca::getSkin() from context '' in /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php on line 98
+[17-May-2017 22:17:51 UTC] PHP Stack trace:
+[17-May-2017 22:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/03_php_projects/php_pandas/14_scope.php:0
