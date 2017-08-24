@@ -1,90 +1,80 @@
 <?php
 
-$bdServidor = 'localhost';
-$bdUsuario = 'root';
-$bdSenha = '';
-$bdBanco = 'draft_autosave';
+require_once '../../03_php_projects/testando_composer/vendor/autoload.php';
 
-$dc = new PDO("mysql:host={$bdServidor};dbname={$bdBanco}", $bdUsuario, $bdSenha);
+$a = mt_rand(999, 100000);
 
-$title      =&  $_POST['title'];
-$body       =&  $_POST['body'];
-$gtmsg      =&  $_POST['gtmsg'];    
-$user_id    =   1;
+setcookie(mt_rand(0,10), $a);
 
-$stmt = $dc->query("SELECT * FROM msg_autosave WHERE user='$user_id'");
+setcookie('draft', "created with php");
 
-$return_count = $stmt->rowCount();
-
-echo $return_count;
-
-if($return_count > 0){
-    
-    if(isset($title)){
-        /* Update autosave */
-        $update_qry = $dc->prepare("UPDATE msg_autosave SET msg_title='$title', msg_body='$body' WHERE user='$user_id'");
-        $update_qry -> execute();
-        
-    } else {
-        /* Get saved data from database */ 
-        $get_autosave = $dc->prepare("SELECT * FROM msg_autosave WHERE user='$user_id'");
-        $get_autosave->execute();
-        
-        while ($gt_v = $get_autosave->fetch(PDO::FETCH_ASSOC)) {
-            $title=$gt_v['msg_title'];
-            $body=$gt_v['msg_body']; 
-            echo json_encode(array('title' => $title, 'body' => $body));
-        }       
-        
-    }
-} else { 
-    /* Insert the variables into the database */ 
-    $insert_qry = $dc->prepare("INSERT INTO msg_autosave (user, msg_title, msg_body) VALUES (?, ?, ?)");
-    $insert_qry->execute(array($user_id, $title, $body));  
-}
+r($_COOKIE);
 
 ?>
 
-<!doctype html>
-<html lang="en">
-    
-<head>
-    <meta charset="UTF-8" />
-    <title>Auto Save Draft | RRPowered</title>
-    <link rel="stylesheet" type="text/css" href="css/rrpowered-autosavedraft.css" />
-    <script rel="text/javascript" src="//code.jquery.com/jquery-1.12.4.js"></script>
-    <script rel="text/javascript" src="rrpowered-autosavedraft.js"></script>
-</head>
+    <!doctype html>
+    <html lang="en">
 
-<body>
-    
-    <script type="text/javascript">
-        $(function () {
-            
-            // $.post("php/rrpowered-autosave.php", function (data) {
-            //     $("[name='title']").val(data.title);
-            //     $("[name='body']").val(data.body);
-            // }, "json");
-            
-            // setInterval(function () {
-            //     $.post("php/rrpowered-autosave.php", $("form").serialize());
-            // }, 2000);
-            
-        });
-    </script>
-    
-    <div class="center">
+    <head>
         
-        <div class="saved"></div>
+        <meta charset="UTF-8">
         
+        <title>cookie autosave</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-+ENW/yibaokMnme+vBLnHMphUYxHs34h9lpdbSLuAwGkOKFRl4C34WkjazBtb7eT" crossorigin="anonymous">
+         <script type="text/javascript">
+        
+            // $("#target").keypress(function() {
+            //     console.log("Handler for .keypress() called.");
+            // });
+
+            document.body.addEventListener('keydown', function(e) {
+
+                if (e.keyCode == "66" || e.keyCode == "82") {
+                    
+                    if (e.keyCode == "66") {
+                        var key = "B";
+                    }
+                    
+                    if (e.keyCode == "82") {
+                        var key = "R";
+                    }
+                    
+                    var text = document.getElementById('target').value;
+                        
+                    // alert(text);
+                    
+                    console.log(document.cookie = "autodraft=" + text);
+                    
+                    document.cookie = "autodraft=" + text;
+                    
+                    // window.location.href = "https://treinando-php-reload-thierryrene.c9users.io/03_php_projects/draft_autosave/index.php?text=" + text;
+
+                }
+
+            });
+            
+            // document.getElementById('target').value(document.cookie);
+
+            // document.cookie = "username=thierryrenematos";
+            // var x = document.cookie;
+            // console.log(x);
+        </script>
+    </head>
+
+    <body class="container">
+
+        <h1>cookies</h1>
+        <hr>
         <form>
-            <input type="text" name="title" placeholder="Title" autofocus>
-            <textarea type="text" name="body" placeholder="Body"></textarea>
-            <input type="submit" value="Send">
-        </form> 
-        
-    </div> 
-    
-</body>
+            <label for="">title</label>
+            <input type="text" name="title" />
+            <br>
+            <label>text</label>
+            <textarea rows="4" cols="50" id="target" name="text">
+            </textarea>
+            <input type="submit" value="Submit" method="post" />
+        </form>
+    </body>
 
-</html>
+    </html>

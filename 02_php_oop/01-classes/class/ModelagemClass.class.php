@@ -1,6 +1,7 @@
 <?php
 
 class ModelagemClass {
+
     public $Nome;
     public $Idade;
     public $Profissao;
@@ -11,6 +12,10 @@ class ModelagemClass {
         $this->Idade = (int) $Idade;
         $this->Profissao = (string) $Profissao;
         $this->ContaSalario = (float) $ContaSalario;
+    }
+    
+    public function DarEcho($Mensagem) {
+        echo "<p>{$Mensagem}</p>";
     }
     
     public function Trabalhar($Trabalho, $Valor) {
@@ -39,9 +44,7 @@ class ModelagemClass {
         return number_format($Valor, '2', '.', ',');
     }
     
-    public function DarEcho($Mensagem) {
-        echo "<p>{$Mensagem}</p>";
-    }
+    
 }
 
 ?>

@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 
 class ComportamentoInicial {
 
-    // toda classe em seu comportamento inicial recebe o valor de null.
+    // toda variável em seu comportamento inicial recebe o valor de null.
     var $Nome;
     var $Idade;
     var $Profissao;

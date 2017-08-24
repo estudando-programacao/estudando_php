@@ -83,8 +83,7 @@ class Crianca {
      * this the right way to use a function with private methods
      */
     public function testScope2() {
-        $skinPele2 = $this->getSkin();
-        return $skinPele2;
+        return $this->getSkin();
     }
 }
 
